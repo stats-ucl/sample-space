@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://sample-space.netlify.app/
 languageCode: en-us
 theme: "hugo-theme-stack"
 paginate: 5
@@ -42,10 +42,10 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: 
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -199,12 +199,12 @@ menu:
           name: Follow us on Twitter
           url: https://twitter.com/stats_ucl
           params:
-              icon: twitter
+              icon: twitter 
           weight: 1
 
         - identifier: instagram
           name: Follow us on Instagram
-          url: https://www.instagram.com/stats_ucl
+          url: https://www.instagram.com/ucl.stats
           params:
               icon: instagram
           weight: 2
@@ -259,7 +259,7 @@ markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
-            unsafe: false
+            unsafe: true
     tableOfContents:
         endLevel: 4
         ordered: true

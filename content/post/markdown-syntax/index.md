@@ -1,7 +1,10 @@
 ---
 aliases:
 - migrate-from-jekyl
-author: Hugo Authors
+authors:  
+  - "Hugo Authors"
+  - "[Gianluca Baio](https://gianluca.statistica.it)"
+  - Beppe Pizza
 categories:
 - themes
 - syntax
@@ -17,6 +20,11 @@ tags:
 - html
 - themes
 title: Markdown Syntax Guide
+links: 
+- title: "About the authors"
+- description: Gianluca Baio is Professor of statistics and health economics in the UCL Department of Statistical Science
+- website: "https://gianluca.statistica.it"
+toc: false
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

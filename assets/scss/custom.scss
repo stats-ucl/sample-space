@@ -70,3 +70,31 @@
         }
     }
 }
+
+
+/* Creates a new class to include a format for authors in the title of the posts */
+.article-authors {
+    display: flex;
+    align-items: center;
+    color: var(--card-text-color-tertiary);
+    gap: 10px;
+    flex-wrap: wrap;
+
+    svg {
+        vertical-align: middle;
+        width: 15px;
+        height: 15px;
+        stroke-width: 1.33;
+    }
+
+    a {
+        color: var(--card-text-color-tertiary);
+        font-size: 1.6rem;
+    }
+
+    & > div {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
