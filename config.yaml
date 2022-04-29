@@ -42,7 +42,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: 
+    favicon: img/UCL-sample-space.png
 
     footer:
         since: 2022
