@@ -47,7 +47,7 @@ params:
 
     footer:
         since: 2022
-        customText:
+        customText: The magazine of the</i> <a href="https://ucl.ac.uk/statistics">UCL Department of Statistical Science
 
     dateFormat:
         published: Jan 02, 2006
@@ -55,7 +55,7 @@ params:
 
     sidebar:
         emoji: ""
-        subtitle: News, views and research from UCL Statistical Science
+        subtitle: News, views and research from [UCL Statistical Science](https://ucl.ac.uk/statistics)
         avatar:
             enabled: true
             local: true
@@ -183,11 +183,13 @@ params:
         # Available values: auto, light, dark
         default: auto
 
-    imageProcessing:
+# If these are set to 'true' then images are automatically processed by the underlying engine 
+# (eg thumbnails get chopped)
+imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html

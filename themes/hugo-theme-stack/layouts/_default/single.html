@@ -14,7 +14,7 @@
             {{ $TOCWidgetEnabled = true -}}
         {{- end -}}
     {{- end -}}
-
+  
     {{- $TOCManuallyDisabled := eq .Params.toc false -}}
     {{- $TOCEnabled := and (not $TOCManuallyDisabled) $TOCWidgetEnabled -}}
     {{- $hasTOC := ge (len .TableOfContents) 100 -}}
@@ -24,6 +24,7 @@
 {{ end }}
 
 {{ define "main" }}
+
     {{ partial "article/article.html" . }}
 
     {{ if .Params.links }}
