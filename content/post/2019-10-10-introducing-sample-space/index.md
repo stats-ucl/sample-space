@@ -10,6 +10,11 @@ categories:
 tags:
   - "Issue 1"
 image: "dept.png" 
+links: 
+   - title: Richard Chandler
+     description: Richard is Professor of Statistics and the head of the department (for the term 2016-2021)
+     image: dept.png
+     website: 
 ---
 
 > *Welcome to our first edition of Sample Space, a newsletter that aims to keep our community
