@@ -2,7 +2,7 @@
 title: "Sample Space 2 - the sequel!" 
 authors: 
 - "Gianluca Baio"
-date: 2022-05-13T23:00:00-05:00
+date: 2022-05-12T23:00:00-05:00
 categories:
   - ""
   - ""
