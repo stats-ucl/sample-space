@@ -14,7 +14,7 @@ links:
    - title: Richard Chandler
      description: Richard is Professor of Statistics and the head of the department (for the term 2016-2021)
      image: dept.png
-     website: 
+     website: https://www.ucl.ac.uk/statistics/people/richardchandler
 ---
 
 > *Welcome to our first edition of Sample Space, a newsletter that aims to keep our community
