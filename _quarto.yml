@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "Sample Space"
+  favicon: "media/images/UCL-sample-space.png"
+  navbar:
+    logo: "media/images/UCL-sample-space.png"
+    title: false
+    background: light
+    collapse-below: lg
+    left: 
+      - about.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/stats_ucl
+      - icon: instagram
+        href: https://www.instagram.com/ucl.stats
+      - icon: linkedin
+        href: https://linkedin.com/in/statistical-science-ucl-906b9a201/
+      - icon: facebook
+        href: https://facebook.com/StatisticalScience
+      - icon: github
+        href: https://github.com/stats-ucl
+      - icon: youtube
+        href: https://github.com/stats-ucl
+      - icon: headphones
+        href: https://soundcloud.com/uclsound/sets/sample-space
+        aria-label: Soundcloud podcast
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    header-includes: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
