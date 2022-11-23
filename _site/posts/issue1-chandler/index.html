@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2022-10-21">
+<meta name="author" content="Richard Chandler">
+<meta name="dcterms.date" content="2019-10-02">
 
-<title>Sample Space - Post With Code</title>
+<title>Sample Space - Introducing Sample Space</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../media/images/UCL-sample-space.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/images/UCL-sample-space.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,11 +63,41 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -75,8 +107,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../media/images/UCL-sample-space.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../media/images/UCL-sample-space.png" alt="" class="navbar-logo">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -85,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html">
+    <a class="nav-link" href="../../about.html">
  <span class="menu-text">Sample Space</span></a>
   </li>  
 </ul>
@@ -135,11 +167,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Introducing Sample Space</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">Issue 1</div>
               </div>
                   </div>
   </div>
@@ -150,14 +180,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Richard Chandler </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 21, 2022</p>
+        <p class="date">October 2, 2019</p>
       </div>
     </div>
     
@@ -175,11 +205,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+<blockquote class="blockquote">
+<p><em>Welcome to our first edition of Sample Space, a newsletter that aims to keep our community of past and present students and staff in touch with what’s happening in Statistical Science at UCL. I hope you find the contents interesting: we plan to do more of this kind of thing in the future, to keep you all updated with the latest news from the department.</em></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="dept.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">A bunch of people in the department</figcaption><p></p>
+</figure>
+</div>
+<p>UCL Statistical Science is currently undergoing a period of significant expansion: this is part undergoing of and a strategic operational investment in mathematics, statistics and operational research that will lead to the establishment of a UCL Institute for Mathematical and Statistical Sciences, or IMSS for short. We plan for the Statistical Science and Mathematics departments to be re-housed next to each other on a single site, in a purpose-designed facility that will put UCL on the map as one of the ‘go-to’ places for the mathematical sciences in London – and that will also provide our students with a much greater sense of community than is currently possible. Bringing this idea to fruition has already taken considerable effort, and will continue to do so in the coming months and years, although I strongly believe that the rewards will be well worth it. Apart from anything else, being bigger gives us additional resources to do things like producing Sample Space!</p>
+<p>The department has also recently established a new master’s programme in Data Science, which has proven very popular with students. A recent graduate, Mete Veyisoglu, has kindly taken the time to share his experiences of the programme in this issue. Further curriculum developments are being undertaken at the moment to ensure that we continue to equip our students with the tools to be statistically literate, perhaps a more desirable skill than ever in today’s world.</p>
+<p>On the research side, the recent announcement of a large increase in UK government funding for the mathematical sciences is very welcome, and particularly timely in view of our IMSS expansion plans. Final preparations are underway for REF 2021, the latest iteration of the UK’s ‘Research Excellence Framework’. The department’s performance in this exercise will also contribute to the level of government funding we receive for the next few years. We have excellent staff doing exciting and incredibly diverse research, some of which is making a real impact outside academia: this issue highlights work being done by Serge Guillas and his team on understanding tsunami risk around the world.</p>
+<p>As always, there are external challenges: as I write, UK universities are grappling with the uncertainties posed by Brexit and, more urgently, by the worldwide Covid-19 outbreak. UCL Statistical Science is such a thoroughly international community that these issues will certainly affect us to some extent. I very much hope, however, that the effects will be minimal for all of us.</p>
+<p>Finally, I would like to extend my very sincere thanks to everyone who contributed to this first issue of Sample Space, and in particular to Samuel Livingstone for coordinating and editing it. If any readers have feedback, or potential contributions to future issues, or suggestions for material that they’d like to see, please contact him at <a href="mailto:samuel.livingstone@ucl.ac.uk">samuel.livingstone@ucl.ac.uk</a>. I think he and all the contributors have done a fantastic job: I hope you do too.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

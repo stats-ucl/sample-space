@@ -3,7 +3,7 @@ title: "Introducing Sample Space"
 author: "Richard Chandler"
 date: 2019-10-01T23:00:00-05:00
 categories:
-  - "Department"
+  - "Issue 1"
 image: "dept.png" 
 links: 
    - title: Richard Chandler

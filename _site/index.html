@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,11 +101,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-features'] = new List('listing-features', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-categories .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-categories'] = new List('listing-categories', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -192,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Sample Space</h1>
             <p class="subtitle lead">News, views and research from the <a href="https://ucl.ac.uk/statistics">UCL Department of Statistical Science</a></p>
                       </div>
@@ -210,9 +238,11 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Issue 1">Issue 1 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Issue 2">Issue 2 <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
@@ -220,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="content-block">
 <div id="listing-top-block" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Department" data-listing-date-sort="1652414400000" data-listing-file-modified-sort="1668165825817" data-listing-reading-time-sort="3.515">
+<div class="g-col-1" data-index="0" data-categories="Issue 2" data-listing-date-sort="1652414400000" data-listing-file-modified-sort="1669209940965" data-listing-reading-time-sort="3.515">
 <a href="./posts/top-block/2022-05-13-sample-space-2/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-img-bg" style="height: 150px;">
@@ -256,43 +286,7 @@ No matching items
 </div>
 <div id="listing-features" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666306800000" data-listing-file-modified-sort="1668165825816" data-listing-reading-time-sort="0.035">
-<a href="./posts/features/post-with-code/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-right">
-<p class="card-img-top">
-<img src="./posts/features/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post With Code
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="card-text listing-description">
-This is a post with executable code.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Harlow Malloc
-</div>
-<div class="listing-date">
-21 Oct 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Department" data-listing-date-sort="1569988800000" data-listing-file-modified-sort="1668166672324" data-listing-reading-time-sort="2.72">
+<div class="g-col-1" data-index="0" data-categories="Issue 1" data-listing-date-sort="1569988800000" data-listing-file-modified-sort="1669210857791" data-listing-reading-time-sort="2.72">
 <a href="./posts/features/2019-10-10-introducing-sample-space/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-right">
 <p class="card-img-top">
@@ -303,8 +297,8 @@ Harlow Malloc
 Introducing Sample Space
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Department'); return false;">
-Department
+<div class="listing-category" onclick="window.quartoListingCategory('Issue 1'); return false;">
+Issue 1
 </div>
 </div>
 <div class="card-text listing-description">
@@ -331,7 +325,108 @@ No matching items
 
 
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-categories">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Issue 1" data-listing-date-sort="1569988800000" data-listing-file-modified-sort="1669210857791" data-listing-reading-time-sort="2.72">
+<div class="thumbnail">
+<p><a href="./posts/features/2019-10-10-introducing-sample-space/index.html"> <img src="./posts/features/2019-10-10-introducing-sample-space/dept.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/features/2019-10-10-introducing-sample-space/index.html">
+<h3 class="no-anchor listing-title">
+Introducing Sample Space
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Issue 1'); return false;">
+Issue 1
+</div>
+</div>
+<a href="./posts/features/2019-10-10-introducing-sample-space/index.html">
+<div class="listing-description">
+<em>Welcome to our first edition of Sample Space, a newsletter that aims to keep our community of past and present students and staff in touch with what’s happening in…</em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/features/2019-10-10-introducing-sample-space/index.html">
+<div class="listing-date">
+Oct 2, 2019
+</div>
+<div class="listing-author">
+Richard Chandler
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1669210613874" data-listing-reading-time-sort="0.07">
+<div class="thumbnail">
+<p><a href="./about.html"> <img src="./media/images/UCL-sample-space.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./about.html">
+<h3 class="no-anchor listing-title">
+Sample Space
+</h3>
+<div class="listing-subtitle">
+The magazine of the UCL Department of Statistical Science
+</div>
+<div class="listing-description">
+<br> <br> Sample space has news, view, and research from the UCL Department of Statistical Science
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./about.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Issue 2" data-listing-date-sort="1652414400000" data-listing-file-modified-sort="1669209940965" data-listing-reading-time-sort="3.515">
+<div class="thumbnail">
+<a href="./posts/top-block/2022-05-13-sample-space-2/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/top-block/2022-05-13-sample-space-2/index.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/top-block/2022-05-13-sample-space-2/index.html">
+<h3 class="no-anchor listing-title">
+Sample Space 2 - the sequel!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Issue 2'); return false;">
+Issue 2
+</div>
+</div>
+<a href="./posts/top-block/2022-05-13-sample-space-2/index.html">
+<div class="listing-description">
+I am very excited to introduce the second issue of the departmental magazine in my relatively new role as head of the department — I’ve taken over from Richard in September 2021 (you can read some sassy details…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/top-block/2022-05-13-sample-space-2/index.html">
+<div class="listing-date">
+May 13, 2022
+</div>
+<div class="listing-author">
+Gianluca Baio
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -3,8 +3,12 @@
     "listing": "/index.html",
     "items": [
       "/posts/top-block/2022-05-13-sample-space-2/index.html",
-      "/posts/features/post-with-code/index.html",
-      "/posts/features/2019-10-10-introducing-sample-space/index.html"
+      "/posts/features/2019-10-10-introducing-sample-space/index.html",
+      "/about.html"
     ]
+  },
+  {
+    "listing": "/posts/issue1-chandler/index.html",
+    "items": []
   }
 ]
