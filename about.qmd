@@ -1,20 +1,35 @@
 ---
 title: "Sample Space"
 subtitle: "The magazine of the UCL Department of Statistical Science"
-image: profile.jpg
+image: media/images/UCL-sample-space.png
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/stats_ucl
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/ucl.stats
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://linkedin.com/in/statistical-science-ucl-906b9a201/
+    - icon: facebook
+      text: Facebook
+      href: https://facebook.com/StatisticalScience
     - icon: github
-      text: Github
-      href: https://github.com
+      text: GitHub
+      href: https://github.com/stats-ucl
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/uclstatisticalscienceseminars
+    - icon: headphones
+      text: SoundCloud
+      href: https://soundcloud.com/uclsound/sets/sample-space
+      aria-label: Soundcloud podcast
 title-block-banner: true
 ---
 
-About this blog
+<br>
+<br>
+Sample space has news, view, and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)
