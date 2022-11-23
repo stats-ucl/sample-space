@@ -24,7 +24,9 @@ listing:
     max-description-length: 600
     fields: [image,date,title,author,description,categories]
     grid-item-align: right
-  
+    
+  - id: categories
+    categories: true
 page-layout: full
 title-block-banner: true
 ---
