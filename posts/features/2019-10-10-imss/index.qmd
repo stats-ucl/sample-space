@@ -5,7 +5,7 @@ categories:
   - "Issue 1"
 image: "162 18_0008_UCL Maths Faculty 2111.jpg" 
 links: 
-   - title: Away Days
+   - title: Introducing the new Institute for Mathematical and Statistical Sciences
      description: "From the smell of burning rubber to the echoes of rifle fire over open water: UCL Statistical Science away days are experiential affairs!" 
      image: 162 18_0008_UCL Maths Faculty 2111.jpg
 ---
