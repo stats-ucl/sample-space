@@ -3,7 +3,7 @@ title: "Introduce Yourself"
 date: 2019-10-01T23:00:00-05:00
 categories:
   - "Issue 1"
-image: "Hideki2.jpg" 
+image: "Jim_picture_04_02_19_4.jpg" 
 links: 
    - title: Introduce Yourself
      description: "2019 saw a number of new faces joining the department staff… " 
