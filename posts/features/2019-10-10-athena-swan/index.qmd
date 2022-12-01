@@ -15,7 +15,6 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "A bunch of people in the department posing in three rows on steps. There are three columns in the background."
 knitr::include_graphics("NewsletterPhoto_DThomassen_1.jpg")
 ```
 

@@ -1,0 +1,57 @@
+---
+title: "Away Days"
+date: 2019-10-01T23:00:00-05:00
+categories:
+  - "Issue 1"
+image: "gokart_all.jpeg" 
+links: 
+   - title: Away Days
+     description: "From the smell of burning rubber to the echoes of rifle fire over open water: UCL Statistical Science away days are experiential affairs!" 
+     image: gokart_all.jpeg
+---
+
+> *Summer 2019 saw department staff and students stepping away from their research for two fun socials. After a typically mathematical vote, the winning options were decided: go-karting and a boat trip on the River Thames.*
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("gokart_all.jpeg")
+```
+
+```{r}
+#| layout-ncol: 2
+#| echo: FALSE
+#| fig.height: 50
+#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+knitr::include_graphics("gokart_a.jpg")
+knitr::include_graphics("gokart_c.jpg")
+```
+
+## And they’re off!
+
+The go-karting event took place on the hottest day of the summer, so many people were grateful to be indoors. The location was Team Sport Karting in Tower Bridge. Drivers were placed randomly into two groups, and after some practice runs received average lap times for the circuit. They were then sorted into two groups based on average times, and this time raced in groups, with first, second and third place medals on offer. Shenanigans ensued that wouldn’t be out of place in an episode of classic TV show ‘Wacky Races’! 
+
+The podium finishers of the A race were Giampiero Marra, Johnny Picken and Marcel Hirt, and the B race honours went to Samuel Livingstone, Niloufar Abourashchi and Ioanna Manolopoulou. An extra special mention also goes to Marcel Hirt who managed the fastest single lap of the day at a frighteningly quick 48 seconds!
+
+## Cruise control
+
+The departmental boat trip on the Thames was a more leisurely affair, with a caricaturist, giant jenga, table football and a magician on hand to provide light entertainment. 
+
+After a grey start to the day, the weather brightened up as those lucky enough to be on board gently headed across East London from Westminster Pier out towards Thamesmead. 
+
+A highlight of the day was the clay pigeon shooting, which took place from the side of the boat. It threw up many surprises! The accolade of highest number of clays shot down unsurprisingly went to pre-activity favourite and all-round crack shot Menelaos Pavlou, who managed an impressive 4 out of 6.
+
+
+```{r}
+#| layout-ncol: 4
+#| echo: FALSE
+#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+knitr::include_graphics("cruise_football.jpg")
+knitr::include_graphics("cruise_shoot2.jpg")
+knitr::include_graphics("cruise_towerbridge.jpg")
+knitr::include_graphics("cruise_magic.jpg")
+```
+
+
+**Special thanks go to Codina Cotar and Giampiero Marra, chief organisers for the two events.**
+
