@@ -17,7 +17,12 @@ of past and present students and staff in touch with what’s happening in Stati
 at UCL. I hope you find the contents interesting: we plan to do more of this kind of thing
 in the future, to keep you all updated with the latest news from the department.*
 
-![A bunch of people in the department](dept.png)
+```{r}
+#| echo: FALSE
+#| fig.alt: "A bunch of people in the department posing in three rows on steps. There are three columns in the background."
+knitr::include_graphics("dept.png")
+```
+
 
 UCL Statistical Science is currently undergoing a period of significant expansion: this is part undergoing of and a strategic operational investment in mathematics, statistics and operational research that will lead to the establishment of a UCL Institute for Mathematical and Statistical Sciences, or IMSS for short. We plan for the Statistical Science and Mathematics departments to be re-housed next to each other on a single site, in a purpose-designed facility that will put UCL on the map as one of the ‘go-to’ places for the mathematical sciences in London – and that will also provide our students with a much greater sense of community than is currently possible. Bringing this idea to fruition has already taken considerable effort, and will continue
 to do so in the coming months and years, although I strongly believe that the rewards will be well worth it. Apart from anything else, being bigger gives us additional resources to do things like producing Sample Space! 
