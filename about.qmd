@@ -32,4 +32,5 @@ title-block-banner: true
 
 <br>
 <br>
-Sample space has news, view, and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)
+Sample space has news, view, and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics). 
+You can read posts from the first issue and the latest issue. 
