@@ -1,0 +1,28 @@
+---
+title: "Symposium – Teaching Statistics in Higher Education"
+author: "Simon Harden and the Teaching Fellows"
+date: 2020-04-07
+categories:
+  - "Issue 1"
+image: "Teaching Stats event _audience.jpg" 
+links: 
+   - title: Symposium – Teaching Statistics in Higher Education
+     description: "The Department of Statistical Science, in conjunction with the Royal Statistical Society, hosted a symposium on Teaching Statistics in April 2019. The event was organised by the department’s Teaching Fellows, with the aim of bringing together those who teach statistics in higher education to hear about, and discuss, exciting developments in the field. Over 60 people from around the UK attended and took part in a number of lively debates." 
+     image: Teaching Stats event _audience.jpg
+---
+
+> *The Department of Statistical Science, in conjunction with the Royal Statistical Society, hosted a symposium on Teaching Statistics in April 2019. The event was organised by the department’s Teaching Fellows, with the aim of bringing together those who teach statistics in higher education to hear about, and discuss, exciting developments in the field. Over 60 people from around the UK attended and took part in a number of lively debates.*
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("Teaching Stats event _audience.jpg")
+```
+
+The first session focused on teaching non-statisticians and featured contributions from Margaret MacDougall (University of Edinburgh), who discussed the statistics that medical students need to learn and how they might retain that knowledge in the long term, and Charalampos Chanialidis (University of Glasgow), who described how an online MSc in Data Analytics was established and implemented. Virtual learning and approaches to teaching non-statisticians both provoked interesting discussion.
+
+After lunch we concentrated on teaching statisticians. Elke Thonnes (University of Warwick) considered authentic learning which provides useful data-centric skills for students including statistical consultancy, and then Paul Northrop (UCL) talked about a research-based learning initiative wherein undergraduates read an academic paper, discuss it with the author and then summarise their findings. Both included a section on group assessment which was clearly of interest to many present.
+
+The symposium concluded with a panel discussion on the future of teaching statistics. Panel members included Rachel Hilliam from the Open University, Andy Field from the University of Sussex (who is known for his cartoon-based books on statistics), and Sharon Witherspoon, the Royal Statistical Society’s Vice President for Education and Statistical Literacy. The discussion encompassed subjects such as data science, the use of statistical software, short courses for professionals and remote teaching. These topics exemplified the diversity of approaches that will inevitably proliferate over the coming years.
+
+The symposium was followed by the launch of the RSS Special Interest Group on Teaching Statistics, chaired by Elinor Jones (UCL).

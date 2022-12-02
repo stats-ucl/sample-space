@@ -1,0 +1,59 @@
+---
+title: "Introducing the new Institute for Mathematical and Statistical Sciences"
+date: 2020-04-07
+categories:
+  - "Issue 1"
+image: "162 18_0008_UCL Maths Faculty 2111.jpg" 
+links: 
+   - title: Introducing the new Institute for Mathematical and Statistical Sciences
+     description: "From the smell of burning rubber to the echoes of rifle fire over open water: UCL Statistical Science away days are experiential affairs!" 
+     image: 162 18_0008_UCL Maths Faculty 2111.jpg
+---
+
+> *Two hundred years ago, a small group of pioneering philanthropists bought eight acres of land in Bloomsbury to start a new kind of university. The mathematical sciences were a keystone of this original endeavour and remain the foundation of much of UCL’s problem-solving power today. 
+This year, we’re excited to announce a major change to the way UCL approaches teaching and research in the fields of Mathematics and Statistical Science. We’re pooling, collocating and expanding these departments to create the Institute for Mathematical and Statistical Sciences (IMSS) and bring UCL into the top 20 institutions globally for mathematical sciences. *
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("162 18_0008_UCL Maths Faculty 2111.jpg")
+```
+
+## Strength In Numbers 
+
+The mathematical sciences have always been part of UCL’s proud radical culture and history. Mathematics was one of the small number of disciplines established by UCL’s original benefactors in 1826. The Department of Statistical Science, founded in 1911, was the first statistics department to be established anywhere in the world. 
+
+The UCL of the future will remain radical and continue to encourage disruptive thinking, increasingly breaking down traditional barriers of faculty and discipline – which is exactly why the new IMSS will be greater than the sum of its parts. 
+
+It aims to be London’s leading centre for research, teaching and collaboration in mathematics and statistics, establishing UCL as a global leader, and creating an outward-looking centre for the mathematical sciences and its applications. 
+
+## Bringing research together 
+Mathematical science research flourishes when people are brought together, and it’s at its most exciting when surprising links between different subfields of research are created. It’s also a vast and evolving discipline, and with more research staff interacting with other UCL departments and visiting scholars, the IMSS will allow us to cover most of its research areas. 
+
+We’ve seen the power of joint research across many of our other departments, and bringing great minds together will lead to fundamental breakthroughs across disciplines. The IMSS wants to create an atmosphere of lively research collaboration between mathematical sciences and other departments across UCL.
+
+With a concentration of around 135 academic and teaching staff, from early career professionals to established world-leading researchers, the IMSS will support a thriving community of students who will get to experience cross-disciplinary interaction everyday. We will recruit and nurture outstanding mathematicians and statisticians, and provide an environment in which they can flourish and contribute to wider society. 
+Beyond UCL, the IMSS will fully exploit its central London location by strengthening interactions with institutions like the Alan Turing Institute, the Francis Crick Institute, GCHQ, London’s financial industry and government departments. It will also be internationally accessible, with facilities and a forward-thinking events programme to bring our research to the wider world. We aim to host national and international meetings, conferences and workshops in the mathematical sciences, with involvement from learned societies in our disciplines. 
+
+## Embracing the next generation 
+Society’s demand for trained mathematicians and statisticians has never been higher. To meet this, universities have a responsibility to encourage young people to enter the discipline. 
+
+Through high-profile presenters like UCL Mathematics alumna Hannah Fry, the mathematical sciences and their applications are enjoying unprecedented popular appeal. The IMSS will help to capture the public’s interest and imagination, and stimulate the uptake of mathematical sciences by school leavers – in particular from groups that are currently under-represented in the profession. We aim to host popular talks and practical sessions designed to turn more young people on to a career in mathematical sciences and show how it can open doors to so many different industries. 
+
+For students already wanting to study a mathematical discipline, our graduates will receive a broad training in mathematics, statistics and their applications, with experience in programming and computation, and with opportunities to develop their communication skills. 
+
+The IMSS will host over 1,200 mathematical science undergraduates at the heart of its activity. They’ll join an intellectually thrilling community led by world-leading researchers in modern high-quality teaching facilities. Students will take advanced courses connecting with exciting research developments, like the rapid expansion of Data Science and Artificial Intelligence, both areas for which mathematics provides the fundamental language. 
+
+At postgraduate level, the IMSS will be home to 150 MSc students and over 200 doctoral students. MSc students will have their own study and social areas, while doctoral students, the lifeblood of any university mathematical science institute, will be fully integrated with academic staff, with access to shared social and common areas.
+
+To find out more about the future of the IMSS, and see the latest developments: visit [www.ucl.ac.uk/mathematical-statistical-sciences](https://www.ucl.ac.uk/mathematical-statistical-sciences)
+
+---
+
+## Want to be part of the future of the IMSS? 
+We have the talent, ambition and location to be a world force in mathematics research, education, enterprise and outreach. The IMSS will enable the discovery of deep, important and beautiful new mathematics and foster collaborations across UCL, London and beyond. It will enhance UCL’s world-leading reputation, and contribute top-level core mathematical and statistical expertise to other areas of its activity. 
+
+It’s an exciting time to be part of this story, but to realise this vision to its fullest, we’re asking those who value the role of the mathematical sciences in society to help us secure the future of the IMSS with investment in our people and our infrastructure. The legacy of this investment will be global, wide-ranging and long-lasting, true to our founding principles and our contemporary role as London’s Global University.
+An investment in the vision of IMSS is an investment in our mathematical future.
+To find out how you can donate to the future of the IMSS, contact Mathematics HoD: Professor Helen Wilson, helen.wilson@ucl.ac.uk or Statistical Science HoD: Professor Richard Chandler, r.chandler@ucl.ac.uk. 
+

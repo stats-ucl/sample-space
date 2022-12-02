@@ -1,0 +1,117 @@
+---
+title: "Introduce Yourself"
+date: 2020-04-07
+categories:
+  - "Issue 1"
+image: "Jim_picture_04_02_19_4.jpg" 
+links: 
+   - title: Introduce Yourself
+     description: "2019 saw a number of new faces joining the department staff… " 
+     image: Jim_picture_04_02_19_4.jpg
+---
+
+> *2019 saw a number of new faces joining the department staff… *
+
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.align: "center"
+knitr::include_graphics("Jim_picture_04_02_19_4.jpg")
+```
+
+# Jim Griffin (Professor)
+
+I began working as Professor of Statistical Science in January 2019. Previously, I worked for 12 years at the University of Kent. I work on Bayesian statistical methods for nonparametric modelling, analysis of high-dimensional data sets and time series. I have applied these methods to problems in biology, ecology, economics and finance. I’m a keen cricket fan, gardener and bon vivant.
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("fxbriol_website_photo.jpg")
+```
+
+# Francois-Xavier Briol (Lecturer)
+
+I joined the department as a lecturer in August. Before this I completed my PhD in Statistics, which was a joint programme between the universities of Warwick and Oxford, followed by a brief stint as a postdoc at Imperial and Cambridge. My main research interests are at the intersection of computational statistics and machine learning, and I will be teaching STAT0032 Introduction to Statistical Data Science. Feel free to drop by my office (#144) to discuss research, or just to say hi!
+
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("Alex Watson.jpg")
+```
+
+# Alex Watson (Lecturer)
+
+I joined the department as a lecturer in August 2019, coming from the University of Manchester, where I had a similar role. I did my PhD in Bath and worked for some time as a postdoc in Mexico and Switzerland before returning to the UK. My main interests are in Lévy processes, branching processes and applications in biology.
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("Steph newsletter.jpg")
+```
+
+# Stephanie Dickinson (Teaching and Learning Administrator)
+
+My previous work has included art, teaching, healthcare and housing roles. In May 2019, I joined the department as Teaching and Learning Administrator with a focus on timetables. In my spare time I am embarking on a project to re-invent the traditional castle scenes which are a common-yet-mysterious feature in the decoration of narrowboats. Part of my research was visiting real castles in Austria and Germany, an old Knights Templar fort in Tomar (Portugal) and mountain observation in Norway.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+knitr::include_graphics("Marina Lewis.jpg")
+```
+
+# Marina Lewis (Teaching and Learning Administrator)
+
+Before arriving at UCL, I worked at the London Business School, London School of Economics and Political Sciences and Trinity College London. Students there were from the UK as well as across the world, so I gained a lot of experience in supporting students from many cultures. I have worked as an administrator within short programmes, examinations and registrations, and post results. I joined UCL in September 2019. I am interested in photography and art. Currently I am putting together a catalogue/archive of a small art collection.
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+<!--another empty column-->
+
+:::
+
+::::
