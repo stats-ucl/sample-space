@@ -3,11 +3,11 @@ title: "Breaking the Waves"
 date: 2020-04-07
 categories:
   - "Issue 1"
-image: "Screen Shot 2020-03-12 at 10.43.05.png" 
+image: "group.png" 
 links: 
    - title: Breaking the Waves
      description: "Professor Serge Guillas is leading a team seeking better ways to predict potentially disastrous tsunamis using high-performance computing... " 
-     image: Screen Shot 2020-03-12 at 10.43.05.png
+     image: group.png
 ---
 
 > *Professor Serge Guillas is leading a team seeking better ways to predict potentially disastrous tsunamis using high-performance computing... *
@@ -16,7 +16,7 @@ links:
 #| echo: FALSE
 #| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
 #| fig.align: "center"
-knitr::include_graphics("Screen Shot 2020-03-12 at 10.43.05.png")
+knitr::include_graphics("group.png")
 ```
 
 **Recently, major tsunamis in Indonesia and Japan have caused the insurance industry and civil authorities around the world to demand better models to assess tsunami risk. In particular, the economic impacts of the tsunamis include losses of livelihoods and incomes, loss of boats and gear among fishing communities, and increased levels of poverty in the aftermath of the event.** 
@@ -42,11 +42,29 @@ Based at the Turing Institute, RADDISH is implementing agent-based models to fac
 
 Using high performance computers, a digital twin of a tsunami event can track actions in real-time using live data. We can accurately monitor how an event would unfold and identify areas where changes can be made to procedure to improve the safety of those involved. 
 
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.align: "center"
+knitr::include_graphics("green.png")
+```
+
+
 **VETII: ‘Vessels Evacuation from Tsunamis in India and Indonesia’, funded by the Grand Challenge Research Fund (GCRF). Running from 01/01/2020 – 30/06/2020.**
 
 VETII uses accurate agent-based models of vessels in ports around India and Indonesia and applies probabilistic tsunami current hazard assessments to simulated models. 
 
 We can apply different scenarios to these models to see how quickly people can evacuate when a tsunami occurs, ultimately creating the most efficient layout for boats in different ports. 
+
+```{r}
+#| layout-ncol: 2
+#| echo: FALSE
+#| fig.height: 50
+#| fig.align: center
+#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+knitr::include_graphics("map.png")
+knitr::include_graphics("map2.png")
+```
 
 **FITTER: ‘Future Indonesian Tsunamis: Towards End-to-end Risk Quantification’ funded by the Lloyd's Tercentenary Research Foundation, the Lighthill Risk Network and the Lloyd’s Register Foundation. Running from 2019 – 2022.** 
 
@@ -70,3 +88,10 @@ You can find the latest developments in Professor Guillas’ research by visitin
 
 **Impact on populations:**
 Prof Guillas visited the region of Mumbai, India, in 2018 and 2019, to engage with the fishermen community. The United Nations Development Program (UNDP) has been facilitating our disaster resilience project in the region.
+
+```{r}
+#| echo: FALSE
+#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.align: "center"
+knitr::include_graphics("group2.png")
+```
