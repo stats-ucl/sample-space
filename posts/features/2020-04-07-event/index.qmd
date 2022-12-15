@@ -4,11 +4,11 @@ author: Elinor Jones
 date: 2020-04-07
 categories:
   - "Issue 1"
-image: "Screen Shot 2020-03-12 at 10.43.05.png" 
+image: "lab.png" 
 links: 
    - title: in2scienceUK Week
      description: "in2scienceUK is an award-winning charity, empowering students from disadvantaged backgrounds to achieve their potential and progress to STEM and research careers. UCL is proud to be a founding partner in the scheme, and in July 2019, the Department of Statistical Science welcomed five Year 12 students for an inspirational week of learning that statistics is not, in fact, boring!" 
-     image: Screen Shot 2020-03-12 at 10.43.05.png
+     image: lab.png
 ---
 
 > *in2scienceUK is an award-winning charity, empowering students from disadvantaged backgrounds to achieve their potential and progress to STEM and research careers. UCL is proud to be a founding partner in the scheme, and in July 2019, the Department of Statistical Science welcomed five Year 12 students for an inspirational week of learning that statistics is not, in fact, boring!*
@@ -17,7 +17,7 @@ links:
 #| echo: FALSE
 #| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
 #| fig.align: "center"
-knitr::include_graphics("Screen Shot 2020-03-12 at 10.43.05.png")
+knitr::include_graphics("lab.png")
 ```
 
 Placements in the mathematical sciences are a new venture for in2science and we were delighted to be one of the first departments to host students interested in maths.
