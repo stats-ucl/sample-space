@@ -1,0 +1,57 @@
+---
+title: "News in Brief"
+author: "Brieuc Lehmann & George Nicholson"
+date: 2021-12-01
+categories:
+  - "Issue 2"
+links: 
+   - title: "News in Brief"
+     description: A round-up of recent developments in the department
+---
+
+> *A round-up of recent developments in the department*
+
+## Prof Maria de Iorio elected ISBA Fellow (July 2020)
+
+Congratulations to [Prof Maria de Iorio](https://www.ucl.ac.uk/statistics/people/mariadeiorio) on her recent election as a fellow of the [International Society for Bayesian Analysis](https://bayesian.org/) (ISBA). A small number of ISBA fellows are elected every two years: Maria is one of just nine new fellows elected in 2020. Her election recognises “her tireless work to apply and extend Bayesian methodology in science, for promoting statistical methods across the area of biomedical research, and for her active role in mentoring junior colleagues and students.” This is a great achievement – well done!
+
+## Mervyn Stone, 1932-2020 (January 2021)
+
+With much sadness we record the death, on 19th September 2020, of our friend and colleague Mervyn Stone. He made major contributions to our discipline and is an important part of the history of our department. He joined UCL in 1968 and remained for the rest of his working life. After retiring in the 1990s, he continued his activities as an emeritus professor.
+
+## Award of funding for UCL/EPSRC Mathematical & Statistical Sciences Doctoral Training Programme (May 2021)
+
+The Engineering and Physical Sciences Research Council (EPSRC) has awarded UCL funding for a new Doctoral Training Programme (DTP) in Mathematical & Statistical Sciences, with intakes for the next two academic years in the first instance. 
+
+The DTP will be run jointly by the UCL Departments of Mathematics and Statistical Science, as a key step towards the realisation of a new collaborative institution for the powerhouse of Mathematical Science at UCL. This new and exciting DTP will allow collaborative research across the two departments – as well as other parts and research groups within UCL – and is part of the key strategic expansion of national and public funding for mathematical sciences.
+
+## Department hosts workshop on Fairness & Diversity in Statistical Science (July 2021)
+
+On 6th July 2021, the department hosted an online workshop on Fairness & Diversity in Statistical Science. The day began with a morning session on fairness and diversity in statistical practice, with presentations given by Corinna Hertweck and Shakir Mohamed. This was followed by an afternoon session on fairness and diversity in the statistical workplace, with a panel discussion involving Maria Skoularidou, Marc Deisenroth, Rebecca Hubbard and Eugénie Hunsicker. After this, participants were placed into discussion groups to reflect on the day and get to know one another better.
+
+## Research grant success for two early career researchers (October 2021)
+
+Two early career researchers in the department have recently been awarded research grant funding by the UK Engineering and Physical Sciences Research Council (EPSRC). 
+
+Jeremias Knoblauch, who began a lectureship in the department in June 2022, has been awarded a £325,660 three-year fellowship to conduct research on ‘Optimisation-centric generalisations of Bayesian Inference’. The project includes partnerships with Duke University, RIKEN centre in Japan, Improbable Worlds Ltd, The Alan Turing Institute, Newcastle University and the University of Warwick.  
+
+Meanwhile, Samuel Livingstone, lecturer in the Department of Statistical Science, will receive a £207,950 EPSRC New Investigator Award for a project entitled ‘Robust and scalable Markov chain Monte Carlo for heterogeneous models’. The research grant will run from 1st November 2021 to 31st October 2023 and will allow Dr Livingstone to recruit a postdoctoral researcher and organise an international conference in the department.
+
+## Sir David Cox FRS, 1924-2022 (January 2022)
+
+We are very sad to report the death on 18th January 2022 of Sir David Cox FRS. David was a good friend of members of the department and a longstanding research collaborator, particularly with regard to work on spatial-temporal modelling and applications in hydrology. 
+
+David was arguably the most influential statistician of the second half of the 20th century. He was knighted in 1985 and received very many prestigious academic prizes and awards including the Guy Medal in Gold by the Royal Statistical Society (1973), the Kettering Prize and Gold Medal for Cancer Research (1990), the Copley Medal of the Royal Society (2010) and he was the first ever recipient of the International Prize in Statistics (2017). During his career, he published more than 380 papers and was working right up until his death.
+
+David was also closely associated with the statistical journal Biometrika, the management of which has been based in the department since its inception in 1901. David was the third editor of Biometrika, following Karl and Egon Pearson, and covered the period 1966-1991. On standing down as editor, he became a trustee of the Biometrika Trust, which is responsible for the continuing publication and development of the journal, retaining that position until 2019 and taking the role of chair from 1993 to 2004. His influence on the development of the journal was immense, and both its current standing in statistical circles and the strength of the trust is, in a large part, down to him. We shall miss him.
+
+## AISTATS Award for Jeremias Knoblauch and Francois-Xavier Briol (March 2022)
+
+Jeremias Knoblauch and Francois-Xavier Briol were awarded a Best Paper Award at [AISTATS 2022](http://aistats.org/aistats2022/awards.html) (The International Conference on Artificial Intelligence and Statistics) for their paper on ‘Robust Bayesian Inference for Simulator-based Models via the MMD Posterior Bootstrap’. This paper provides a new method for performing Bayesian inference in cases where the likelihood is not available. A key feature of the approach is its scalability, due to an embarrassingly parallel implementation and the fact that it is provably robust to model misspecification.
+
+## London Mathematical Society Research Summer School on ‘Point Configurations: Deformations and Rigidity’ to be hosted at UCL (June 2022)
+
+
+Professor Codina Cotar co-organised a research summer school from 27th June to 1st July 2022. The school consisted of three mini-lecture courses covering three different modern perspectives on the rigidity and deformability of optimum point configurations: the point of view of material science and elasticity; the point of view of approximation theory; and the point of view of the methods of Viazovska, based on linear programming bounds. The lecture courses were led by Gero Friesecke, Douglas Hardin and Edward Saff, and Danylo Radchenko. In addition, there were distinguished guest lectures by Keith Ball, Werner Krauth, Franz Merkl and Sylvia Serfaty.
+
+
