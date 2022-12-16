@@ -32,7 +32,7 @@ knitr::include_graphics("photo_Brieucarticlephoto2.png")
 ```
  
 
-In July 2020, the then US President Donald Trump observed: “if we did half the testing, we would have half the cases.” He’s not wrong: the number of identified cases is highly dependent on the number of tests taken. A country rife with COVID-19 but with zero testing capacity might, according to this metric, appear to be having a wonderful pandemic.
+In July 2020, the then US President Donald Trump observed: [“if we did half the testing, we would have half the cases.”](https://www.cnbc.com/2020/07/14/trump-says-us-would-have-half-the-number-of-coronavirus-cases-if-it-did-half-the-testing.html) He’s not wrong: the number of identified cases is highly dependent on the number of tests taken. A country rife with COVID-19 but with zero testing capacity might, according to this metric, appear to be having a wonderful pandemic.
 
 ## Why it matters who we test
 
@@ -44,7 +44,7 @@ This difference can be quite extreme, with the proportion of targeted tests retu
 
 ## The benefits of randomised surveillance
 
-In England, we are very fortunate to have not one but two national, randomised surveillance studies that measure the level of coronavirus infection in the community: the COVID-19 Infection Survey (carried out by the Office for National Statistics) and the Real-time Assessment of Community Transmission (REACT) study (Imperial College London). The randomised nature of these studies ensures that they provide representative estimates of SARS-CoV-2 prevalence across the entire population, not just among symptomatics or frontline workers.
+In England, we are very fortunate to have not one but two national, randomised surveillance studies that measure the level of coronavirus infection in the community: the [COVID-19 Infection Survey](https://www.ons.gov.uk/surveys/informationforhouseholdsandindividuals/householdandindividualsurveys/covid19infectionsurvey) (carried out by the Office for National Statistics) and the [Real-time Assessment of Community Transmission](https://www.imperial.ac.uk/medicine/research-and-impact/groups/react-study/) (REACT) study (Imperial College London). The randomised nature of these studies ensures that they provide representative estimates of SARS-CoV-2 prevalence across the entire population, not just among symptomatics or frontline workers.
 
 Running these studies is expensive, however, and most of the tests will be negative by definition if the overall population prevalence is just a few percent. So, the number of positive tests returned is relatively small in comparison to the targeted testing schemes. As a result, randomised studies provide prevalence estimates that, while accurately targeting the true prevalence on average, may be highly variable when considering smaller areas.
 
@@ -52,7 +52,7 @@ That said, such fine-scale, localised estimates are incredibly useful for policy
 
 ## Our quest for accurate and fine-scale prevalence estimates
 
-In our work, recently published in Nature Microbiology, we sought to combine the targeted test counts with data from randomised surveillance studies, to provide debiased, local, weekly estimates of SARS-CoV-2 prevalence. We did so through a causal statistical framework that estimates the probability of an infected person being tested versus a non-infected person being tested, and then transforms targeted test counts appropriately to generate debiased estimates of the true underlying local prevalence.
+In our work, [recently published in Nature Microbiology](https://www.nature.com/articles/s41564-021-01029-0), we sought to combine the targeted test counts with data from randomised surveillance studies, to provide debiased, local, weekly estimates of SARS-CoV-2 prevalence. We did so through a causal statistical framework that estimates the probability of an infected person being tested versus a non-infected person being tested, and then transforms targeted test counts appropriately to generate debiased estimates of the true underlying local prevalence.
 
 Inference for this model consisted of four steps. First, we inferred weekly prevalence at a coarse geographic level from the randomised testing data. Second, we combined this prevalence with the targeted testing data to get an estimate of the probability of an infected person being tested, again at the coarser spatial scale. Third, we smoothed these estimates longitudinally, working under the assumption that the probability an infected person gets tested only varies a little from week to week. Finally, we used these smoothed estimates to infer local (finer geographical scale) prevalence from the targeted test counts. 
 
