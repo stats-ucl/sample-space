@@ -1,6 +1,5 @@
 ---
 title: "News in Brief"
-author: "Brieuc Lehmann & George Nicholson"
 date: 2021-12-01
 categories:
   - "Issue 2"
