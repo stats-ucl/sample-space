@@ -17,6 +17,7 @@ links:
 #| echo: FALSE
 #| out.height: 200
 #| fig.align: center
+#| fig.alt: "Nathan Green headshot"
 knitr::include_graphics("photo_NathanGreen.jpg")
 ```
 

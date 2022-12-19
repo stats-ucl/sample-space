@@ -15,6 +15,7 @@ links:
 
 ```{r}
 #| echo: FALSE
+#| fig.alt: "Richard Chandler on the right holding a plaque and Gianluca Baio on the right."
 #| out.height: 400
 #| fig.align: center
 knitr::include_graphics("IMG_20210920_143736.jpg")
@@ -39,7 +40,7 @@ Other shenanigans included a mime artist, a giant chess board and a carnival ‘
 #| layout-ncol: 2
 #| echo: FALSE
 #| fig.height: 50
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "a woman in distance wearing white and in front of a white background. People closer to the screen seem to be aiming at her. In the second image we see a close up of the woman with her face covered with a black helmet."
 knitr::include_graphics("IMG_20210920_142954.jpg")
 knitr::include_graphics("IMG_20210920_143005.jpg")
 ```

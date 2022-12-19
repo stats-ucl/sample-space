@@ -15,6 +15,7 @@ links:
 
 ```{r}
 #| echo: FALSE
+#| fig.alt: "headshot of Brieuc Lehmann"
 #| out.height: 200
 #| fig.align: center
 knitr::include_graphics("photo_BrieucLehmann.jpg")
@@ -28,6 +29,7 @@ If you type ‘COVID’ followed by your country of choice into your favourite s
 #| out.width: 80%
 #| fig.align: center
 #| fig.cap: "Number of new positive COVID-19 tests in the UK, from 2nd March 2020 to 5th January 2022, as illustrated following a Google search of ‘COVID UK’."
+#| fig.alt: "A plot showing numbers 0 to 200,000 on the y axis and dates on the y axis. Starting from 0 we see values of 7 day average COVID new cases increasing above 50,000 after around January and then declining to bottom in around April. starting increase again afer June, reaching 50,000 around July with continued increase and a peak at Jan 5, 2022. For this date the number  new cases reported are 193, 814 and 7-day average is 182,201."
 knitr::include_graphics("photo_Brieucarticlephoto2.png")
 ```
  

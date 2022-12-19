@@ -20,7 +20,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Wenyu Wang"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Wenyu_pic.JPG")
@@ -46,7 +46,7 @@ In multi-state models, we assume that the continuous-time multi-state model is a
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Asma Saleh"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Asma_pic.jpg")
@@ -75,7 +75,7 @@ I am investigating the performance of implicit bias reduction techniques such as
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Marta Campi"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Marta_pic.jpg")
@@ -102,7 +102,7 @@ The application taken into account here is related to Automatic Speaker Verifica
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Mai Ngoc Bui"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Mai_pic.jpg")
@@ -129,7 +129,7 @@ In Euclidean space, the common approach is to use a data-augmentation algorithm,
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Marcel Hirt"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Marcel_pic.png")
@@ -145,7 +145,7 @@ Constructing good approximation families has been an ongoing challenge, because 
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Plot showing a three dimensional distribution"
 #| fig.cap: New ‘copula-like’ variational family approximation
 #| out.width: 45%
 #| fig.align: "center"

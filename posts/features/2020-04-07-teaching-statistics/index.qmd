@@ -15,7 +15,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Back of an audience sitting on chairs looking in the direction of a speaker."
 knitr::include_graphics("Teaching Stats event _audience.jpg")
 ```
 

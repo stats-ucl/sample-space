@@ -15,6 +15,7 @@ links:
 
 ```{r}
 #| echo: FALSE
+#| fig.alt: "Alex Donov with River Thames in the background"
 knitr::include_graphics("NewsletterPhoto_DThomassen_1.jpg")
 ```
 

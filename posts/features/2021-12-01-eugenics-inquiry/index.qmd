@@ -34,7 +34,7 @@ These changes are already being implemented in the Department of Statistical Sci
 #| layout-ncol: 2
 #| echo: FALSE
 #| fig.height: 50
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "The figure on the right reads Lecture Theatre 115. The figure on the left reads Galton Lecture Theatre. This lecture theatre was formerly named the Galton Lecture Theatre until 2020. Victorian scientist Sir Francis Galton (1822-1911) coined the term eugenics and endowed UCL with his personal collection and archive along with a bequest for the country's first professorial Chair and Eugenics. Following the recommendations of the inquiry into the History of Eugenics at UCL, UCL decided to de-name the Galton Lecture Theatre in July 2020. This change was a number of actions aimed at acknowledging and addressing the impact of the university's historical links with the eugenics movement."
 knitr::include_graphics("photo_EugenicsEnquiry1.jpg")
 knitr::include_graphics("photo_EugenicsEnquiry2.jpg")
 ```

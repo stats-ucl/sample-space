@@ -15,7 +15,7 @@ This year, we’re excited to announce a major change to the way UCL approaches 
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Young people in a coworking space. Some are working on computers and some are talking to each other."
 knitr::include_graphics("162 18_0008_UCL Maths Faculty 2111.jpg")
 ```
 

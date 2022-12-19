@@ -20,7 +20,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "A group people posing with their transparent red rain coats."
 knitr::include_graphics("Hideki2.jpg")
 ```
 
@@ -53,7 +53,7 @@ Waterloo was the perfect balance of the known (the language, studying, coffee) a
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Trees with snow and a bench next to a footpath."
 knitr::include_graphics("Hannah2.jpg")
 ```
 

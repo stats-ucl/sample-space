@@ -19,7 +19,7 @@ BSc Statistics (3rd year)
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Headshot of Luke Lawlor"
 #| fig.align: center
 knitr::include_graphics("photo_LukeLawlor.jpg")
 ```
@@ -54,7 +54,7 @@ BSc Economics and Statistics (3rd year)
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Headshot of Rishika George"
 #| fig.align: center
 knitr::include_graphics("photo_RishikaGeorge1.jpg")
 ```
@@ -90,7 +90,7 @@ MSc Medical Statistics
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Headshot of Luke Hardcastle"
 #| fig.align: center
 knitr::include_graphics("photo_LukeHardcastle.jpg")
 ```

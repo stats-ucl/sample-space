@@ -20,7 +20,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Jim Griffin"
 #| fig.align: "center"
 #| out.width: 45%
 knitr::include_graphics("Jim_picture_04_02_19_4.jpg")
@@ -40,7 +40,7 @@ I began working as Professor of Statistical Science in January 2019. Previously,
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Francois-Xavier Briol"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("fxbriol_website_photo.jpg")
@@ -61,7 +61,7 @@ I joined the department as a lecturer in August. Before this I completed my PhD 
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Alex Watson"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Alex Watson.jpg")
@@ -81,7 +81,7 @@ I joined the department as a lecturer in August 2019, coming from the University
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Stephanie Dickinson"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Steph newsletter.jpg")
@@ -101,7 +101,7 @@ My previous work has included art, teaching, healthcare and housing roles. In Ma
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Marina Lewis"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("Marina Lewis.jpg")

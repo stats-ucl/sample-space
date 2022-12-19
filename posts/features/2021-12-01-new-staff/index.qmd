@@ -20,8 +20,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
-#| fig.align: "center"
+#| fig.alt: "Headshot of Emma Simpson"
 #| out.width: 45%
 knitr::include_graphics("photo_ESimpson.jpg")
 ```
@@ -45,7 +44,7 @@ Outside of work, I like to crochet, read, and listen to country music. I’m als
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Javier Rubio"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_JRubio.jpg")
@@ -71,7 +70,7 @@ My main research interests are in Bayesian statistics, objective Bayes, model se
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Jeremias Knoblauch"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_JKnoblauch.jpg")
@@ -96,7 +95,7 @@ Before joining UCL, I was a PhD student within the Oxford-Warwick Statistics Pro
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Moe John"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_MJohn.jpg")
@@ -121,7 +120,7 @@ In my spare time, I like taking my dog Dexter out for a walk and run in the coun
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Takoua Jendoubi"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_TJendoubi.png")

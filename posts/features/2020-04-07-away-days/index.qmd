@@ -45,7 +45,7 @@ A highlight of the day was the clay pigeon shooting, which took place from the s
 ```{r}
 #| layout-ncol: 4
 #| echo: FALSE
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Image 1 shows people playing foosball. Image 2 shows people with rifles on a boat. Image 3 shows people on a boat. Image 4 shows people gathered around dining tables on a boat."
 knitr::include_graphics("cruise_football.jpg")
 knitr::include_graphics("cruise_shoot2.jpg")
 knitr::include_graphics("cruise_towerbridge.jpg")

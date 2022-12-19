@@ -45,7 +45,7 @@ Dr Soo is eager for more, but I call things to a close, and suggest that we wash
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "An old brown door is seen in the distance."
 #| fig.align: center
 knitr::include_graphics("IMG_20220121_165603.jpg")
 ```
@@ -55,7 +55,7 @@ The Housman room – hidden in plain sight behind an unmarked door in North Cloi
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Two men sitting on two separate arm chairs with many whiskey glasses in the middle on a coffee table."
 #| fig.align: center
 knitr::include_graphics("IMG_20220121_172559.jpg")
 ```

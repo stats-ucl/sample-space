@@ -20,7 +20,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Alberto Caron"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_ACaron.jpg")
@@ -38,7 +38,6 @@ Our contributions so far have extended some popular models in the field. Our fir
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
 #| out.width: 90%
 #| fig.align: "center"
 knitr::include_graphics("photo_ACaron-page-001.jpg")
@@ -58,7 +57,7 @@ Our second work develops a multi-output deep kernel learning model to deal with 
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Mariya Mamajiwala"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_MMamajiwala.jpg")
@@ -75,14 +74,12 @@ One of the algorithms I have developed using Langevin dynamics on Riemannian man
 ```{r}
 #| echo: FALSE
 #| out.width: 90%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
 knitr::include_graphics("photo_MMamajiwala.png")
 
 ```
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
 knitr::include_graphics("photo_MMamajiwala (2).png")
 ```
 
@@ -102,7 +99,7 @@ A similar approach is also used to develop algorithms in Markov chain Monte Carl
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Xitong Liang"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_XLiang.jpg")
@@ -133,7 +130,7 @@ We introduce a new framework, Random Neighbourhood Samplers, and show that many 
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Headshot of Kaiyu Li"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_KLi.jpg")
@@ -149,7 +146,6 @@ The simulation of a future Indonesian tsunami will be implemented by using a par
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
 #| out.width: 90%
 #| fig.align: "center"
 knitr::include_graphics("photo_XLiang.png")
@@ -169,7 +165,7 @@ I want to design novel learning algorithms to improve the efficiency of emulatio
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Hadshot of Zhuo Sun"
 #| out.width: 45%
 #| fig.align: "center"
 knitr::include_graphics("photo_ZSun.png")

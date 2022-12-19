@@ -21,7 +21,7 @@ Associate Professor – Teaching
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Photo of Elinor Jones"
 #| fig.align: center
 knitr::include_graphics("photo_ElinorJones.jpeg")
 ```
@@ -57,7 +57,7 @@ Associate Professor – Teaching
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Photo of Simon Harden"
 #| fig.align: center
 knitr::include_graphics("photo_SimonHarden.jpg")
 ```
@@ -93,7 +93,7 @@ Lecturer – Teaching
 ```{r}
 #| echo: FALSE
 #| out.width: 50%
-#| fig.alt: "Three people in karting attire arm to arm standing in front of a sign that saus Team Sport #1 in UK Indoor Karting"
+#| fig.alt: "Photo of Tom Honnor"
 #| fig.align: center
 knitr::include_graphics("photo_TomHonnor.jpg")
 ```

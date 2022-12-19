@@ -15,7 +15,7 @@ links:
 
 ```{r}
 #| echo: FALSE
-#| fig.alt: "Two rows of people in karting attire and mostly with happy faces."
+#| fig.alt: "Three people working in a lab and seem happy."
 #| fig.align: "center"
 knitr::include_graphics("lab.png")
 ```
