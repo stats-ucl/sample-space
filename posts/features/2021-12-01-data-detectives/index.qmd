@@ -16,7 +16,9 @@ links:
      image: photo_NathanGreen.jpg
 ---
 
+<!--
 > *Nathan Green on a week of investigative statistical teamwork*
+-->
 
 ```{r}
 #| echo: FALSE
@@ -27,7 +29,7 @@ links:
 knitr::include_graphics("photo_NathanGreen.jpg")
 ```
 
-::: {style="float: right;margin-right: 20px;margin-top: -0px;margin-bottom:0px;"}
+::: {style="float: right;margin-left: 20px;margin-top: -0px;margin-bottom:0px;"}
 ![](photo_NathanGreen.jpg){width="200px" height="200px"}
 :::
 
