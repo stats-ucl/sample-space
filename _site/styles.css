@@ -7,10 +7,12 @@
   box-shadow: var(--shadow-l1);
 }
 */
+
 /* Customises the navigation bar */
 .navbar{
   padding-left: 5%!important;
   padding-right: 5%!important;
+  background: linear-gradient(180deg,#F6BE00,#A4DBE8);
 }
 
 .alt-background {
@@ -48,6 +50,7 @@
   box-shadow: var(--shadow-l1);
   background: rgb(247,249,251);
   padding: 10px;
+  width: 75%;
 
 }
 .author-block h1 {

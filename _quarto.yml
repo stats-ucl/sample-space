@@ -5,11 +5,11 @@ website:
   title: "Sample Space"
   favicon: "media/images/UCL-sample-space.png"
   navbar:
-#    logo: "media/images/UCL-sample-space.png"
+#   logo: "media/images/UCL-sample-space.png"
     title: false
     background: light
     collapse-below: lg
-    left: 
+    left:
       - text: Home
         href: index.qmd
     right:
@@ -28,6 +28,31 @@ website:
       - icon: headphones
         href: https://soundcloud.com/uclsound/sets/sample-space
         aria-label: Soundcloud podcast
+  
+  # sidebar:
+  #   style: floating
+  #   search: true
+  #   logo: "media/images/UCL-sample-space.png"
+  #   tools: 
+  #     - icon: twitter
+  #       href: https://twitter.com/stats_ucl
+  #     - icon: instagram
+  #       href: https://www.instagram.com/ucl.stats
+  #     - icon: linkedin
+  #       href: https://linkedin.com/in/statistical-science-ucl-906b9a201/
+  #     - icon: facebook
+  #       href: https://facebook.com/StatisticalScience
+  #     - icon: github
+  #       href: https://github.com/stats-ucl
+  #     - icon: youtube
+  #       href: https://www.youtube.com/c/uclstatisticalscienceseminars
+  #     - icon: headphones
+  #       href: https://soundcloud.com/uclsound/sets/sample-space
+  #       aria-label: Soundcloud podcast
+  #   contents: 
+  #     - text: Home
+  #       href: index.qmd
+
 
 format:
   html:
