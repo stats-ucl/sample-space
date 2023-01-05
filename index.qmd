@@ -35,7 +35,7 @@ title-block-banner: true
 ---
 
 ::::{.title-box}
-# ![](media/images/UCL-sample-space.png){width="12%"} Sample Space    
+# ![](media/images/UCL-sample-space.png){width="12%"} &nbsp; Sample Space    
 News, views and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)
 ::::
 
