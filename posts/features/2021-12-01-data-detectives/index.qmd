@@ -1,10 +1,15 @@
 ---
 title: "Workshop Report: Data Detectives"
-author: "Nathan Green"
+#author: "Nathan Green"
 date: 2022-12-01
 categories:
   - "Issue 2"
 image: "photo_NathanGreen.jpg" 
+info:
+  author: Nathan Green
+  pic: photo_NathanGreen.jpg
+  bio: Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL
+  website: https://n8thangreen.github.io/
 links: 
    - title: "Workshop Report: Data Detectives"
      description: Nathan Green on a week of investigative statistical teamwork
@@ -46,3 +51,5 @@ Most of the students didn’t know each other before the workshop but were soon 
 On the final day, the teams gave presentations to the rest of the group and then voted on their favourite. Prizes of £100 book vouchers (hopefully to be spent on data analysis books!) were awarded for the best presentations. Clear progress had been made and the quality of the final presentations was excellent.
 
 Data Detectives was led by Alex Watson and developed and delivered by Alex, Elinor Jones, Sam Livingstone, Nathan Green and Ioanna Manolopoulou. 
+
+{{< include /posts/_info.qmd >}}

@@ -18,7 +18,7 @@
     "href": "index.html#recent-articles",
     "title": " Sample Space",
     "section": "Recent articles",
-    "text": "Recent articles\n\n\n\n\n\n\n\n\n\n\nWorkshop Report: Data Detectives\n\n\n\nIssue 2\n\n\n\n\n\n\n\nNathan Green\n\n\n1 Dec 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Story: MSc Data Science graduate Johanna Meier reflects on a year of two halves\n\n\n\nIssue 2\n\n\n\n\n\n\n\nJohanna Meier\n\n\n1 Mar 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudying during COVID\n\n\n\nIssue 2\n\n\n\n\n\n\n\n\n\n\n1 Dec 2021\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Recent articles\n\n\n\n\n\n\n\n\n\n\nWorkshop Report: Data Detectives\n\n\n\nIssue 2\n\n\n\n\n\n\n\n\n\n\n1 Dec 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Story: MSc Data Science graduate Johanna Meier reflects on a year of two halves\n\n\n\nIssue 2\n\n\n\n\n\n\n\nJohanna Meier\n\n\n1 Mar 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudying during COVID\n\n\n\nIssue 2\n\n\n\n\n\n\n\n\n\n\n1 Dec 2021\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#all-other-crap",
@@ -249,7 +249,7 @@
     "href": "posts/features/2021-12-01-data-detectives/index.html#building-relationships",
     "title": "Workshop Report: Data Detectives",
     "section": "Building relationships",
-    "text": "Building relationships\nMost of the students didn’t know each other before the workshop but were soon working well together on their projects. They developed their skills in how to explore data, how to dig down into the data by summarising, rearranging, tabulating and plotting, and how to communicate what they found.\nOn the final day, the teams gave presentations to the rest of the group and then voted on their favourite. Prizes of £100 book vouchers (hopefully to be spent on data analysis books!) were awarded for the best presentations. Clear progress had been made and the quality of the final presentations was excellent.\nData Detectives was led by Alex Watson and developed and delivered by Alex, Elinor Jones, Sam Livingstone, Nathan Green and Ioanna Manolopoulou."
+    "text": "Building relationships\nMost of the students didn’t know each other before the workshop but were soon working well together on their projects. They developed their skills in how to explore data, how to dig down into the data by summarising, rearranging, tabulating and plotting, and how to communicate what they found.\nOn the final day, the teams gave presentations to the rest of the group and then voted on their favourite. Prizes of £100 book vouchers (hopefully to be spent on data analysis books!) were awarded for the best presentations. Clear progress had been made and the quality of the final presentations was excellent.\nData Detectives was led by Alex Watson and developed and delivered by Alex, Elinor Jones, Sam Livingstone, Nathan Green and Ioanna Manolopoulou.\n\n\n\n\n\n\nNathan Green\n\nNathan is a Senior Research Fellow in the Department of Statistical Science at UCL\nhttps://n8thangreen.github.io/"
   },
   {
     "objectID": "posts/features/2021-12-01-covid-faculty/index.html",
@@ -362,5 +362,19 @@
     "title": "Sample Space",
     "section": "",
     "text": "Sample space has news, view, and research from the UCL Department of Statistical Science. You can read posts from the first issue and the latest issue."
+  },
+  {
+    "objectID": "posts/features/2021-12-01-data-detectives/index.html#meta-info.bio",
+    "href": "posts/features/2021-12-01-data-detectives/index.html#meta-info.bio",
+    "title": "Workshop Report: Data Detectives",
+    "section": "Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL",
+    "text": "Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL\nhttps://n8thangreen.github.io/"
+  },
+  {
+    "objectID": "posts/features/2021-12-01-data-detectives/index.html#meta-info.bio-1",
+    "href": "posts/features/2021-12-01-data-detectives/index.html#meta-info.bio-1",
+    "title": "Workshop Report: Data Detectives",
+    "section": "Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL",
+    "text": "Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL\nhttps://n8thangreen.github.io/"
   }
 ]

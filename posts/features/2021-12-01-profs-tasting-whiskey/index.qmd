@@ -6,12 +6,12 @@ categories:
   - "Issue 2"
 image: "IMG_20220121_172559.jpg" 
 links: 
-   - title: "Whiskey Business"
-     description: Dr Livingstone reports on a uniquely intoxicating experiment
-     image: "IMG_20220121_172559.jpg" 
+   title: "Whiskey Business"
+   description: Dr Livingstone reports on a uniquely intoxicating experiment
+   image: "IMG_20220121_172559.jpg" 
 ---
 
-> *Dr Livingstone reports on a uniquely intoxicating experiment*
+> *{{< meta links.description >}}*
 
 ## Behind closed doors
 

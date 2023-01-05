@@ -33,3 +33,20 @@
 .title-box img {
   border-radius: 12%;
 }
+
+/* Formatting for the author box in all the posts */
+.author-block {
+  border-radius: 30px;
+  box-shadow: var(--shadow-l1);
+  background: rgb(247,249,251);
+  padding: 10px;
+
+}
+.author-block h1 {
+  font-size: 24px;
+  margin: 3px
+}
+.author-block h2 {
+  font-size: 18px;
+  margin: 3px
+}
