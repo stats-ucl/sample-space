@@ -7,5 +7,5 @@
 # **{{< meta info.author >}}**    
 ## {{< meta info.bio >}}
 
-{{< meta info.website >}}
+[{{< meta info.website >}}]({{< meta info.website >}})
 ::::

@@ -1,0 +1,31 @@
+<!--
+This files first derives the relative path to the folder under which the page to share on selected social media is stored. 
+Then it creates a series of sharing buttons --- currently implemented:
+- Twitter
+- Email
+- LinkedIn
+- Whatsapp
+Others are fairly easy to create --- only need the fa icon of the relevant media + the combination of text that would be required
+to automatically share in on that platform
+-->
+
+```{r}
+#| echo: false
+# This chunk adds the social media share buttons at the end of the page
+# NB: assumes that the current file (qmd or Rmd) is stored under a named folder and it's not a rogue single file under a main subdirectory
+#     in the website structure (eg it shouldn't be '/blog/some-post.qmd', but '/blog/some-post/index.qmd')
+permalink=stringr::str_remove(getwd(),here::here())
+```
+
+<br>
+<center>
+<!-- This uses a trick and an external widget to share on any of the federated servers on Mastodon
+   see: https://shkspr.mobi/blog/2022/06/create-a-share-to-mastodon-button-for-wordpress/
+-->
+[{{< fa brands mastodon size=lg title="Share on Mastodon" color="#383838" >}}](`r paste0('https://toot.kytta.dev/?text=',rmarkdown::metadata$title,' https://sample-space.org',permalink)`){target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400px,height=600px'); return false;"} &nbsp;
+[{{< fa brands twitter size=lg title="Share on Twitter" color="#383838" >}}](`r paste0("https://twitter.com/intent/tweet?url=https://sample-space.org",permalink,"/&text=",rmarkdown::metadata$title)`){target="_blank"} &nbsp;
+[{{< fa envelope size=lg title="Share by email" color="#383838">}}](`r paste0("mailto:?subject=",rmarkdown::metadata$title,"&body=https://sample-space.org",permalink)`){target="_blank"} &nbsp;
+[{{< fa brands linkedin size=lg title="Share on LinkedIn" color="#383838" >}}](`r paste0("https://www.linkedin.com/shareArticle?url=https://sample-space.org",permalink,"/&title=",rmarkdown::metadata$title)`){target="_blank"} &nbsp;
+[{{< fa brands whatsapp size=lg title="Share on Whatsapp" color="#383838" >}}](`r paste0("https://web.whatsapp.com/send?text=",rmarkdown::metadata$title,"https://sample-space.org",permalink,"/")`){target="_blank"} &nbsp;
+[{{< fa brands reddit size=lg title="Share on Reddit" color="#383838" >}}](`r paste0("https://reddit.com/submit?url=https://sample-space.org",permalink,"/&title=",rmarkdown::metadata$title)`){target="_blank"}
+</center>

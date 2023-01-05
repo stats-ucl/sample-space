@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,10 +189,31 @@ ul.task-list li input[type="checkbox"] {
 <h1><strong>Nathan Green</strong></h1>
 <section id="meta-info.bio" class="level2">
 <h2 class="anchored" data-anchor-id="meta-info.bio">Nathan is a Senior Research Fellow in the Department of Statistical Science at UCL</h2>
-<p>https://n8thangreen.github.io/</p>
+<p><a href="https://n8thangreen.github.io/">https://n8thangreen.github.io/</a></p>
 </section>
 </section>
 </div>
+<p><br></p>
+<!--
+This files first derives the relative path to the folder under which the page to share on selected social media is stored. 
+Then it creates a series of sharing buttons --- currently implemented:
+- Twitter
+- Email
+- LinkedIn
+- Whatsapp
+Others are fairly easy to create --- only need the fa icon of the relevant media + the combination of text that would be required
+to automatically share in on that platform
+-->
+<div class="cell">
+
+</div>
+<br>
+<center>
+<!-- This uses a trick and an external widget to share on any of the federated servers on Mastodon
+   see: https://shkspr.mobi/blog/2022/06/create-a-share-to-mastodon-button-for-wordpress/
+-->
+<a href="https://toot.kytta.dev/?text=Workshop%20Report:%20Data%20Detectives%20https://sample-space.org/posts/features/2021-12-01-data-detectives" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400px,height=600px'); return false;"><i class="fa-brands fa-mastodon fa-lg" title="Share on Mastodon" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://twitter.com/intent/tweet?url=https://sample-space.org/posts/features/2021-12-01-data-detectives/&amp;text=Workshop%20Report:%20Data%20Detectives" target="_blank"><i class="fa-brands fa-twitter fa-lg" title="Share on Twitter" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="mailto:?subject=Workshop%20Report:%20Data%20Detectives&amp;body=https://sample-space.org/posts/features/2021-12-01-data-detectives" target="_blank"><i class="fa-solid fa-envelope fa-lg" title="Share by email" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://www.linkedin.com/shareArticle?url=https://sample-space.org/posts/features/2021-12-01-data-detectives/&amp;title=Workshop%20Report:%20Data%20Detectives" target="_blank"><i class="fa-brands fa-linkedin fa-lg" title="Share on LinkedIn" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://web.whatsapp.com/send?text=Workshop%20Report:%20Data%20Detectiveshttps://sample-space.org/posts/features/2021-12-01-data-detectives/" target="_blank"><i class="fa-brands fa-whatsapp fa-lg" title="Share on Whatsapp" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://reddit.com/submit?url=https://sample-space.org/posts/features/2021-12-01-data-detectives/&amp;title=Workshop%20Report:%20Data%20Detectives" target="_blank"><i class="fa-brands fa-reddit fa-lg" title="Share on Reddit" style="color:#383838" aria-hidden="true"></i></a>
+</center>
 
 
 </section>

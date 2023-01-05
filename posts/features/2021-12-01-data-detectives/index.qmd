@@ -53,3 +53,7 @@ On the final day, the teams gave presentations to the rest of the group and then
 Data Detectives was led by Alex Watson and developed and delivered by Alex, Elinor Jones, Sam Livingstone, Nathan Green and Ioanna Manolopoulou. 
 
 {{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
