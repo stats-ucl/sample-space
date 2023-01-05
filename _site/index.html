@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.237">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -129,7 +129,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -161,54 +162,43 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/images/UCL-sample-space.png" alt="" class="navbar-logo">
-    </a>
-  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html">
- <span class="menu-text">Sample Space</span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/stats_ucl"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/stats_ucl" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/ucl.stats"><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://facebook.com/StatisticalScience"><i class="bi bi-facebook" role="img">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience" rel="" target=""><i class="bi bi-facebook" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/stats-ucl"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/stats-ucl" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars"><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars" rel="" target=""><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space"><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space" rel="" target=""><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -219,24 +209,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Sample Space</h1>
-            <p class="subtitle lead">News, views and research from the <a href="https://ucl.ac.uk/statistics">UCL Department of Statistical Science</a></p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -247,11 +220,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
+<section id="sample-space" class="level1 title-box">
+<h1><img src="media/images/UCL-sample-space.png" class="img-fluid" style="width:10.0%"> Sample Space</h1>
+<p>News, views and research from the <a href="https://ucl.ac.uk/statistics">UCL Department of Statistical Science</a></p>
+</section>
+<section id="highlights" class="level2">
+<h2 class="anchored" data-anchor-id="highlights">Highlights</h2>
 <div class="content-block">
 <div id="listing-top-block" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671473803154" data-listing-reading-time-sort="3.555">
+<div class="g-col-1" data-index="0" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.555">
 <a href="./posts/top-block/2022-05-13-sample-space-2/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -285,9 +263,12 @@ No matching items
 </div>
 </div>
 </div>
+</section>
+<section id="recent-articles" class="level2">
+<h2 class="anchored" data-anchor-id="recent-articles">Recent articles</h2>
 <div id="listing-features" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1671475631595" data-listing-reading-time-sort="1.99">
+<div class="g-col-1" data-index="0" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.99">
 <a href="./posts/features/2021-12-01-data-detectives/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-right">
 <p class="card-img-top">
@@ -317,7 +298,7 @@ Nathan Green
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1671475883584" data-listing-reading-time-sort="3.745">
+<div class="g-col-1" data-index="1" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1671546590104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.745">
 <a href="./posts/features/2021-12-01-msc/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-right">
 <p class="card-img-top">
@@ -347,15 +328,15 @@ Johanna Meier
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475181308" data-listing-reading-time-sort="2.28">
-<a href="./posts/features/2021-12-01-away-days/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5.755">
+<a href="./posts/features/2021-12-01-covid-students/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-right">
 <p class="card-img-top">
-<img src="./posts/features/2021-12-01-away-days/IMG_20210920_143736.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/features/2021-12-01-covid-students/photo_LukeLawlor.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-A changing of the guard
+Studying during COVID
 </h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Issue 2'); return false;">
@@ -363,11 +344,11 @@ Issue 2
 </div>
 </div>
 <div class="card-text listing-description">
-<em>On Monday 20th September 2021, after a lengthy period of lockdown, the department organised an outdoor get-together in the gardens of the Freud Museum in London.</em>
+<em>Students look back at their virtual learning experiences</em>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Samuel Livingstone
+
 </div>
 <div class="listing-date">
 1 Dec 2021
@@ -385,13 +366,17 @@ No matching items
   <ul class="pagination"></ul>
 </nav>
 </div>
+</section>
+<section id="all-other-crap" class="level2">
+<h2 class="anchored" data-anchor-id="all-other-crap">All other crap</h2>
 
 
 
+</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-categories">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475181308" data-listing-reading-time-sort="2.28">
+<div class="quarto-post image-right" data-index="0" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2.28">
 <div class="thumbnail">
 <p><a href="./posts/features/2021-12-01-away-days/index.html"> <img src="./posts/features/2021-12-01-away-days/IMG_20210920_143736.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -426,7 +411,7 @@ Samuel Livingstone
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474046190" data-listing-reading-time-sort="1.94">
+<div class="quarto-post image-right" data-index="1" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.94">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-away-days/index.html"> <img src="./posts/features/2020-04-07-away-days/gokart_all.jpeg" class="thumnail-image"> </a></p>
 </div>
@@ -458,7 +443,7 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474266343" data-listing-reading-time-sort="4.17">
+<div class="quarto-post image-right" data-index="2" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4.17">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-breaking-the-waves/index.html"> <img src="./posts/features/2020-04-07-breaking-the-waves/group.png" class="thumnail-image"> </a></p>
 </div>
@@ -490,7 +475,7 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474345226" data-listing-reading-time-sort="2.28">
+<div class="quarto-post image-right" data-index="3" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2.28">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-erasmus/index.html"> <img src="./posts/features/2020-04-07-erasmus/Hideki2.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -522,7 +507,7 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671473910628" data-listing-reading-time-sort="1.99">
+<div class="quarto-post image-right" data-index="4" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.99">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-athena-swan/index.html"> <img src="./posts/features/2020-04-07-athena-swan/NewsletterPhoto_DThomassen_1.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -557,7 +542,7 @@ Doranne Thomassen
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474784398" data-listing-reading-time-sort="2.465">
+<div class="quarto-post image-right" data-index="5" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2.465">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-new-staff/index.html"> <img src="./posts/features/2020-04-07-new-staff/Jim_picture_04_02_19_4.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -589,7 +574,7 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475964970" data-listing-reading-time-sort="2.405">
+<div class="quarto-post image-right" data-index="6" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2.405">
 <div class="thumbnail">
 <p><a href="./posts/features/2021-12-01-new-staff/index.html"> <img src="./posts/features/2021-12-01-new-staff/photo_ESimpson.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -621,7 +606,7 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1669995906314" data-listing-reading-time-sort="2.795">
+<div class="quarto-post image-right" data-index="7" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1670341187657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2.795">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-introducing-sample-space/index.html"> <img src="./posts/features/2020-04-07-introducing-sample-space/dept.png" class="thumnail-image"> </a></p>
 </div>
@@ -656,7 +641,7 @@ Richard Chandler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474596827" data-listing-reading-time-sort="4.77">
+<div class="quarto-post image-right" data-index="8" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4.77">
 <div class="thumbnail">
 <p><a href="./posts/features/2020-04-07-imss/index.html"> <img src="./posts/features/2020-04-07-imss/162 18_0008_UCL Maths Faculty 2111.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -688,7 +673,7 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1671475883584" data-listing-reading-time-sort="3.745">
+<div class="quarto-post image-right" data-index="9" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1671546590104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.745">
 <div class="thumbnail">
 <p><a href="./posts/features/2021-12-01-msc/index.html"> <img src="./posts/features/2021-12-01-msc/photo_JohannaMeier.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -723,9 +708,9 @@ Johanna Meier
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474687384" data-listing-reading-time-sort="3.925">
+<div class="quarto-post image-right" data-index="10" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.925">
 <div class="thumbnail">
-<p><a href="./posts/features/2020-04-07-my-story/index.html"> <img src="./posts/features/2020-04-07-my-story/Mete headshot.JPG" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2020-04-07-my-story/index.html"> <img data-src="./posts/features/2020-04-07-my-story/Mete headshot.JPG" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2020-04-07-my-story/index.html">
@@ -758,7 +743,7 @@ Mete Veyisoglu
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671460264669" data-listing-reading-time-sort="5.005">
+<div class="quarto-post image-right" data-index="11" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5.005">
 <div class="thumbnail">
 <a href="./posts/features/2021-12-01-news-in-brief/index.html">
 <div class="thumbnail-image">
@@ -794,9 +779,9 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474929621" data-listing-reading-time-sort="6.09">
+<div class="quarto-post image-right" data-index="12" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6.09">
 <div class="thumbnail">
-<p><a href="./posts/features/2020-04-07-phd-in-progress/index.html"> <img src="./posts/features/2020-04-07-phd-in-progress/Wenyu_pic.JPG" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2020-04-07-phd-in-progress/index.html"> <img data-src="./posts/features/2020-04-07-phd-in-progress/Wenyu_pic.JPG" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2020-04-07-phd-in-progress/index.html">
@@ -826,9 +811,9 @@ Apr 7, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671476106764" data-listing-reading-time-sort="6.76">
+<div class="quarto-post image-right" data-index="13" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6.76">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-phd-in-progress/index.html"> <img src="./posts/features/2021-12-01-phd-in-progress/photo_ACaron.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-phd-in-progress/index.html"> <img data-src="./posts/features/2021-12-01-phd-in-progress/photo_ACaron.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-phd-in-progress/index.html">
@@ -858,9 +843,9 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-listing-file-modified-sort="1669222496661" data-listing-reading-time-sort="0.135">
+<div class="quarto-post image-right" data-index="14" data-listing-file-modified-sort="1669926391934" data-listing-reading-time-sort="0.135">
 <div class="thumbnail">
-<p><a href="./about.html"> <img src="./media/images/UCL-sample-space.png" class="thumnail-image"> </a></p>
+<p><a href="./about.html"> <img data-src="./media/images/UCL-sample-space.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./about.html">
@@ -879,9 +864,9 @@ The magazine of the UCL Department of Statistical Science
 <a href="./about.html"> </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671473803154" data-listing-reading-time-sort="3.555">
+<div class="quarto-post image-right" data-index="15" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.555">
 <div class="thumbnail">
-<p><a href="./posts/top-block/2022-05-13-sample-space-2/index.html"> <img src="./posts/top-block/2022-05-13-sample-space-2/photo_HeadofDepartmentGianlucaBaio.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/top-block/2022-05-13-sample-space-2/index.html"> <img data-src="./posts/top-block/2022-05-13-sample-space-2/photo_HeadofDepartmentGianlucaBaio.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/top-block/2022-05-13-sample-space-2/index.html">
@@ -914,9 +899,9 @@ Gianluca Baio
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475580845" data-listing-reading-time-sort="5.755">
+<div class="quarto-post image-right" data-index="16" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5.755">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-covid-students/index.html"> <img src="./posts/features/2021-12-01-covid-students/photo_LukeLawlor.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-covid-students/index.html"> <img data-src="./posts/features/2021-12-01-covid-students/photo_LukeLawlor.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-covid-students/index.html">
@@ -946,9 +931,9 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474991524" data-listing-reading-time-sort="1.635">
+<div class="quarto-post image-right" data-index="17" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.635">
 <div class="thumbnail">
-<p><a href="./posts/features/2020-04-07-teaching-statistics/index.html"> <img src="./posts/features/2020-04-07-teaching-statistics/Teaching Stats event _audience.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2020-04-07-teaching-statistics/index.html"> <img data-src="./posts/features/2020-04-07-teaching-statistics/Teaching Stats event _audience.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2020-04-07-teaching-statistics/index.html">
@@ -981,9 +966,9 @@ Simon Harden and the Teaching Fellows
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475528126" data-listing-reading-time-sort="5.345">
+<div class="quarto-post image-right" data-index="18" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5.345">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-covid-faculty/index.html"> <img src="./posts/features/2021-12-01-covid-faculty/photo_ElinorJones.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-covid-faculty/index.html"> <img data-src="./posts/features/2021-12-01-covid-faculty/photo_ElinorJones.jpeg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-covid-faculty/index.html">
@@ -1013,9 +998,9 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475821375" data-listing-reading-time-sort="3.66">
+<div class="quarto-post image-right" data-index="19" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.66">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-eugenics-inquiry/index.html"> <img src="./posts/features/2021-12-01-eugenics-inquiry/photo_EugenicsEnquiry1.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-eugenics-inquiry/index.html"> <img data-src="./posts/features/2021-12-01-eugenics-inquiry/photo_EugenicsEnquiry1.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-eugenics-inquiry/index.html">
@@ -1045,9 +1030,9 @@ Dec 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671476167280" data-listing-reading-time-sort="4.99">
+<div class="quarto-post image-right" data-index="20" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4.99">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-profs-tasting-whiskey/index.html"> <img src="./posts/features/2021-12-01-profs-tasting-whiskey/IMG_20220121_172559.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-profs-tasting-whiskey/index.html"> <img data-src="./posts/features/2021-12-01-profs-tasting-whiskey/IMG_20220121_172559.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-profs-tasting-whiskey/index.html">
@@ -1080,9 +1065,9 @@ Sam Livingstone
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671475454461" data-listing-reading-time-sort="6.22">
+<div class="quarto-post image-right" data-index="21" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6.22">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-brieuc/index.html"> <img src="./posts/features/2021-12-01-brieuc/photo_BrieucLehmann.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-brieuc/index.html"> <img data-src="./posts/features/2021-12-01-brieuc/photo_BrieucLehmann.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-brieuc/index.html">
@@ -1115,9 +1100,9 @@ Brieuc Lehmann &amp; George Nicholson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1671475631595" data-listing-reading-time-sort="1.99">
+<div class="quarto-post image-right" data-index="22" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1671546590100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.99">
 <div class="thumbnail">
-<p><a href="./posts/features/2021-12-01-data-detectives/index.html"> <img src="./posts/features/2021-12-01-data-detectives/photo_NathanGreen.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2021-12-01-data-detectives/index.html"> <img data-src="./posts/features/2021-12-01-data-detectives/photo_NathanGreen.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2021-12-01-data-detectives/index.html">
@@ -1150,9 +1135,9 @@ Nathan Green
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671474386467" data-listing-reading-time-sort="1.97">
+<div class="quarto-post image-right" data-index="23" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1671546590096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.97">
 <div class="thumbnail">
-<p><a href="./posts/features/2020-04-07-event/index.html"> <img src="./posts/features/2020-04-07-event/lab.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/features/2020-04-07-event/index.html"> <img data-src="./posts/features/2020-04-07-event/lab.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/features/2020-04-07-event/index.html">
@@ -1189,6 +1174,9 @@ Elinor Jones
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="categories-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

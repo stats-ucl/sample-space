@@ -5,12 +5,12 @@ website:
   title: "Sample Space"
   favicon: "media/images/UCL-sample-space.png"
   navbar:
-    logo: "media/images/UCL-sample-space.png"
+#    logo: "media/images/UCL-sample-space.png"
     title: false
     background: light
     collapse-below: lg
-    left: 
-      - about.qmd
+    # left: 
+    #   - about.qmd
     right:
       - icon: twitter
         href: https://twitter.com/stats_ucl

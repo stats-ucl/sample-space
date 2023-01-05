@@ -1,11 +1,12 @@
 /* css styles */
 
-/* Makes the navigation bar bigger to get the image */
+/* Makes the navigation bar bigger to get the image 
 .navbar-brand > img {
   max-height: 72px;
-  border-radius: 12%; /* Change this from the original 100%, which would make it a circle */
+  border-radius: 12%; /* Change this from the original 100%, which would make it a circle 
   box-shadow: var(--shadow-l1);
 }
+*/
 
 .alt-background {
   background-color: rgb(247,249,251);
@@ -19,5 +20,16 @@
   margin-left: 30px;
   margin-right: 30px;
 }
+/* This modifies the title of the summary */
+.content-block .card-title {
+  color: red;
+  font-size: 1.5rem;
+}
 
-
+/* Formatting for the main title box in the index page */
+.title-box h1 {
+  font-size: 48px;
+}
+.title-box img {
+  border-radius: 12%;
+}
