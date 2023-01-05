@@ -9,8 +9,9 @@ website:
     title: false
     background: light
     collapse-below: lg
-    # left: 
-    #   - about.qmd
+    left: 
+      - text: Home
+        href: index.qmd
     right:
       - icon: twitter
         href: https://twitter.com/stats_ucl

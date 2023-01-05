@@ -15,11 +15,16 @@ links:
 
 ```{r}
 #| echo: FALSE
+#| include: false
 #| out.height: 200
 #| fig.align: center
 #| fig.alt: "Nathan Green headshot"
 knitr::include_graphics("photo_NathanGreen.jpg")
 ```
+
+::: {style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px;"}
+![](photo_NathanGreen.jpg){width="200px" height="200px"}
+:::
 
 
 From 21st-25th June, 2021, members of the department were excited to host 15 Year 12 students for a virtual workshop called Data Detectives. The workshop was free to attend and open to Year 12/S5 students from non-selective UK state schools who were studying mathematics or similar at A level. 
