@@ -27,7 +27,7 @@ links:
 knitr::include_graphics("photo_NathanGreen.jpg")
 ```
 
-::: {style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px;"}
+::: {style="float: right;margin-right: 20px;margin-top: -0px;margin-bottom:0px;"}
 ![](photo_NathanGreen.jpg){width="200px" height="200px"}
 :::
 
