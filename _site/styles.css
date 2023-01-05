@@ -7,6 +7,11 @@
   box-shadow: var(--shadow-l1);
 }
 */
+/* Customises the navigation bar */
+.navbar{
+  padding-left: 5%!important;
+  padding-right: 5%!important;
+}
 
 .alt-background {
   background-color: rgb(247,249,251);
@@ -32,6 +37,9 @@
 }
 .title-box img {
   border-radius: 12%;
+}
+.title-box {
+  margin-top: -40px;
 }
 
 /* Formatting for the author box in all the posts */
