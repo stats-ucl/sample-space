@@ -12,7 +12,9 @@
 .navbar{
   padding-left: 5%!important;
   padding-right: 5%!important;
+  /*
   background: linear-gradient(180deg,#F6BE00,#A4DBE8);
+  */
 }
 
 .alt-background {
@@ -33,6 +35,22 @@
   font-size: 1.5rem;
 }
 
+/* This ***forces*** all images in the articles to be flushed to the right --- BUT: can't be overridden so *all* img-s are flushed to the right! 
+img {
+  float: right;
+  margin-left: 20px;
+  margin-top: -0px;
+  margin-bottom:0px;
+}
+*/
+
+.img-right img {
+  float: right;
+  margin-left: 20px;
+  margin-top: -0px;
+  margin-bottom:0px;
+}
+
 /* Formatting for the main title box in the index page */
 .title-box h1 {
   font-size: 48px;
@@ -51,7 +69,6 @@
   background: rgb(247,249,251);
   padding: 10px;
   width: 75%;
-
 }
 .author-block h1 {
   font-size: 24px;
@@ -60,4 +77,93 @@
 .author-block h2 {
   font-size: 18px;
   margin: 3px
+}
+
+/* Redefines the styling for the default listing */
+// Post (default) Styling
+.list.quarto-listing-default div:last-of-type {
+  border-bottom: none;
+}
+
+.quarto-listing-container-default {
+  @include media-breakpoint-up(lg) {
+    margin-right: 2em;
+  }
+}
+
+div.quarto-post {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1.5em;
+  @include media-breakpoint-down(md) {
+    padding-bottom: 1em;
+  }
+  border-bottom: 1px solid $border-color;
+
+  .metadata {
+    flex-basis: 20%;
+    flex-grow: 0;
+    margin-top: 0.2em;
+    flex-shrink: 10;
+  }
+
+  .thumbnail {
+    flex-basis: 30%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    img {
+      margin-top: 0.4em;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .body {
+    flex-basis: 45%;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    h3.listing-title {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      border-bottom: none;
+    }
+
+    .listing-subtitle {
+      font-size: 0.875em;
+      margin-bottom: 0.5em;
+      margin-top: 0.2em;
+    }
+
+    .description {
+      font-size: 0.9em;
+    }
+  }
+
+  a {
+    color: $body-color;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+    div.description {
+      flex-shrink: 0;
+    }
+  }
+
+  .metadata {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    font-family: $font-family-base;
+    flex-basis: 33%;
+  }
+
+  .listing-categories {
+    @include listing-category();
+  }
+
+  .listing-description {
+    margin-bottom: 0.5em;
+  }
 }

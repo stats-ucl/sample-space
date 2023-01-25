@@ -1,15 +1,14 @@
 ---
 title: "Sample Space 2 - the sequel!" 
-author: "Gianluca Baio"
 date: 2021-12-01
 categories:
   - "Issue 2"
 image: "photo_HeadofDepartmentGianlucaBaio.png" 
-links: 
-   - title: Gianluca Baio
-     description: Gianluca is Professor of Statistics and Health Economics and the head of the department (for the term 2021-2026)
-     image: photo_HeadofDepartmentGianlucaBaio.png
-     website: https://gianluca.statistica.it
+info:
+  author: "Gianluca Baio"
+  pic: photo_HeadofDepartmentGianlucaBaio.png
+  bio: Gianluca is Professor of Statistics and Health Economics and the head of the department (for the term 2021-2026)
+  website: https://gianluca.statistica.it
 ---
 
 ```{r}
@@ -17,8 +16,13 @@ links:
 #| out.width: 50%
 #| fig.alt: "Headshot of Gianluca Baio who is a short wavy hair and wearing glasses. He is in a office with a whiteboard and a bookcase in the background."
 #| fig.align: center
+#| include: false
 knitr::include_graphics("photo_HeadofDepartmentGianlucaBaio.png")
 ```
+
+:::{.img-right}
+![](photo_HeadofDepartmentGianlucaBaio.png){width="30%"}
+:::
 
 I am very excited to introduce the second issue of the departmental magazine in my relatively new role as Head of the Department --- I took over from [Richard Chandler](https://www.ucl.ac.uk/statistics/people/richardchandler) in September 2021 (you can read some sassy details of the transition [in this issue](../../features/2021-12-01-away-days/index.html)). You may judge me if I say this out loud but I was, and still am, very excited and proud to become the head of the department where, essentially, I have spent my entire adult career! 
 
@@ -34,3 +38,8 @@ In the time since the last issue of *Sample Space*, we have also worked hard to 
 
 We've also started our podcast series (aptly named "[Random Talks](https://soundcloud.com/uclsound/sets/sample-space)"), thanks to the brilliant work of Sam, [Terry Soo](https://www.ucl.ac.uk/statistics/dr-terry-soo), [Nathan Green](https://www.ucl.ac.uk/statistics/dr-nathan-green) and Brieuc, who have already produced some super-interesting episodes, including one where [Tom Fearn](https://www.ucl.ac.uk/statistics/people/tomfearn) tells about his experience sitting on the UCL eugenics inquiry, which is also presented [in this issue](../../features/2021-12-01-eugenics-inquiry/index.html).
 
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}

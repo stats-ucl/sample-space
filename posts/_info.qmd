@@ -1,11 +1,16 @@
 <br><br>
 
 :::: {.author-block}
-::: {style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px;"}
-![]({{< meta info.pic >}}){width="60px" height="60px"}
+::: {style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px; object-fit:contain"}
+![]({{< meta info.pic >}}){width="60px" height="60px" height="auto" width="auto\9"}
 :::
 # **{{< meta info.author >}}**    
 ## {{< meta info.bio >}}
 
-[{{< meta info.website >}}]({{< meta info.website >}})
+```{r eval=!is.null(rmarkdown::metadata$info$website)}
+#| results: "asis"
+#| echo: false
+cat(htmltools::HTML(paste0("[",rmarkdown::metadata$info$website,"](",rmarkdown::metadata$info$website,")")))
+```
+
 ::::

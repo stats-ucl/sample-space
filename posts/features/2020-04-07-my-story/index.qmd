@@ -1,10 +1,14 @@
 ---
 title: "My story"
-author: Mete Veyisoglu
 date: 2020-04-07
 categories:
   - "Issue 1"
 image: "Mete headshot.JPG" 
+info:
+  author: Mete Veyisoglu
+  pic: Mete headshot.JPG
+  bio: Mete is a student in the MSc Data Science at the Department of Statistical Science at UCL
+  website:
 links: 
    - title: My story
      description: "Mete Veyisoglu spent a year studying MSc Data Science at UCL in 2018/19" 
@@ -34,3 +38,9 @@ The quantitative skills I gained and the brilliant people I met during my year a
 
 
 **Look out for more student stories in future editions of Sample Space.**
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}

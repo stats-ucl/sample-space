@@ -1,24 +1,24 @@
 ---
 title: "My Story: MSc Data Science graduate Johanna Meier reflects on a year of two halves"
 date: 2022-03-01
-author: "Johanna Meier"
 categories:
   - "Issue 2"
-image: "photo_JohannaMeier.jpg" 
+image: photo_JohannaMeier.jpg
+info:
+  author: "Johanna Meier"
+  pic: photo_JohannaMeier.jpg
+  bio: Joahnna has graduated from the MSc Data Science at the Department of Statistical Science at UCL
 links: 
    - title: "My Story"
      description: MSc Data Science graduate Johanna Meier reflects on a year of two halves  
      image: photo_JohannaMeier.jpg
 ---
 
+:::{.img-right}
+![](photo_JohannaMeier.jpg){width="30%"}
+:::
 
-```{r}
-#| echo: FALSE
-#| fig.align: center
-#| out.width: 50%
-#| fig.alt: "Headshot og Johanne Meier"
-knitr::include_graphics("photo_JohannaMeier.jpg")
-```
+{{< meta image >}}
 
 When I moved to London in September 2019, I never expected that I would be able to divide my graduate studies into two parts: experiences pre- and during a worldwide pandemic. 
 
@@ -38,3 +38,8 @@ Writing this paper gave me the opportunity to develop my scientific coding and w
 
 In retrospect, coming to London to pursue the MSc Data Science gave me so much more than a degree – it boosted my quantitative skills and left me with a network of bright and caring people, despite the COVID-19 disruptions.
 
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}

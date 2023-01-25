@@ -4,7 +4,7 @@ subtitle: "News, views and research from the [UCL Department of Statistical Scie
 listing: 
   - id: top-block
     contents: posts/top-block/
-    type: grid
+    type: default
     sort: 
       - "date desc"
     max-items: 1
@@ -12,7 +12,7 @@ listing:
 #    image-height: "5"
     date-format: dddd, D MMM YYYY
     max-description-length: 600
-    fields: [image,date,title,author,description,reading-time]
+    fields: [image,title,date,author,description,reading-time]
     
   - id: features
     contents: posts/features/
