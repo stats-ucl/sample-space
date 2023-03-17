@@ -11,14 +11,14 @@ info:
 links: 
    - title: "My Story"
      description: MSc Data Science graduate Johanna Meier reflects on a year of two halves  
-     image: photo_JohannaMeier.jpg
 ---
 
-:::{.img-right}
-![](photo_JohannaMeier.jpg){width="30%"}
-:::
 
-{{< meta image >}}
+:::{.img-right}
+
+![](photo_JohannaMeier.jpg){width="30%" alt="Photo of Johanna Meier"}
+
+:::
 
 When I moved to London in September 2019, I never expected that I would be able to divide my graduate studies into two parts: experiences pre- and during a worldwide pandemic. 
 

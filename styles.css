@@ -167,3 +167,114 @@ div.quarto-post {
     margin-bottom: 0.5em;
   }
 }
+
+/* Cara Thompson modifications from here onwards */
+
+.fa, .fas, .bi, .fa-solid {
+  color: #F6BE00;
+}
+
+.nav-link {
+  color: #F6BE00;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #F6BE00;
+}
+
+
+.navbar-logo {
+  width: 100%;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.navbar {
+  background-color: #141812;
+  border-bottom: #A4DBE8;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+}
+
+/* Controls how quickly the header disappears*/
+header.headroom {
+  will-change: transform;
+  transition: all 250ms linear;
+}
+
+/* Controls search icon colour*/
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: #F6BE00;
+}
+
+.page-item .page-link {
+  z-index: 3;
+  color: #F7F6E4;
+  background-color: #4A6162;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #FFF;
+  background-color: #4A6162;
+  border-bottom-color: #F6BE00;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.column-page-bg {
+  background-color: #F5F5F5;
+  padding: 1.5em;
+}
+
+
+.column-screen-bg {
+  background-color: #F5F5F5;
+  padding: 1.5em;
+}
+
+.author-block {
+  border-radius: 0px;
+  background: #F5F5F5;
+  padding: 1.5em;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+img, svg {
+  vertical-align: middle;
+  width: auto;
+}
+
+
+.category {
+   color: #2C3836;
+}
+
+.quarto-title-banner {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background-color: #141812;
+  border-bottom: #A4DBE8;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+}
+
+#title-block-header .title {
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+
+#title-block-header .subtitle {
+  font-weight: 400;
+  color: #F5F5F5;
+}
+
+
+#title-block-header a {
+  color: #F5F5F5;
+  text-decoration: underline;
+}

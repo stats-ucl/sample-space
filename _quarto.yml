@@ -5,12 +5,12 @@ website:
   title: "Sample Space"
   favicon: favicon.ico
   navbar:
-#   logo: "media/images/UCL-sample-space.png"
-    title: true
+    logo: "media/images/UCL-sample-space.png"
     background: light
+    title: false
     collapse-below: lg
     left:
-      - text: Home
+      - text: Sample Space
         href: index.qmd
     right:
       - icon: twitter
@@ -28,8 +28,7 @@ website:
       - icon: headphones
         href: https://soundcloud.com/uclsound/sets/sample-space
         aria-label: Soundcloud podcast
-    title-block-banner: true
-  
+
   # sidebar:
   #   style: floating
   #   search: true

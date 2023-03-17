@@ -1,6 +1,7 @@
 ---
-#title: "Sample Space"
-subtitle: "News, views and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)"
+title: "Sample Space"
+subtitle: "News, Views and Research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)"
+
 listing: 
   - id: top-block
     contents: posts/top-block/
@@ -34,19 +35,17 @@ page-layout: full
 title-block-banner: true
 ---
 
-::::{.title-box}
-# ![](media/images/UCL-sample-space.png){width="12%"} &nbsp; Sample Space    
-News, views and research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)
-::::
-
 ## Highlights
 :::: {.content-block}
 ::: {#top-block}
 :::
 ::::
 
+:::: {.column-page-bg}
+
 ## Recent articles
 ::: {#features}
 ::: 
+::::
 
 ## All other crap
