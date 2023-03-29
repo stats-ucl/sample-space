@@ -1,8 +1,9 @@
 ---
-title: "My Story: MSc Data Science graduate Johanna Meier reflects on a year of two halves"
+title: "My Story: Johanna Meier"
 date: 2022-03-01
 categories:
   - "Issue 2"
+description: MSc Data Science graduate Johanna Meier reflects on a year of two halves
 image: photo_JohannaMeier.jpg
 info:
   author: "Johanna Meier"

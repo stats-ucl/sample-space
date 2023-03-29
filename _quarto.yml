@@ -10,7 +10,7 @@ website:
     title: false
     collapse-below: lg
     left:
-      - text: Sample Space
+      - text: "News, Views and Research<br>from the UCL Department of Statistical Science"
         href: index.qmd
     right:
       - icon: twitter
@@ -28,31 +28,30 @@ website:
       - icon: headphones
         href: https://soundcloud.com/uclsound/sets/sample-space
         aria-label: Soundcloud podcast
-
-  # sidebar:
-  #   style: floating
-  #   search: true
-  #   logo: "media/images/UCL-sample-space.png"
-  #   tools: 
-  #     - icon: twitter
-  #       href: https://twitter.com/stats_ucl
-  #     - icon: instagram
-  #       href: https://www.instagram.com/ucl.stats
-  #     - icon: linkedin
-  #       href: https://linkedin.com/in/statistical-science-ucl-906b9a201/
-  #     - icon: facebook
-  #       href: https://facebook.com/StatisticalScience
-  #     - icon: github
-  #       href: https://github.com/stats-ucl
-  #     - icon: youtube
-  #       href: https://www.youtube.com/c/uclstatisticalscienceseminars
-  #     - icon: headphones
-  #       href: https://soundcloud.com/uclsound/sets/sample-space
-  #       aria-label: Soundcloud podcast
-  #   contents: 
-  #     - text: Home
-  #       href: index.qmd
-
+  page-footer: 
+    left: "[Sample Space](index.html): News, Views and Research from the [UCL Department of Statistical Science](https://www.ucl.ac.uk/statistics/department-statistical-science)"
+    right:
+      - icon: twitter
+        href: https://twitter.com/stats_ucl
+      - icon: instagram
+        href: https://www.instagram.com/ucl.stats
+      - icon: linkedin
+        href: https://linkedin.com/in/statistical-science-ucl-906b9a201/
+      - icon: facebook
+        href: https://facebook.com/StatisticalScience
+      - icon: github
+        href: https://github.com/stats-ucl
+      - icon: youtube
+        href: https://www.youtube.com/c/uclstatisticalscienceseminars
+      - icon: headphones
+        href: https://soundcloud.com/uclsound/sets/sample-space
+        aria-label: Soundcloud podcast
+        
+sidebar:
+  style: floating
+  search: true
+  location: left
+  logo: "media/images/UCL-sample-space.png"
 
 format:
   html:

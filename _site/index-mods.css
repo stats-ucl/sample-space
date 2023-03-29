@@ -1,0 +1,27 @@
+
+
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+  font-size: 0;
+}
+
+.navbar {
+  padding: 0;
+  padding-left: 0% !important;
+  padding-right: 2.5% !important;
+}
+
+/*.navbar-nav.title {
+  display: inline-block;
+  align-self: flex-end;
+}*/
+
+.navbar-logo {
+  width: 100%;
+  padding: 0;
+  max-width: 250px;
+  max-height: 250px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  alt: "Sample Space logo";
+}

@@ -1,51 +1,55 @@
 ---
-title: "Sample Space"
-subtitle: "News, Views and Research from the [UCL Department of Statistical Science](https://ucl.ac.uk/statistics)"
-
+title: ""
+subtitle: ""
+css: index-mods.css
 listing: 
   - id: top-block
-    contents: posts/top-block/
-    type: default
-    sort: 
-      - "date desc"
-    max-items: 1
-    grid-columns: 1
-#    image-height: "5"
-    date-format: dddd, D MMM YYYY
-    max-description-length: 600
-    fields: [image,title,date,author,description,reading-time]
-    
-  - id: features
-    contents: posts/features/
+    categories: true
+    contents: 
+      - posts
     type: grid
     sort: 
+      - "categories desc"
       - "date desc"
-    max-items: 3
     grid-columns: 3
-    date-format: D MMM YYYY
-    max-description-length: 600
-    fields: [image,date,title,author,description,categories]
-    grid-item-align: right
-    
-  - id: categories
-    categories: true
-    page-size: 10
+    page-size: 9
+    date-format: "medium"
+    max-description-length: 300
+    fields: [image,title,author,date,description,reading-time]
 
-page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
-## Highlights
+
+## News, Views and Research from the UCL Department of Statistical Science
+
+::::: {.column-page}
+
+::: {.grid}
+
+::: {.g-col-7 .g-col-md-9}
+
 :::: {.content-block}
 ::: {#top-block}
 :::
 ::::
 
-:::: {.column-page-bg}
+:::
 
-## Recent articles
-::: {#features}
-::: 
-::::
+::: {.g-col-5 .g-col-md-3}
 
-## All other crap
+<div style='margin-top:20px'>
+<a class="twitter-timeline" data-width="100%" max-width="100%" data-height="1200" data-theme="light" href="https://twitter.com/stats_UCL?ref_src=twsrc%5Etfw">Tweets by stats_UCL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+
+:::
+
+:::
+
+:::::
+
+
+
+## A bit about us
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
