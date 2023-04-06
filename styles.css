@@ -282,3 +282,12 @@ img, svg {
   margin-left: 0px;
   margin-right: 0px;
 }
+
+#quarto-content.page-columns .column-screen-mod {
+  grid-column: screen-start/screen-end !important;
+  z-index: 998;
+  transform: translate3d(0, 0, 0);
+  /*Width of the logo to anchor the alignment on something else*/
+  padding-right: 250px;
+  padding-left: 250px;
+}
