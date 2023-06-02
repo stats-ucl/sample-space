@@ -52,4 +52,8 @@ title-block-banner: false
 
 ## A bit about us
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+The [UCL Department of Statistical Science](https://www.ucl.ac.uk/statistics/) was founded in 1911 as the Department of Applied Statistics.  It was the first university department of Statistics in the world --- you can read about our early history [here](https://www.ucl.ac.uk/statistics/our-early-history-1).
+
+Today, the department hosts around 50 academic and lecturing staff, over 10 research staff, around 50 PhD students and is supported by over 10 professional staff members. We are a vibrant community, operating at the centre of the academic environment, due to our large network of scientific collaborations, within UCL and with external partners, both in academia and various industry.
+
+We work in a [wide range of methodologies and applications](https://www.ucl.ac.uk/statistics/research), as well as in pedagogical activity. We organise a series of weekly [seminars](https://www.ucl.ac.uk/statistics/seminar), which, whenever possible, are also available remotely and through our own [YouTube Channel](https://www.youtube.com/c/uclstatisticalscienceseminars). We also run a podcast ([Random Talks](https://soundcloud.com/uclsound/sets/sample-space)). You can follow our updates also on [Twitter](https://twitter.com/stats_ucl), [Instagram](https://www.instagram.com/ucl.stats), [LinkedIn](https://linkedin.com/in/statistical-science-ucl-906b9a201/) and [Facebook](https://facebook.com/StatisticalScience). 

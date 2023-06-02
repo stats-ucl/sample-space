@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -94,6 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -106,60 +108,62 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./media/images/UCL-sample-space.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">News, Views and Research<br>from the UCL Department of Statistical Science</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/stats_ucl"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/stats_ucl" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/ucl.stats"><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://facebook.com/StatisticalScience"><i class="bi bi-facebook" role="img">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience" rel="" target=""><i class="bi bi-facebook" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/stats-ucl"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/stats-ucl" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars"><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars" rel="" target=""><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space"><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space" rel="" target=""><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -183,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="content-block">
 <div id="listing-top-block" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Issue 2,Featured" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680104424171" data-listing-reading-time-sort="3.595">
+<div class="g-col-1" data-index="0" data-categories="Issue 2,Featured" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="./posts/features/2022-05-13-sample-space-2/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -194,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 Sample Space 2 - the sequel!
 </h5>
 <div class="listing-reading-time card-text text-muted">
-3 min
+4 min
 </div>
 <div class="card-text listing-description">
 I am very excited to introduce the second issue of the departmental magazine in my relatively new role as Head of the Department
@@ -211,7 +215,7 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1679588636125" data-listing-reading-time-sort="2.04">
+<div class="g-col-1" data-index="1" data-categories="Issue 2" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1680531286659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./posts/features/2021-12-01-data-detectives/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -222,7 +226,7 @@ Dec 1, 2021
 Workshop Report: Data Detectives
 </h5>
 <div class="listing-reading-time card-text text-muted">
-2 min
+3 min
 </div>
 <div class="card-text listing-description">
 From 21st-25th June, 2021, members of the department were excited to host 15 Year 12 students for a virtual workshop called Data Detectives. The workshop was free to attend and open to Year 12/S5 students from non-selective UK state schools who were studying mathematics or similar at A level.
@@ -239,7 +243,7 @@ Dec 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1680104546215" data-listing-reading-time-sort="3.75">
+<div class="g-col-1" data-index="2" data-categories="Issue 2" data-listing-date-sort="1646092800000" data-listing-file-modified-sort="1680531286739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="./posts/features/2021-12-01-msc/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -247,13 +251,13 @@ Dec 1, 2022
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-My Story: Johanna Meier
+My Story: MSc Data Science graduate Johanna Meier reflects on a year of two halves
 </h5>
 <div class="listing-reading-time card-text text-muted">
-3 min
+4 min
 </div>
 <div class="card-text listing-description">
-MSc Data Science graduate Johanna Meier reflects on a year of two halves
+When I moved to London in September 2019, I never expected that I would be able to divide my graduate studies into two parts: experiences pre- and during a worldwide pandemic.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -267,119 +271,7 @@ Mar 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588634908" data-listing-reading-time-sort="2.28">
-<a href="./posts/features/2021-12-01-away-days/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/features/2021-12-01-away-days/IMG_20210920_143736.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A changing of the guard
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="card-text listing-description">
-<em>On Monday 20th September 2021, after a lengthy period of lockdown, the department organised an outdoor get-together in the gardens of the Freud Museum in London.</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Samuel Livingstone
-</div>
-<div class="listing-date">
-Dec 1, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588635037" data-listing-reading-time-sort="6.22">
-<a href="./posts/features/2021-12-01-brieuc/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/features/2021-12-01-brieuc/photo_BrieucLehmann.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why COVID-19 test data is skewed, and what we’re doing to fix it
-</h5>
-<div class="listing-reading-time card-text text-muted">
-6 min
-</div>
-<div class="card-text listing-description">
-<em>This piece was first published on the Nature Microbiology community blog</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Brieuc Lehmann &amp; George Nicholson
-</div>
-<div class="listing-date">
-Dec 1, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588635440" data-listing-reading-time-sort="5.345">
-<a href="./posts/features/2021-12-01-covid-faculty/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/features/2021-12-01-covid-faculty/photo_ElinorJones.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Teaching during COVID
-</h5>
-<div class="listing-reading-time card-text text-muted">
-5 min
-</div>
-<div class="card-text listing-description">
-<em>Staff perspectives on the challenges of being locked down</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Dec 1, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588635793" data-listing-reading-time-sort="5.755">
-<a href="./posts/features/2021-12-01-covid-students/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/features/2021-12-01-covid-students/photo_LukeLawlor.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Studying during COVID
-</h5>
-<div class="listing-reading-time card-text text-muted">
-5 min
-</div>
-<div class="card-text listing-description">
-<em>Students look back at their virtual learning experiences</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Dec 1, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588636278" data-listing-reading-time-sort="3.66">
+<div class="g-col-1" data-index="3" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="./posts/features/2021-12-01-eugenics-inquiry/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -390,7 +282,7 @@ Dec 1, 2021
 UCL Eugenics Inquiry
 </h5>
 <div class="listing-reading-time card-text text-muted">
-3 min
+4 min
 </div>
 <div class="card-text listing-description">
 <em>This article was partly transcribed from a discussion between Professor Tom Fearn, Dr Nathan Green and Dr Samuel Livingstone on the department’s podcast series `Random Talks’. Listen to the full discussion and other episodes here.</em>
@@ -407,18 +299,158 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588636878" data-listing-reading-time-sort="2.405">
+<div class="g-col-1" data-index="4" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<a href="./posts/features/2021-12-01-covid-faculty/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/features/2021-12-01-covid-faculty/photo_ElinorJones.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Teaching during COVID
+</h5>
+<div class="listing-reading-time card-text text-muted">
+6 min
+</div>
+<div class="card-text listing-description">
+<em>Staff perspectives on the challenges of being locked down</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/features/2021-12-01-away-days/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/features/2021-12-01-away-days/IMG_20210920_143736.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A changing of the guard
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="card-text listing-description">
+<em>On Monday 20th September 2021, after a lengthy period of lockdown, the department organised an outdoor get-together in the gardens of the Freud Museum in London.</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samuel Livingstone
+</div>
+<div class="listing-date">
+Dec 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<a href="./posts/features/2021-12-01-covid-students/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/features/2021-12-01-covid-students/photo_LukeLawlor.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Studying during COVID
+</h5>
+<div class="listing-reading-time card-text text-muted">
+6 min
+</div>
+<div class="card-text listing-description">
+<em>Students look back at their virtual learning experiences</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/features/2021-12-01-brieuc/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/features/2021-12-01-brieuc/photo_BrieucLehmann.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Why COVID-19 test data is skewed, and what we’re doing to fix it
+</h5>
+<div class="listing-reading-time card-text text-muted">
+7 min
+</div>
+<div class="card-text listing-description">
+<em>This piece was first published on the Nature Microbiology community blog</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Brieuc Lehmann &amp; George Nicholson
+</div>
+<div class="listing-date">
+Dec 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/features/2021-12-01-phd-in-progress/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/features/2021-12-01-phd-in-progress/photo_ACaron.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PhDs in Progress
+</h5>
+<div class="listing-reading-time card-text text-muted">
+7 min
+</div>
+<div class="card-text listing-description">
+<em>Projects currently being undertaken by the department’s PhD students…</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 1, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./posts/features/2021-12-01-new-staff/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/features/2021-12-01-new-staff/photo_ESimpson.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/features/2021-12-01-new-staff/photo_ESimpson.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Introduce Yourself
 </h5>
 <div class="listing-reading-time card-text text-muted">
-2 min
+3 min
 </div>
 <div class="card-text listing-description">
 <em>Meet the department’s newest faces… </em>
@@ -435,18 +467,16 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588637425" data-listing-reading-time-sort="5.005">
+<div class="g-col-1" data-index="10" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="./posts/features/2021-12-01-news-in-brief/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 News in Brief
 </h5>
 <div class="listing-reading-time card-text text-muted">
-5 min
+6 min
 </div>
 <div class="card-text listing-description">
 <em>A round-up of recent developments in the department</em>
@@ -463,35 +493,7 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588637510" data-listing-reading-time-sort="6.76">
-<a href="./posts/features/2021-12-01-phd-in-progress/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2021-12-01-phd-in-progress/photo_ACaron.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PhDs in Progress
-</h5>
-<div class="listing-reading-time card-text text-muted">
-6 min
-</div>
-<div class="card-text listing-description">
-<em>Projects currently being undertaken by the department’s PhD students…</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Dec 1, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1679588638494" data-listing-reading-time-sort="4.97">
+<div class="g-col-1" data-index="11" data-categories="Issue 2" data-listing-date-sort="1638316800000" data-listing-file-modified-sort="1680531286791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <a href="./posts/features/2021-12-01-profs-tasting-whiskey/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -502,7 +504,7 @@ Dec 1, 2021
 Whiskey Business
 </h5>
 <div class="listing-reading-time card-text text-muted">
-4 min
+5 min
 </div>
 <div class="card-text listing-description">
 <em>Dr Livingstone reports on a uniquely intoxicating experiment</em>
@@ -519,7 +521,7 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588608021" data-listing-reading-time-sort="1.99">
+<div class="g-col-1" data-index="12" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./posts/features/2020-04-07-athena-swan/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -530,10 +532,10 @@ Dec 1, 2021
 Gender On The Agenda
 </h5>
 <div class="listing-reading-time card-text text-muted">
-1 min
+2 min
 </div>
 <div class="card-text listing-description">
-<em>The Athena SWAN Charter aims to…</em>
+<em>The Athena SWAN Charter aims to promote gender equality within science, technology, engineering, mathematics and medicine throughout the UK and beyond. The department’s equality and diversity committee, chaired by Alex Donov and Niloufar Abourashchi, meets regularly and works to ensure that the…</em>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -547,7 +549,35 @@ Apr 7, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588609107" data-listing-reading-time-sort="1.94">
+<div class="g-col-1" data-index="13" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/features/2020-04-07-introducing-sample-space/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/features/2020-04-07-introducing-sample-space/dept.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introducing Sample Space
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="card-text listing-description">
+<em>Welcome to our first edition of Sample Space, a newsletter that aims to keep our community of past and present students and staff in touch with what’s happening in Statistical Science at UCL. I hope you find the contents interesting: we plan to do more of this kind of thing in the future, to keep…</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Richard Chandler
+</div>
+<div class="listing-date">
+Apr 7, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./posts/features/2020-04-07-away-days/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -558,7 +588,7 @@ Apr 7, 2020
 Away Days
 </h5>
 <div class="listing-reading-time card-text text-muted">
-1 min
+2 min
 </div>
 <div class="card-text listing-description">
 <em>Summer 2019 saw department staff and students stepping away from their research for two fun socials. After a typically mathematical vote, the winning options were decided: go-karting and a boat trip on the River Thames.</em>
@@ -575,147 +605,7 @@ Apr 7, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588609602" data-listing-reading-time-sort="4.17">
-<a href="./posts/features/2020-04-07-breaking-the-waves/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2020-04-07-breaking-the-waves/group.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Breaking the Waves
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min
-</div>
-<div class="card-text listing-description">
-<em>Professor Serge Guillas is leading a team seeking better ways to predict potentially disastrous tsunamis using high-performance computing… </em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Apr 7, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588610194" data-listing-reading-time-sort="2.28">
-<a href="./posts/features/2020-04-07-erasmus/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2020-04-07-erasmus/Hideki2.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Erasmus Adventures
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="card-text listing-description">
-<em>The Erasmus programme sees UCL students travelling far and wide to broaden their horizons through learning and research. Here, Hideki Itabashi and Hannah Summers tell us their stories from the 2018/19 academic year.</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Apr 7, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588610271" data-listing-reading-time-sort="1.97">
-<a href="./posts/features/2020-04-07-event/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2020-04-07-event/lab.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-in2scienceUK Week
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="card-text listing-description">
-<em>in2scienceUK is an award-winning charity, empowering students from…</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Elinor Jones
-</div>
-<div class="listing-date">
-Apr 7, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588610525" data-listing-reading-time-sort="4.77">
-<a href="./posts/features/2020-04-07-imss/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2020-04-07-imss/162 18_0008_UCL Maths Faculty 2111.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducing the new Institute for Mathematical and Statistical Sciences
-</h5>
-<div class="listing-reading-time card-text text-muted">
-4 min
-</div>
-<div class="card-text listing-description">
-<em>Two hundred years ago, a small group of pioneering philanthropists bought eight acres of land in Bloomsbury to start a new kind of university. The mathematical sciences were a keystone of this original endeavour and remain the foundation of much of UCL’s problem-solving power today. This year…</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Apr 7, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588610714" data-listing-reading-time-sort="2.795">
-<a href="./posts/features/2020-04-07-introducing-sample-space/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/features/2020-04-07-introducing-sample-space/dept.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducing Sample Space
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="card-text listing-description">
-<em>Welcome to our first edition of Sample Space, a…</em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Richard Chandler
-</div>
-<div class="listing-date">
-Apr 7, 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588610804" data-listing-reading-time-sort="3.955">
+<div class="g-col-1" data-index="15" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="./posts/features/2020-04-07-my-story/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -726,7 +616,7 @@ Apr 7, 2020
 My story
 </h5>
 <div class="listing-reading-time card-text text-muted">
-3 min
+4 min
 </div>
 <div class="card-text listing-description">
 <em>Mete Veyisoglu spent a year studying MSc Data Science at UCL in 2018/19</em>
@@ -743,7 +633,91 @@ Apr 7, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588633022" data-listing-reading-time-sort="2.465">
+<div class="g-col-1" data-index="16" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/features/2020-04-07-erasmus/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/features/2020-04-07-erasmus/Hideki2.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Erasmus Adventures
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="card-text listing-description">
+<em>The Erasmus programme sees UCL students travelling far and wide to broaden their horizons through learning and research. Here, Hideki Itabashi and Hannah Summers tell us their stories from the 2018/19 academic year.</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 7, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/features/2020-04-07-imss/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/features/2020-04-07-imss/162 18_0008_UCL Maths Faculty 2111.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introducing the new Institute for Mathematical and Statistical Sciences
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="card-text listing-description">
+<em>Two hundred years ago, a small group of pioneering philanthropists bought eight acres of land in Bloomsbury to start a new kind of university. The mathematical sciences were a keystone of this original endeavour and remain the foundation of much of UCL’s problem-solving power today. This year…</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 7, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/features/2020-04-07-event/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/features/2020-04-07-event/lab.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+in2scienceUK Week
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="card-text listing-description">
+<em>in2scienceUK is an award-winning charity, empowering students from disadvantaged backgrounds to achieve their potential and progress to STEM and research careers. UCL is proud to be a founding partner in the scheme, and in July 2019, the Department of Statistical Science welcomed five Year 12…</em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Elinor Jones
+</div>
+<div class="listing-date">
+Apr 7, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./posts/features/2020-04-07-new-staff/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -754,7 +728,7 @@ Apr 7, 2020
 Introduce Yourself
 </h5>
 <div class="listing-reading-time card-text text-muted">
-2 min
+3 min
 </div>
 <div class="card-text listing-description">
 <em>2019 saw a number of new faces joining the department staff… </em>
@@ -771,7 +745,35 @@ Apr 7, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588633839" data-listing-reading-time-sort="6.09">
+<div class="g-col-1" data-index="20" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/features/2020-04-07-breaking-the-waves/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/features/2020-04-07-breaking-the-waves/group.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Breaking the Waves
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="card-text listing-description">
+<em>Professor Serge Guillas is leading a team seeking better ways to predict potentially disastrous tsunamis using high-performance computing… </em>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 7, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="./posts/features/2020-04-07-phd-in-progress/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -782,7 +784,7 @@ Apr 7, 2020
 PhD Research
 </h5>
 <div class="listing-reading-time card-text text-muted">
-6 min
+7 min
 </div>
 <div class="card-text listing-description">
 <em>Projects currently being undertaken by the department’s PhD students…</em>
@@ -799,7 +801,7 @@ Apr 7, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1679588634255" data-listing-reading-time-sort="1.635">
+<div class="g-col-1" data-index="22" data-categories="Issue 1" data-listing-date-sort="1586214000000" data-listing-file-modified-sort="1680531286643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./posts/features/2020-04-07-teaching-statistics/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -810,10 +812,10 @@ Apr 7, 2020
 Symposium – Teaching Statistics in Higher Education
 </h5>
 <div class="listing-reading-time card-text text-muted">
-1 min
+2 min
 </div>
 <div class="card-text listing-description">
-<em>The Department of Statistical Science, in conjunction with the Royal Statistical Society, hosted a symposium on Teaching Statistics in…</em>
+<em>The Department of Statistical Science, in conjunction with the Royal Statistical Society, hosted a symposium on Teaching Statistics in April 2019. The event was organised by the department’s Teaching Fellows, with the aim of bringing together those who teach statistics in higher education to hear…</em>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -848,7 +850,9 @@ No matching items
 </section>
 <section id="a-bit-about-us" class="level2">
 <h2 class="anchored" data-anchor-id="a-bit-about-us">A bit about us</h2>
-<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+<p>The <a href="https://www.ucl.ac.uk/statistics/">UCL Department of Statistical Science</a> was founded in 1911 as the Department of Applied Statistics. It was the first university department of Statistics in the world — you can read about our early history <a href="https://www.ucl.ac.uk/statistics/our-early-history-1">here</a>.</p>
+<p>Today, the department hosts around 50 academic and lecturing staff, over 10 research staff, around 50 PhD students and is supported by over 10 professional staff members. We are a vibrant community, operating at the centre of the academic environment, due to our large network of scientific collaborations, within UCL and with external partners, both in academia and various industry.</p>
+<p>We work in a <a href="https://www.ucl.ac.uk/statistics/research">wide range of methodologies and applications</a>, as well as in pedagogical activity. We organise a series of weekly <a href="https://www.ucl.ac.uk/statistics/seminar">seminars</a>, which, whenever possible, are also available remotely and through our own <a href="https://www.youtube.com/c/uclstatisticalscienceseminars">YouTube Channel</a>. We also run a podcast (<a href="https://soundcloud.com/uclsound/sets/sample-space">Random Talks</a>). You can follow our updates also on <a href="https://twitter.com/stats_ucl">Twitter</a>, <a href="https://www.instagram.com/ucl.stats">Instagram</a>, <a href="https://linkedin.com/in/statistical-science-ucl-906b9a201/">LinkedIn</a> and <a href="https://facebook.com/StatisticalScience">Facebook</a>.</p>
 
 
 
@@ -882,9 +886,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -920,10 +938,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -933,8 +950,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -949,6 +975,148 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          console.log(htmlDoc.body.innerHTML);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -991,7 +1159,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></div>   
+    <div class="nav-footer-left">
+<p><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
