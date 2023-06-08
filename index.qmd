@@ -8,6 +8,7 @@ listing:
     contents: 
       - posts
     type: grid
+    image-height: 300px
     sort: 
       - "categories desc"
       - "date desc"

@@ -291,3 +291,21 @@ img, svg {
   padding-right: 250px;
   padding-left: 250px;
 }
+
+/* To avoid the side bar obscuring the pagination links on large screens */
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  z-index: 0;
+  padding-top: 3.5em;
+}
+
+/* To modify the margins on small screens */
+@media screen and (max-width: 800px) {
+  #quarto-content.page-columns .column-screen-mod {
+    grid-column: screen-start/screen-end !important;
+    z-index: 998;
+    transform: translate3d(0, 0, 0);
+    /*Width of the logo to anchor the alignment on something else*/
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+}
