@@ -25,3 +25,12 @@
   margin-bottom: -15px;
   alt: "Sample Space logo";
 }
+
+/* To avoid the side bar obscuring the pagination links on large screens*/
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  z-index: 1;
+  padding-top: 3.5em;
+  /*If you add more categories you may need to change the max height */
+  max-height: 350px !important;
+}
+
