@@ -16,7 +16,7 @@ info:
 
 
 :::{.img-right}
-![](Pearson_Sign.jpg){width="50%"}
+![](Pearson_Sign.jpg){width="30%"}
 :::
 
 ```{r sign, echo=FALSE, fig.cap="", out.width = '50%',eval=FALSE}
