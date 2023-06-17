@@ -1,0 +1,30 @@
+---
+title: "News from our Exhibitions Keeper Stephanie Dickinson" 
+date: 2023-06-14
+categories:
+  - "ELEP"
+  - "Featured"
+description: As Exhibitions Keeper for Statistical Science at UCL, I noticed that we had a marble bust of Pearson in one of our study spaces in the department, which was in a room that had had its name changed for political reasons but the marble bust had remained.
+image: "Pearson_Sign.jpg" 
+info:
+  author: "Stephanie Dickinson"
+  pic: Pearson_Sign.jpg
+  bio: Stephanie Dickinson is the current Exhibitions Keeper of the UCL Department of Statistical Science.
+  website:
+---
+
+```{r sign, echo=FALSE, fig.cap="", out.width = '50%'}
+knitr::include_graphics("Pearson_Sign.jpg")
+```
+
+As Exhibitions Keeper for Statistical Science at UCL, I noticed that we had a marble bust of Pearson in one of our study spaces in the department, which was in a room that had had its name changed for political reasons but the marble bust had remained, like a spectre on a viewing tower, gazing over the room in an ambiguous way. I had an understanding of the history of our department from sorting through the large collection of books and journals we had stored in our basement when I was re-arranging them to be more accessible, but I felt that others may not have gone through this process and may not appreciate the signifiers relating to the person who was looking down at us from the corner of the room. I suggested that we do something to change this situation, in keeping with other similar actions globally where many are engaging with decolonisation. It was agreed that a sign could be put up to explain and educate, to remove the unintended complicity. I sent out a call for contributions: Dr Simon Harden took the text originally written by Professor Tom Fearn (who was part of the Eugenics Inquiry) and condensed it, Professor Gianluca Baio (our Head of Department) made some final adjustments and I sent it to a sign maker to get manufactured and installed. The result is now on the wall in the MSc Study, which is 1-19 Torrington Place room 116.
+
+```{r sign_cropped, echo=FALSE, fig.cap="", out.width = '50%'}
+knitr::include_graphics("Pearson_sign_cropped.jpg")
+```
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}

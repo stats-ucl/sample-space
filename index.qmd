@@ -10,8 +10,8 @@ listing:
     type: grid
     image-height: 300px
     sort: 
-      - "categories desc"
       - "date desc"
+      - "categories desc"
     grid-columns: 3
     page-size: 9
     date-format: "medium"
