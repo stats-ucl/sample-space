@@ -56,3 +56,5 @@ The workshop was organised by Dr. François-Xavier Briol and the superb team of 
 :::{.img}
 ![](IMG_5630.png){width="100%"}
 :::
+
+{{< include /posts/_info.qmd >}}
