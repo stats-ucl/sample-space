@@ -1,5 +1,5 @@
 ---
-title: "Workshop Report: 'Distance-based methods in machine learning'" 
+title: "Workshop Report: Distance-based methods in machine learning" 
 date: 2023-06-30
 categories:
   - "Featured"
@@ -18,10 +18,6 @@ info:
 ![](team_cropped.png){width="50%"}
 :::
 
-```{r team_cropped, echo=FALSE, fig.cap="", out.width = '50%',eval=FALSE}
-knitr::include_graphics("team_cropped.png")
-```
-
 Statistical distances are mathematical objects which allow us to calculate the distances not between Euclidean measurements, but directly between probability distributions. They are used in a wide variety of ways including the design of statistical estimators, to create approximations of probability distributions, or even to measure the convergence of a sequence of random variables. They are also widely used as theoretical tools to bound the approximation of distributions of interest, or demonstrate convergence.
 
 These are all key technical challenges for the implementation of safe and robust statistical and machine learning methods in practice. For example, recent work from our department (and specifically Dr. François-Xavier Briol and Dr Jeremias Knoblauch) showed how statistical distance can be used to design robust and scalable Bayesian inference methods for complicated scientific simulators. Through the choice of an appropriate statistical distance, their method was able to cope much better with the presence of a small number of outliers in the data compared with existing methods. This work attracted a lot of interest from the research community and, in 2022, received the Best Paper Award at the International Conference in Artificial Intelligence and Statistics, one of the leading publication venues at the intersection of statistics and machine learning.
@@ -33,7 +29,7 @@ However, this is just one of many areas where statistical distances can have a s
 - How can we estimate statistical distances efficiently from data?     
 - What new application areas could benefit from the use of statistical distances?     
 
-The workshop was organised by Dr. François-Xavier Briol and the superb team of PhD students: Masha Naslidnyk, Oscar Key, Matias Altamirano and Ilina Yozova. More details can be found on the workshop's webpage: [https://dbmml.github.io](https://dbmml.github.io)
+The workshop was organised by Dr. François-Xavier Briol and the superb team of PhD students: Masha Naslidnyk, Oscar Key, Matias Altamirano and Ilina Yozova. More details can be found on the workshop's webpage: [https://dbmml.github.io](https://dbmml.github.io).
 
 <!-- :::{.img} -->
 <!-- ![](IMG_5575.png){width="70%"} -->
