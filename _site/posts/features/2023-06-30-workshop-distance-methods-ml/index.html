@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -49,6 +51,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -75,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../../media/images/UCL-sample-space.png" alt="" class="navbar-logo">
     </a>
@@ -128,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -157,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
     <div>
@@ -176,17 +183,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="img-right">
 <p><img src="team_cropped.png" class="img-fluid" style="width:50.0%"></p>
 </div>
-<p>Statistical distances are mathematical objects which allow us to calculate the distances not between Euclidean measurements, but directly between probability distributions. They are used in a wide variety of ways including the design of statistical estimators, to create approximations of probability distributions, or even to measure the convergence of a sequence of random variables. They are also widely used as theoretical tools to bound the approximation of distributions of interest, or demonstrate convergence.<br>
-<br>
-These are all key technical challenges for the implementation of safe and robust statistical and machine learning methods in practice. For example, recent work from our department (and specifically Dr.&nbsp;François-Xavier Briol and Dr Jeremias Knoblauch) showed how statistical distance can be used to design robust and scalable Bayesian inference methods for complicated scientific simulators. Through the choice of an appropriate statistical distance, their method was able to cope much better with the presence of a small number of outliers in the data compared with existing methods. This work attracted a lot of interest from the research community and, in 2022, received the Best Paper Award at the International Conference in Artificial Intelligence and Statistics, one of the leading publication venues at the intersection of statistics and machine learning.<br>
-<br>
-However, this is just one of many areas where statistical distances can have a significant impact. The workshop therefore brought together a broad range of speakers including mathematicians, probabilists, statisticians, and machine learners to discuss a number of key open questions, including:<br>
-- What are key desirable criterion for a statistical distance?<br>
-- How should one choose a statistical distance for a particular problem?<br>
-- How can we estimate statistical distances efficiently from data?<br>
-- What new application areas could benefit from the use of statistical distances?<br>
-<br>
-The workshop was organised by Dr.&nbsp;François-Xavier Briol and the superb team of PhD students: Masha Naslidnyk, Oscar Key, Matias Altamirano and Ilina Yozova. More details can be found on the workshop’s webpage: <a href="https://dbmml.github.io">https://dbmml.github.io</a></p>
+<p>Statistical distances are mathematical objects which allow us to calculate the distances not between Euclidean measurements, but directly between probability distributions. They are used in a wide variety of ways including the design of statistical estimators, to create approximations of probability distributions, or even to measure the convergence of a sequence of random variables. They are also widely used as theoretical tools to bound the approximation of distributions of interest, or demonstrate convergence.</p>
+<p>These are all key technical challenges for the implementation of safe and robust statistical and machine learning methods in practice. For example, recent work from our department (and specifically Dr.&nbsp;François-Xavier Briol and Dr Jeremias Knoblauch) showed how statistical distance can be used to design robust and scalable Bayesian inference methods for complicated scientific simulators. Through the choice of an appropriate statistical distance, their method was able to cope much better with the presence of a small number of outliers in the data compared with existing methods. This work attracted a lot of interest from the research community and, in 2022, received the Best Paper Award at the International Conference in Artificial Intelligence and Statistics, one of the leading publication venues at the intersection of statistics and machine learning.</p>
+<p>However, this is just one of many areas where statistical distances can have a significant impact. The workshop therefore brought together a broad range of speakers including mathematicians, probabilists, statisticians, and machine learners to discuss a number of key open questions, including:</p>
+<ul>
+<li>What are key desirable criterion for a statistical distance?<br>
+</li>
+<li>How should one choose a statistical distance for a particular problem?<br>
+</li>
+<li>How can we estimate statistical distances efficiently from data?<br>
+</li>
+<li>What new application areas could benefit from the use of statistical distances?</li>
+</ul>
+<p>The workshop was organised by Dr.&nbsp;François-Xavier Briol and the superb team of PhD students: Masha Naslidnyk, Oscar Key, Matias Altamirano and Ilina Yozova. More details can be found on the workshop’s webpage: <a href="https://dbmml.github.io">https://dbmml.github.io</a></p>
 <!-- :::{.img} -->
 <!-- ![](IMG_5575.png){width="70%"} -->
 <!-- ::: -->
@@ -210,14 +219,32 @@ The workshop was organised by Dr.&nbsp;François-Xavier Briol and the superb tea
 <div style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px; object-fit:contain">
 <p><img src="fxbriol_website_photo.jpg" width="60" height="60"></p>
 </div>
-<section id="meta-info.author" class="level1">
+<section id="section" class="level1">
 <h1><strong>Francois-Xavier Briol</strong></h1>
-<section id="meta-info.bio" class="level2">
-<h2 class="anchored" data-anchor-id="meta-info.bio">Francois-Xavier Briol is a Lecturer in the Department of Statistical Science at University College London. He is also a Group Leader at The Alan Turing Institute, the UK’s national institute for Data Science and AI, where he is affiliated to the Data-Centric Engineering programme. There, he leads research on the Fundamentals of Statistical Machine Learning.</h2>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">“Francois-Xavier Briol is a Lecturer in the Department of Statistical Science at University College London. He is also a Group Leader at The Alan Turing Institute, the UK’s national institute for Data Science and AI, where he is affiliated to the Data-Centric Engineering programme. There, he leads research on the Fundamentals of Statistical Machine Learning”</h2>
 <p><a href="https://fxbriol.github.io">https://fxbriol.github.io</a></p>
 </section>
 </section>
 </div>
+<p><br></p>
+<!--
+This files first derives the relative path to the folder under which the page to share on selected social media is stored. 
+Then it creates a series of sharing buttons --- currently implemented:
+- Twitter
+- Email
+- LinkedIn
+- Whatsapp
+Others are fairly easy to create --- only need the fa icon of the relevant media + the combination of text that would be required
+to automatically share in on that platform
+-->
+<br>
+<center>
+<!-- This uses a trick and an external widget to share on any of the federated servers on Mastodon
+   see: https://shkspr.mobi/blog/2022/06/create-a-share-to-mastodon-button-for-wordpress/
+-->
+[<i class="fa-brands fa-mastodon fa-lg" title="Share on Mastodon" style="color:#383838" aria-hidden="true"></i>](https://toot.kytta.dev/?text=Workshop Report: ‘Distance-based methods in machine learning’ https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml){target=“_blank” onclick=“window.open(this.href,‘targetWindow’,‘toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400px,height=600px’); return false;”} &nbsp; <a href="https://twitter.com/intent/tweet?url=https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml/&amp;text=Workshop%20Report:" target="_blank" title="Distance-based methods in machine learning"><i class="fa-brands fa-twitter fa-lg" title="Share on Twitter" style="color:#383838" aria-hidden="true"></i></a> &nbsp; [<i class="fa-solid fa-envelope fa-lg" title="Share by email" style="color:#383838" aria-hidden="true"></i>](mailto:?subject=Workshop Report: ‘Distance-based methods in machine learning’&amp;body=https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml){target=“_blank”} &nbsp; <a href="https://www.linkedin.com/shareArticle?url=https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml/&amp;title=Workshop%20Report:" target="_blank" title="Distance-based methods in machine learning"><i class="fa-brands fa-linkedin fa-lg" title="Share on LinkedIn" style="color:#383838" aria-hidden="true"></i></a> &nbsp; [<i class="fa-brands fa-whatsapp fa-lg" title="Share on Whatsapp" style="color:#383838" aria-hidden="true"></i>](https://web.whatsapp.com/send?text=Workshop Report: ’Distance-based methods in machine learning’https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml/){target=“_blank”} &nbsp; <a href="https://reddit.com/submit?url=https://sample-space.org/posts/features/2023-06-30-workshop-distance-methods-ml/&amp;title=Workshop%20Report:" target="_blank" title="Distance-based methods in machine learning"><i class="fa-brands fa-reddit fa-lg" title="Share on Reddit" style="color:#383838" aria-hidden="true"></i></a>
+</center>
 
 
 
@@ -301,10 +328,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -314,8 +340,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -328,6 +363,60 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -371,6 +460,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -458,7 +548,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></div>   
+    <div class="nav-footer-left">
+<p><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -510,6 +602,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

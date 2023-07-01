@@ -1,6 +1,7 @@
 ---
 title: "Teaching ‘difficult knowledge’" 
 date: 2023-06-30
+draft: true
 categories:
   - "ELEP"
 description:  |
@@ -47,3 +48,9 @@ Moriña, A. (2017) Inclusive education in higher education: challenges and oppor
 Rothberg, M. (2019) The implicated subject: beyond victims and perpetrators. Stanford. Stanford University Press.
 
 Zembylas, M. (2022) Ethics, politics and affects: renewing the conceptual and pedagogical framework of addressing fanaticism in education. Ethics and Education 17:3, pages 261-276.
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
