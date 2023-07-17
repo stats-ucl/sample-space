@@ -6,7 +6,7 @@ categories:
   - "Featured"
 description:  |
    *This article is written by our very own Stephanie Dickinson, the Departmental Exhibition Keeper. She tells us about one of the ways in which we've interacting with the legacy of the [Eugenics Inquiry](https://www.ucl.ac.uk/provost/inquiry-history-eugenics-ucl). We are working in close contact with the [Eugenics Legacy Education Project](https://www.ucl.ac.uk/teaching-learning/professional-development/eugenics-legacy-education-project-elep-0) to ensure our present and future take active and positive action against the misdeeds of the past*
-image: "Pearson_Sign.jpg" 
+image: "Pearson_Sign_cropped.jpg" 
 info:
   author: "Stephanie Dickinson"
   pic: Pearson_Sign.jpg

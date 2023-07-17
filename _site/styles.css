@@ -168,6 +168,11 @@ div.quarto-post {
   }
 }
 
+/* This should fix the images by aligning them at the top */
+.quarto-grid-item p.card-img-top > img {
+  object-position: top
+}
+
 /* Cara Thompson modifications from here onwards */
 
 .fa, .fas, .bi, .fa-solid {
@@ -308,9 +313,4 @@ img, svg {
     padding-right: 1.5em;
     padding-left: 1.5em;
   }
-}
-
-/* This should fix the images by aligning them at the top */
-.quarto-grid-item p.card-img-top > img {
-  object-position: top
 }

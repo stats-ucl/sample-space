@@ -3,11 +3,10 @@ title: "Studying during COVID"
 date: 2021-12-01
 categories:
   - "Issue 2"
-image: "photo_LukeLawlor.jpg" 
+image: /media/images/UCL-sample-space.png 
 links: 
    - title: "Studying during COVID"
      description: Students look back at their virtual learning experiences
-     image: "photo_LukeLawlor.jpg" 
 ---
 
 > *Students look back at their virtual learning experiences*
