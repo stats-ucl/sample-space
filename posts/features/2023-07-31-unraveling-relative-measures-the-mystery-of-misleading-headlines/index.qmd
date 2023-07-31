@@ -1,0 +1,48 @@
+---
+title: "Unraveling Relative Measures: The Mystery of Misleading Headlines!" 
+date: 2023-07-31
+categories:
+  - "Pants on Fire"
+  - "Featured"
+description:  |
+   *Picture this: the pandemic is becoming a distant memory, and we're all breathing a sigh of relief. But hold on! Fake news and conspiracy theories were the real villains of this story. And guess what? They even played a part in the vaccine drama!*
+image: "Evan.jpeg" 
+info:
+  author: "Evangelos Dimitriou"
+  pic: Evan.jpeg
+  bio: |
+     "Evangelos Dimitriou is a PhD student at the Department of Statistical Science, UCL, London, UK, working on Generalizability and Transportability of clinical trials and Causal Inference."
+  website: https://uk.linkedin.com/in/evangelos-dimitriou-56b7b5175
+---
+
+:::{.img-right}
+![](Liar-Liar-1024x1024.jpg){width="50%"}
+:::
+*Image source: judymccarver.com*
+
+**Misleading Headlines - The Sneaky Suspects**\
+Ah, those clickbait headlines! One of them read, "Young Men 30 Times More Likely to Get Heart Inflammation from Covid-19 mRNA Booster Than Young Women." You read that and think, "Whoa! Pump the brakes on vaccinating young lads!" But wait, before we go full panic mode, let's channel our inner detective and investigate further!
+
+**The Clues in the Numbers**\
+Let's crack the case by examining the data of the published study. Out of 295,288 young men (aged 16-29), only 31 experienced heart inflammation after getting vaccinated. And on the other side, just one out of 298,260 young women had a similar reaction. That's like trying to find a needle in a haystack! Only 0.000105% of young men and 0.000004% of young women got that heart inflammation. To put it simply, 1 in 10,000 young men and 1 in about 300,000 young women had this health hiccup. As you chew on this data, imagine COVID-19 as a not-so-friendly game opponent, and unvaccinated young individuals as the brave challengers. With a 2% fatality rate, about 6,000 lives might be at stake in a cohort of 300,000! That's like a seriously challenging level in the game of life!
+
+**Playing Detective with Relative Measures**\
+Now, here's the tricky part! The news headline flaunted a flashy relative measure called "relative risk." It makes the difference between young men and women look huge! But hold your horses, folks, 'cause we need to factor in the absolute risk difference. And what do we find? Drumroll, please! The actual difference is only 0.0101%. That's like trying to find a drop of water in the desert! Talk about being fooled by numbers!
+
+**The Big Reveal**\
+So, what's the takeaway from this thrilling investigation? Those relative measures can be real pranksters, making things seem scarier than they are! To be informed properly and make the right choices, we need to go beyond the flashy headlines and dive into the nuts and bolts. Embrace the Sherlock Holmes within you and seek the bigger picture!
+
+**Conclusion**\
+Alright, folks, we've cracked the code! When it comes to relative risks, let's not fall for those mischievous headlines. With the power of context and critical thinking on our arsenal, we can make wise choices to protect ourselves and our communities. So, let's give a big round of applause to science! Keep calm, stay informed and always question everything!
+
+## References
+1.	https://www.nejm.org/doi/full/10.1056/NEJMoa2110737
+2.	https://www.nytimes.com/2021/10/09/health/researchers-find-a-higher-than-expected-risk-of-myocarditis-in-young-men-after-full-vaccination.html?smid=url-share
+3.	https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)61024-0/fulltext
+4.	https://s4be.cochrane.org/blog/2018/02/16/relative-measures-effects-can-misleading/
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
