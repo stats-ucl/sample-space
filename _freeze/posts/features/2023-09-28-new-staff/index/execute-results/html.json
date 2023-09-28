@@ -1,0 +1,14 @@
+{
+  "hash": "d8fe957e1188e4c4a0236950774c172a",
+  "result": {
+    "markdown": "---\ntitle: \"Introduce Yourself\"\ndate: 2023-09-28\ncategories:\n  - \"Featured\"\nimage: \"unnamed.jpg\" \nlinks: \n   - title: Introduce Yourself\n     description: \"2022-2023 saw a number of new faces joining the department staff… \" \n     image: unnamed.jpg\n---\n\n\n> *2022-2023 saw a number of new faces joining the department staff… *\n\n\n\n:::: {.columns}\n\n::: {.column width=\"45%\"}\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](CiprianiDMC-2048x1152.png){fig-align='center' fig-alt='Headshot of Alessandra Cipriani' width=45%}\n:::\n:::\n\n\n# Alessandra Cipriani (Lecturer)\n\nI joined the department as a lecturer in February 2022 coming from TU Delft, where I was assistant professor.\n\nI did my PhD in Zurich, and after completing it I joined the Weierstrass Institute in Berlin as a postdoc for three years, and then the University of Bath for one year before moving to the Netherlands.\n\nMy research focuses on random interfaces, particularly those that are used in statistical mechanics and physics, like the Gaussian free field and the membrane model.\n\n:::\n\n::: {.column width=\"5%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"45%\"}\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](brieuc.jpeg){fig-align='center' fig-alt='Headshot of Brieuc Lehmann' width=45%}\n:::\n:::\n\n\n# Brieuc Lehmann (Lecturer)\n\nI joined the department as a Lecturer back in January 2022. Before that, I was a postdoc at the University of Oxford working with Prof Chris Holmes and Prof Gil McVean in a joint position between the Big Data Institute and the Department of Statistics.\n\nMy research interests lie predominantly in Bayesian statistics, especially for biomedical applications. I'm interested in using statistics to better understand, and ultimately reduce, health inequalities. I'm one of the co-organisers of the Data Science for Health Equity community (https://www.dsxhe.com) which aims to bring together similarly-minded folk.\n\nOutside of work, I love running - I am particularly obsessed with parkrun.\n\n:::\n\n::::\n\n:::: {.columns}\n\n::: {.column width=\"45%\"}\n\n<!--another empty column-->\n\n:::\n\n::::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
