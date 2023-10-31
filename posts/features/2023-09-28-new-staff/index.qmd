@@ -65,4 +65,12 @@ Outside of work, I love running - I am particularly obsessed with parkrun.
 
 :::
 
+# Karla Diaz Ordaz (Associate Professor)
+
+I joined the department as Principal Research Fellow (Associate Professor) in October 2022, funded by a Royal Society-Wellcome Trust Sir Henry Dale Fellowship. 
+
+Before joining the department,  I spent 10 years working at the London School of Hygiene and Tropical Medicine, just two blocks down the road from UCL Stats!
+
+My main research interests are in causal inference. I am especially interested in developing methods that allow the use of machine learning estimation for causal effects. Currently, I am working on treatment effect heterogeneity, counterfactual prediction and fairness. 
+
 ::::
