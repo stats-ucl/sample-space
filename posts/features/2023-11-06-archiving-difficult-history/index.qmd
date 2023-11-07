@@ -5,7 +5,8 @@ categories:
   - "ELEP"
   - "Featured"
 description: "Our department gave boxes and bundles of materials and books to UCL Special Collections as they had been stored in our basement for decades and no one working here now was aware of their existence until the basement was tidied up. Due to the increased interest in tackling the difficult history of our department's involvement in eugenics, we thought it was important to get the items properly archived so that researchers can access them and do more research into items which have gone undiscovered for years. The difference in perspective that time gives when looking back at how our very own department used to operate makes any new research into these objects potentially groundbreaking."
-   
+
+image: "Stephanie.jpg" 
 info:
   author: "Stephanie Dickinson"
   pic: Stephanie.jpg
