@@ -1,0 +1,43 @@
+---
+title: "Archiving difficult history" 
+date: 2023-11-06
+categories:
+  - "ELEP"
+  - "Featured"
+description: "Our department gave boxes and bundles of materials and books to UCL Special Collections as they had been stored in our basement for decades and no one working here now was aware of their existence until the basement was tidied up. Due to the increased interest in tackling the difficult history of our department's involvement in eugenics, we thought it was important to get the items properly archived so that researchers can access them and do more research into items which have gone undiscovered for years. The difference in perspective that time gives when looking back at how our very own department used to operate makes any new research into these objects potentially groundbreaking."
+   
+info:
+  author: "Stephanie Dickinson"
+  pic: Stephanie.jpg
+  bio: Stephanie Dickinson is the current Exhibitions Keeper of the UCL Department of Statistical Science.
+  website:
+---
+
+
+:::{.img-right}
+![](Galton Laboratory 4-1-17 Women working in laboratory early 20th century.jpg){width="40%"}
+:::
+
+The archiving of material our department gave to UCL Special Collections has now been completed. This means the material is ready for researchers to access and gain new insight.
+
+The material we gave to Leah Johnston from Special Collections was originally stored in the Statistical Science basement for decades. No one working here was aware of their existence until the basement was tidied up. This is because records were not kept, it was just a bunch of papers to look at.
+
+Due to the increased interest in tackling the difficult history of our department's involvement in eugenics, we thought it was important to get the items properly archived so that researchers can access them.
+
+The difference in perspective that time gives when looking back at how our very own department used to operate makes any new research into these objects potentially groundbreaking. This is because the attitudes towards many issues has changed over the years, and we are often shocked by what was considered normal in the past. New research will therefore have a different angle and lens by which to analyse.
+
+Specifically, we can claim to have donated the "Photograph of Francis Galton seated on his porch" and "Women working in laboratory" photographs from Leah's press release, but we also donated much more which is available in the Hierarchy Browser link.
+
+The Statistical Science staff involved in donating the material were Stephanie Dickinson and Dr Simon Harden.
+
+Leah Johnston has written a blog post about it all here:
+[https://blogs.ucl.ac.uk/special-collections/2023/09/07/galton-laboratory-records/](https://blogs.ucl.ac.uk/special-collections/2023/09/07/galton-laboratory-records/)
+
+The archive information can be accessed via the online catalogue. Anyone who is interested in finding material on there can carry out a keyword search from the homepage. This will turn up material across the collections, so may also bring up material from others such as Galton and Pearsons’ personal archives. Alternatively, to find the Galton Laboratory Records collection, you will need to select the Advanced search option on the homepage and type ‘Galton laboratory’ into the Reference Number search field and press return. This should take you directly to the collection level description. For ease of access however, this is the link to the page which shows an overview of the entire collection: [https://archives.ucl.ac.uk/CalmView/TreeBrowse.aspx?src=CalmView.Catalog&field=RefNo&key=GALTON+LABORATORY](https://archives.ucl.ac.uk/CalmView/TreeBrowse.aspx?src=CalmView.Catalog&field=RefNo&key=GALTON+LABORATORY).
+
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
