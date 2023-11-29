@@ -28,7 +28,7 @@ title-block-banner: false
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-9 .g-start-md-2} 
+::: {.g-col-lg-6 .g-start-lg-4 .g-col-md-12 .g-col-sm-6} 
 
 :::: {.content-block}
 ::: {#top-block}
