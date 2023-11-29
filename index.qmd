@@ -28,13 +28,14 @@ title-block-banner: false
 
 :::: {.grid}
 
-::: {.g-col-7 .g-col-md-9}
+::: {.g-col-10 .g-col-md-12}
 
 :::: {.content-block}
 ::: {#top-block}
 :::
 ::::
 
+<!-- removes the twitter feed as it doesn't work anymore
 :::
 
 ::: {.g-col-5 .g-col-md-3}
@@ -44,6 +45,7 @@ title-block-banner: false
 </div>
 
 :::
+-->
 
 ::::
 
