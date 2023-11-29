@@ -8,7 +8,7 @@ listing:
     contents: 
       - posts
     type: grid
-    image-height: 300px
+    image-height: 200px
     image-placeholder: "media/images/UCL-sample-space.png"
     sort: 
       - "date desc"
@@ -16,7 +16,7 @@ listing:
     grid-columns: 3
     page-size: 9
     date-format: "medium"
-    max-description-length: 300
+    max-description-length: 200
     fields: [image,title,author,date,description,reading-time]
 
 title-block-banner: false
@@ -28,7 +28,7 @@ title-block-banner: false
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-10 .g-start-md-2} 
+::: {.g-col-12 .g-col-md-9 .g-start-md-2} 
 
 :::: {.content-block}
 ::: {#top-block}

@@ -1,0 +1,8 @@
+# This uses imagemagick to manipulate the figures 
+
+# This chops off the first 400 rows from the top of a pic and save it to another file
+# (can use South, East or West to chop from different directions)
+convert input.png -gravity North -chop 0x400 output.png
+
+# This coverts the size of the image
+convert input.png -resize 200x200 output.png

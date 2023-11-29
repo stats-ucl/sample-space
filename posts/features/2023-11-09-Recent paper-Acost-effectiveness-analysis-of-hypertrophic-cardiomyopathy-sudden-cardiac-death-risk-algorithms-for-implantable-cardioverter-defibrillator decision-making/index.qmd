@@ -1,11 +1,11 @@
 ---
-title: "Recent paper: A cost-effectiveness analysis of hypertrophic cardiomyopathy sudden cardiac death risk algorithms for implantable cardioverter defibrillator decision-making" 
+title: "Cost-effectiveness analysis of a risk algorithms for implantable cardioverter defibrillator decision-making" 
 date: 2023-11-09
 categories:
   - "Featured"
 description: "Hypertrophic cardiomyopathy (HCM) is a disease in which the heart muscle becomes thickened (hypertrophied). The thickened heart muscle can make it harder for the heart to pump blood. Hypertrophic cardiomyopathy often goes undiagnosed because many people with the disease have few, if any, symptoms. However, in a small number of people with HCM, the thickened heart muscle can cause shortness of breath, chest pain or changes in the heart's electrical system, resulting in life-threatening irregular heart rhythms (arrhythmias) or sudden cardiac death (SCD)."
 
-image: "nathan-green_0.png" 
+image: "test.png" 
 info:
   author: "Nathan Green"
   pic: "nathan-green_0.png"
