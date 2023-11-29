@@ -28,11 +28,7 @@ title-block-banner: false
 
 :::: {.grid}
 
-::: {.g-col-4 .g-col-md-3}
-
-:::
-
-::: {.g-col-4 .g-col-md-6}
+::: {.g-col-12 .g-col-md-10 .g-start-md-2} 
 
 :::: {.content-block}
 ::: {#top-block}
