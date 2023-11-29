@@ -304,7 +304,7 @@ img, svg {
 }
 
 /* To modify the margins on small screens */
-@media screen and (max-width: 800px) {
+@media screen {
   #quarto-content.page-columns .column-screen-mod {
     grid-column: screen-start/screen-end !important;
     z-index: 998;

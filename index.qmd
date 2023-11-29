@@ -8,7 +8,7 @@ listing:
     contents: 
       - posts
     type: grid
-    image-height: 200px
+    image-height: 400px
     image-placeholder: "media/images/UCL-sample-space.png"
     sort: 
       - "date desc"
