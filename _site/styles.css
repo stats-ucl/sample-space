@@ -186,6 +186,11 @@ div.quarto-post {
   color: #F6BE00;
 }
 
+/* GB added: this makes the title on the navbar visible (otherwise the default 
+             is too dark) */
+.navbar a {
+  color: #F6BE00 !important;
+}
 
 .navbar-logo {
   width: 100%;
