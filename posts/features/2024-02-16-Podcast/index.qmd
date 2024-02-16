@@ -17,6 +17,10 @@ info:
 
 [https://soundcloud.com/uclsound/an-interview-with-warren-luk-ceo-of-good-lab-a-hong-kong-based-social-innovation-think-and-do-tank](https://soundcloud.com/uclsound/an-interview-with-warren-luk-ceo-of-good-lab-a-hong-kong-based-social-innovation-think-and-do-tank)
 
+:::{.img-right}
+![](sample_space_thumbnail.png){width="15%"}
+:::
+
 {{< include /posts/_info.qmd >}}
 
 <br>
