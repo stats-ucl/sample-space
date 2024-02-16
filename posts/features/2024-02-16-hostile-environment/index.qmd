@@ -8,8 +8,8 @@ description: "In this paper, a team of researchers from UCL (including our very 
 info:
   author: "Gianluca Baio"
   pic: photo_HeadofDepartmentGianlucaBaio.png
-  bio: "Nathan has a number of years experience working on a wide range of projects across government and academia in defence and health. Nathan studied mathematics and statistics at the University of Newcastle-Upon-Tyne and obtained a PhD in applied probability from the University of Liverpool. After working for the Ministry of Defence for several years, applying novel Bayesian Inference ideas, he moved back into academia and the field of public health in 2010."
-  website: "https://n8thangreen.github.io/"
+  bio: "Gianluca is Professor of Statistics and Health Economics and the head of the department (for the term 2021-2026)"
+  website: "https://gianluca.statistica.it"
 ---
 
 In 2012, the UK Government announced a series of immigration policy reforms known as the [hostile environment policy](https://en.wikipedia.org/wiki/Home_Office_hostile_environment_policy), culminating in the so-called [Windrush scandal](https://www.bbc.co.uk/news/uk-43782241). Several hundred Commonwealth citizens who had settled legally in the UK since World War II were falsely identified as "undocumented" and, in many cases, deported. This situation particularly affected people from Black Caribbean backgrounds who had legally immigrated to the UK in the previous decades, known as the "Windrush Generation", from the name of one of the ships used to carry people, mostly from Jamaica to England.
