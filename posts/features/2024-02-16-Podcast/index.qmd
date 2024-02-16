@@ -1,0 +1,24 @@
+---
+title: "An interview with Warren Luk, CEO of Good Lab, a Hong Kong-based social innovation think-and-do tank" 
+date: 2024-02-16
+categories:
+  - "Podcast"
+  - "Alumni Series"
+  
+description: "We speak with Warren Luk, a former student in Economics & Statistics at UCL, about his time at the university, how important extra-curricular activities are, and what his career path has been since he ventured into the world."
+
+image: "test.png" 
+info:
+  author: "Nathan Green"
+  pic: "nathan-green_0.png"
+  bio: "Nathan has a number of years experience working on a wide range of projects across government and academia in defence and health. Nathan studied mathematics and statistics at the University of Newcastle-Upon-Tyne and obtained a PhD in applied probability from the University of Liverpool. After working for the Ministry of Defence for several years, applying novel Bayesian Inference ideas, he moved back into academia and the field of public health in 2010."
+  website: "https://n8thangreen.github.io/"
+---
+
+[https://soundcloud.com/uclsound/an-interview-with-warren-luk-ceo-of-good-lab-a-hong-kong-based-social-innovation-think-and-do-tank](https://soundcloud.com/uclsound/an-interview-with-warren-luk-ceo-of-good-lab-a-hong-kong-based-social-innovation-think-and-do-tank)
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
