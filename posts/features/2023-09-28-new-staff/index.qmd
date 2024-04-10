@@ -3,11 +3,10 @@ title: "Introduce Yourself"
 date: 2023-09-28
 categories:
   - "Featured"
-image: "unnamed.jpg" 
 links: 
    - title: Introduce Yourself
      description: "2022-2023 saw a number of new faces joining the department staff: some are featured below! " 
-     image: unnamed.jpg
+image: unnamed.jpg
 ---
 
 > *2022-2023 saw a number of new faces joining the department staff. Some are featured below ... *
