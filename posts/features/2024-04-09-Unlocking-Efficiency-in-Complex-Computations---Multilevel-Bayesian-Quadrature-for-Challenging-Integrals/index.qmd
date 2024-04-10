@@ -5,7 +5,7 @@ categories:
   - "Featured"
 description: "This post introduces a novel Bayesian probabilistic numerical method proposed in the paper *Multilevel Bayesian Quadrature* published in the International Conference on Artificial Intelligence and Statistics (AISTATS), and selected for oral presentation. Besides, it was awarded the [James Nelson Prize](https://www.ucl.ac.uk/statistics/news/2018/sep/remembering-james-nelson) in 2024. Monte Carlo methods are common choices for scientists and engineers to solve complex integral problems. However, they can sometimes seem overwhelming when dealing with expensive scientific models, either from a computational or financial point of view. Our proposed method, Multilevel Bayesian Quadrature (MLBQ), has improved computational efficiency significantly, which means using the same computational resources for evaluation, our method achieves better accuracy. "
 
-image: "unnamed.jpg" 
+image: "left.png" 
 info:
   author: "Kaiyu Li"
   pic: "unnamed.jpg"
