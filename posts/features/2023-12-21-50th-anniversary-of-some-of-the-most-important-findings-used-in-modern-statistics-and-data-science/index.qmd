@@ -5,9 +5,9 @@ categories:
   - "Featured"
 description:  |
    *It is now 50 years since the invention or discovery of three of the most important techniques used in modern statistics and data-science, namely, Cox regression (1972), the Dirichlet process (1973), and the AIC (Akaike information criterion, 1974).*
+   
 image: "unnamed.jpg" 
 info:
-  
 ---
 David Cox’s regression model for right-censored data has had an enormous impact on survival analysis. Survival analysis typically considers data-sets in which time-to-death is recorded as the main outcome: such data-sets typically also contain data on those who survived past the follow-up period (i.e., right-censoring). The Cox regression model solves this problem, in addition to facilitating computations and interpretation of results, and hence has become very widely used in medical statistics and beyond, e.g., to test the predictive ability of medical biomarkers.
  
