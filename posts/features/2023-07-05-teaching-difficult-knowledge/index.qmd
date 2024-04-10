@@ -5,6 +5,8 @@ categories:
   - "ELEP"
 description:  |
    *Teaching ‘difficult knowledge’: UCL’s eugenics history and the implications for teaching and learning in Statistics.*
+
+image: "Knowler_Nov_22_Portrait.jpg" 
 info:
   author: "Mrs Helen Knowler"
   pic: Knowler_Nov_22_Portrait.jpg

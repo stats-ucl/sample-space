@@ -5,6 +5,9 @@ categories:
   - "Featured"
 description:  |
    *As statisticians, we often favour interpretable models that can perform better than AI when sample sizes are small. A new article published online last month by Danielsson and Uthemann of LSE, 'On the use of artificial intelligence in financial regulations and the impact on financial stability '[1], examines the increasing use of artificial intelligence (AI) by financial authorities and its implications for both micro-regulations and macro-regulations. While micro-regulations may benefit from AI due to the abundance of data, clear objectives, and repeated decisions, macro-regulations face challenges such as infrequent unique events and the complexity of the financial system. This article proposes six criteria for evaluating the suitability of AI use in the private sector and financial regulation. It also emphasizes the distinction between micro and macro-regulations and highlights the potential risks and benefits associated with AI implementation in the financial sector. The discussion touches upon the challenges AI faces in understanding the financial system and the implications for decision-making during crises. It also underscores the importance of accountability and oversight in AI-driven decision-making processes.*
+   
+image: "Northern_Rock_Queue.jpeg" 
+info:
 
 ---
 

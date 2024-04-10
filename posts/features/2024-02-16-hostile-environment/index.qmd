@@ -5,6 +5,7 @@ categories:
   - "Featured"
 description: "In this paper, a team of researchers from UCL (including our very own HoD, Gianluca Baio), Imperial College London and the London School of Economics use statistical modelling to evaluate the impact of governmental policies (the “hostile environment”) on mental health of Black Caribbean British people"
 
+image: photo_HeadofDepartmentGianlucaBaio.png
 info:
   author: "Gianluca Baio"
   pic: photo_HeadofDepartmentGianlucaBaio.png
