@@ -3,14 +3,15 @@ title: "Sustainability in Statistical Modelling of Wind Energy - A Podcast"
 date: 2024-09-04
 categories:
   - "Podcast"
-description: "Domna Ladopoulou, a researcher in the Department of Statistical Science at UCL, is working on improving the efficiency and reliability of wind energy production through statistical and machine learning modelling approaches. Her research focuses on developing a probabilistic condition monitoring system for wind farms using SCADA data to detect faults and failures early. This system aims to enhance the sustainability of wind farms by reducing maintenance costs and improving overall reliability."
+description: "Stephanie Dickinson talks to Domna Ladopoulou, a researcher in the Department of Statistical Science at UCL, is working on improving the efficiency and reliability of wind energy production through statistical and machine learning modelling approaches. Her research focuses on developing a probabilistic condition monitoring system for wind farms using SCADA data to detect faults and failures early. This system aims to enhance the sustainability of wind farms by reducing maintenance costs and improving overall reliability."
 
-image: "random-talks.jpg" 
+image: "Stephanie.jpg" 
 info:
-  author: "Nathan Green"
-  pic: "nathan-green_0.png"
-  bio: "Nathan has a number of years experience working on a wide range of projects across government and academia in defence and health. Nathan studied mathematics and statistics at the University of Newcastle-Upon-Tyne and obtained a PhD in applied probability from the University of Liverpool. After working for the Ministry of Defence for several years, applying novel Bayesian Inference ideas, he moved back into academia and the field of public health in 2010."
-  website: "https://n8thangreen.github.io/"
+  author: "Stephanie Dickinson"
+  pic: Stephanie.jpg
+  bio: Stephanie Dickinson is the current Sustainability/Green Champion for the UCL Department of Statistical Science.
+  website:
+    
 ---
 :::{.img-right}
 ![](sample_space_thumbnail.png){width="15%"}
@@ -24,7 +25,7 @@ https://www.ucl.ac.uk/statistics/sample-space)
 ![](IMG_3654.jpg){width="65%"}
 :::
 
-Donna's methodology involves non-parametric probabilistic methods like Gaussian processes and probabilistic neural networks, which offer flexibility and computational efficiency. She emphasizes the importance of informed decision-making in sustainability and the potential for her research to be scaled globally, particularly in regions with high wind power reliance.
+Domna's methodology involves non-parametric probabilistic methods like Gaussian processes and probabilistic neural networks, which offer flexibility and computational efficiency. She emphasizes the importance of informed decision-making in sustainability and the potential for her research to be scaled globally, particularly in regions with high wind power reliance.
 
 ![](proposed_methodology.svg){width="100%"}
 

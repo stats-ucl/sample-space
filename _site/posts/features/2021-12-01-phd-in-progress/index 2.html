@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-12-01">
+
+<title>Sample Space - PhDs in Progress</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../media/images/UCL-sample-space.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
+ <span class="menu-text">News, Views and Research<br>from the UCL Department of Statistical Science</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/stats_ucl" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats" rel="" target=""><i class="bi bi-instagram" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience" rel="" target=""><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/stats-ucl" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars" rel="" target=""><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space" rel="" target=""><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PhDs in Progress</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Issue 2</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<blockquote class="blockquote">
+<p><em>Projects currently being undertaken by the department’s PhD students…</em></p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_ACaron.jpg" class="img-fluid figure-img" style="width:45.0%" alt="Headshot of Alberto Caron"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="alberto-caron" class="level1">
+<h1>Alberto Caron</h1>
+<p><em>Supervisors: Ioanna Manolopoulou and Gianluca Baio</em></p>
+<p>My PhD research project mainly revolves around using Bayesian non-parametric (or Bayesian machine learning) regression methods to carry out causal/counterfactual inference under high-dimensional observational data.</p>
+<p>Counterfactual learning with observational data is of interest in many disciplines, such as healthcare and socio-economic sciences, where the exploration of alternative actions or policies in the real-world, through randomization, is costly, unethical or practically unfeasible, and where highly personalised decision-making is core (e.g.&nbsp;a medical treatment). Bayesian ML methods, if duly adjusted to the causal setting, provide useful and flexible tools for counterfactual prediction and uncertainty quantification around the impact of an action on an outcome of interest, given a certain (high-dimensional) context/covariate space.</p>
+<p>Our contributions so far have extended some popular models in the field. Our first work extends the popular Bayesian causal forests learner, to induce more shrinkage/regularisation (hence the name Shrinkage Bayesian Causal Forests) to make it adapt better to sparse data generating processes and discover the main drivers behind the heterogeneity in the response e.g.&nbsp;to a certain treatment.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_ACaron-page-001.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Our second work develops a multi-output deep kernel learning model to deal with causal settings where both context and action space are large, and where one is interested in the impact on multiple correlated outcomes. Current work focuses instead on importance sampling techniques and mediation analysis.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:45%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_MMamajiwala.jpg" class="img-fluid figure-img" style="width:45.0%" alt="Headshot of Mariya Mamajiwala"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="mariya-mamajiwala" class="level1">
+<h1>Mariya Mamajiwala</h1>
+<p><em>Supervisor: Serge Guillas</em></p>
+<p>My research interests lie at the intersection of Monte Carlo methods, differential geometry and stochastics. The aim is to use concepts from differential geometry to develop efficient Monte Carlo algorithms.</p>
+<p>One of the algorithms I have developed using Langevin dynamics on Riemannian manifolds is for the optimisation of non-convex problems. There are two important aspects to this method. The first is to write a given Ito stochastic differential equation on a Riemannian manifold which may be looked upon as the generalisation of the famous Laplace-Beltrami operator. The second is to define the Riemannian manifold on which to constrain the Langevin diffusion; towards this we have shown how to derive inspiration from some aspects of energetics to define a Riemannian metric which thus defines the manifold. Based on these two aspects we propose the differential geometric counterpart of a Euclidean optimisation method based on Langevin dynamics. The comparison between the Euclidean and geometric approaches is shown in the figure for a 40-dimensional Ackley function (true solution is the 40-dimensional zero vector).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="photo_MMamajiwala.png" class="img-fluid" style="width:90.0%"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="photo_MMamajiwala (2).png" class="img-fluid" width="1440"></p>
+</div>
+</div>
+<p>A similar approach is also used to develop algorithms in Markov chain Monte Carlo, machine learning and Bayesian calibration. Moreover, this has also been applied to parameter estimation within the framework of a combined state and parameter estimation problem considered in data assimilation wherein – unlike the other problems mentioned earlier – data is available as a time history.</p>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_XLiang.jpg" class="img-fluid figure-img" style="width:45.0%" alt="Headshot of Xitong Liang"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="xitong-liang" class="level1">
+<h1>Xitong Liang</h1>
+<p><em>Supervisors: Jim Griffin and Samuel Livingstone</em></p>
+<p>In the modern high-dimensional setting, a variable selection method for a particular statistical model can not only help make better predictions but can also be used to investigate underlying low-dimensional structure based on the belief that only a small subset of predictors play a crucial role in influencing the response.</p>
+<p>A variable selection method is an automatic procedure that selects the best subset of regressors that explains most of the variation in the response among a massive number of regressors. Bayesian variable selection methods using spike-and-slab priors can be used to extract natural measures of uncertainty such as posterior model probabilities and marginal posterior variable inclusion probabilities. It has been shown that spike-and-slab priors often lead to posterior consistency in the sense that the posterior distribution puts more and more mass around the true model as more observations are gathered.</p>
+<p>The exact posterior distribution when using a Bayesian spike-and-slab prior is challenging to compute. Markov chain Monte Carlo (MCMC) algorithms are typically used to estimate posterior summaries of interest when the number of regressors is larger than 30.</p>
+<p>My primary PhD research objective is developing efficient MCMC algorithms targeting discrete-valued high-dimensional distributions, such as posterior distributions in Bayesian variable selection problems.</p>
+<p>We introduce a new framework, Random Neighbourhood Samplers, and show that many recently introduced algorithms can be viewed as particular cases within the framework. We also describe a novel algorithm, the Adaptive Random Neighbourhood Informed sampler, by combining ideas from some of these existing approaches and show, using several examples of both real and simulated datasets, that a computationally efficient point-wise implementation leads to reliable inferences on a range of variable selection problems, particularly in the very large <span class="math inline">\(p\)</span> setting.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:45%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_KLi.jpg" class="img-fluid figure-img" style="width:45.0%" alt="Headshot of Kaiyu Li"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="kaiyu-li" class="level1">
+<h1>Kaiyu Li</h1>
+<p><em>Supervisor: Serge Guillas</em></p>
+<p>I am interested in uncertainty quantification and machine learning, with a particular focus on Gaussian processes and their application to tsunamis in Indonesia.</p>
+<p>The simulation of a future Indonesian tsunami will be implemented by using a partial differential equation solver called VOLNA. It is a tsunami simulator that simulates the life cycle of tsunami waves. For the purpose of uncertainty quantification, many tsunami scenarios need to be generated by running tsunami simulators on high performance computing facilities. However, due to the high computational cost of tsunami simulators, it is impractical to do this. Gaussian processes are widely used as surrogate models for spatio-temporal data emulation and prediction, and their properties make them suitable for emulating these kinds of expensive tsunami models. The idea is that we approximate the key features of the expensive computer model using the cheaper Gaussian process surrogate, allowing us to test various scenarios more quickly without having to run the full model as many times as we would otherwise.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_XLiang.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>I want to design novel learning algorithms to improve the efficiency of emulation, prediction and uncertainty propagation, from the aspects of computational linear algebra methods and multi-fidelity modelling. By using computational linear algebraic methods, Gram matrices of Gaussian processes can have a specific structure, e.g.&nbsp;low rank or sparse. The cubic computational cost of using a Gaussian process can also be reduced. The use of multi-fidelity models will also reduce the time cost of data simulation. These algorithms can be applied for assessing the risk of future tsunamis in Indonesia.</p>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photo_ZSun.png" class="img-fluid figure-img" style="width:45.0%" alt="Hadshot of Zhuo Sun"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="zhuo-sun" class="level1">
+<h1>Zhuo Sun</h1>
+<p><em>Supervisor: François-Xavier Briol</em></p>
+<p>I am working on transfer learning in computational statistics and machine learning. In particular, I have been working on control variates, a post-processing tool to reduce the variance of Markov chain Monte Carlo (MCMC) estimators.</p>
+<p>Integrals appear in many fields of statistics and machine learning. For instance, the expectation of some integrand against some target distribution is often of interest in statistics – posterior means of parameters, model evidence and other quantities of interest can all be written as integrals. The most common tools for these expectations are MCMC estimators. Control variates are constructed on the basis of Stein operators and the Stein class of the distribution of interest, which only includes functions with zero-mean. By subtracting the control variates from the integrand and taking the average, we get control variates estimators for those integrals, which are known to have much lower variance than that of standard MCMC estimators.</p>
+<p>A recent work of mine is called Vector-valued Control Variates, which generalises the idea of control variates from scalar-valued to vector-valued integrals. We achieve this by proposing novel matrix-valued Stein reproducing kernels. Estimating multiple related integrals jointly can be beneficial as we would expect the information to be shared among these integration tasks. Our experiments also show that vector-valued control variates outperform scalar-valued control variates in many scenarios.</p>
+</section>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:45%;">
+<!--another empty column-->
+</div>
+</div>
+<p><strong>Stay on top of the latest news and research coming from the Department of Statistical Science by visiting: <a href="https://www.ucl.ac.uk/statistics">www.ucl.ac.uk/statistics</a>.</strong></p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/stats_ucl">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience">
+      <i class="bi bi-facebook" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/stats-ucl">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space">
+      <i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
