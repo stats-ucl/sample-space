@@ -27,7 +27,7 @@ https://www.ucl.ac.uk/statistics/sample-space)
 
 Domna's methodology involves non-parametric probabilistic methods like Gaussian processes and probabilistic neural networks, which offer flexibility and computational efficiency. She emphasizes the importance of informed decision-making in sustainability and the potential for her research to be scaled globally, particularly in regions with high wind power reliance.
 
-![](proposed_methodology.svg){width="100%"}
+![](proposed_methodology.png){width="100%"}
 
 
 {{< include /posts/_info.qmd >}}

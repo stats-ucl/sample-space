@@ -1,0 +1,30 @@
+---
+title: "Visits to the ISCB Conference in Thessaloniki, Greece, and the NIHR Statistics Group Conference in Sheffield." 
+date: 2024-09-05
+categories:
+  - "Conferences"
+description: "I went to the NIHR Statistics Group Conference in Sheffield and the ISCB Conference in Thessaloniki, Greece, for my first poster and oral presentations this summer."
+image: "1000028816.jpg" 
+info:
+  author: "Teresa Lee"
+  pic: "unnamed.jpg"
+  bio: "Teresa Lee is a statistician at the UCL Department of Statistical Science and UCL Clinical Trials Unit."
+  website:
+---
+
+:::{.img-right}
+![](1000028816.jpg){width="40%"}
+:::
+
+Prior to these conferences, I was not confident about my PhD progress. I felt lost and even doubted that I would ever contribute new statistical knowledge meaningfully as a PhD student.
+However, my supervisors encouraged me to submit abstract proposals to describe my simulation experiments and related applications. They told me that conferences are good opportunities to organise what I have learned about my own research and be open to new research ideas related to statistics. Conferences are not only for sharing our ideas, but also learning from others. With their and my PhD peers’ support, I was able to prepare my poster and practice my oral presentation by doing a mock presentation in front of them.
+ 
+In Sheffield, one of the researchers described that she is facing similar problems in her current statistical analysis and found my approach interesting in front of my poster. She took a picture of my poster and even thought that my work had already been published. A few other people also told me that they found the topics important and were happy that there were research activities about it. In Thessaloniki, a few researchers came to me and told me that my presentation was a nice one. I also talked to researchers who worked on similar topics to solve slightly different problems, as well as researchers who worked in the same field but with slightly different methodological interests. I got to learn about other ongoing research through posters, oral presentations and talking with other researchers.
+ 
+These experiences helped me to become confident about my research and communication skills. They also affirmed me that getting into research as a PhD student is the right life decision for me at this stage. I am excited about exploring new research ideas that I came up with during the conferences for my PhD in the coming months!
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
