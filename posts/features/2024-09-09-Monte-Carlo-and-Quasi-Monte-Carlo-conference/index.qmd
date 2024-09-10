@@ -1,0 +1,27 @@
+---
+title: "A visit to the Monte Carlo and Quasi Monte Carlo Conference in Waterloo, Canada." 
+date: 2024-09-09
+categories:
+  - "Conferences"
+description: "Max Hird represents UCL statistics in Waterloo, Canada, to talk at MCQMC."
+image: "MCQMC.png" 
+info:
+  author: "Max Hird"
+  pic: "unnamed.jpg"
+  bio: "Max Hird is a statistician at the UCL Department of Statistical Science, working on Bayesian Computation."
+  website: https://maxhhird.github.io/
+---
+
+This summer I went to [MCQMC 2024](https://uwaterloo.ca/monte-carlo-methods-scientific-computing-conference/) which was hosted at Waterloo University in Canada. 'MCQMC' stands for 'Monte Carlo and Quasi Monte Carlo'. In statistics theorems known as Laws of Large Numbers say that, under some basic assumptions, taking increasingly large averages over independent and identically distributed (IID) samples give us better and better approximations of expectations. This is the practice of Monte Carlo. Quasi Monte Carlo replaces the IID samples with arrays of points known as [`Low Discrepancy Sequences'](https://en.wikipedia.org/wiki/Low-discrepancy_sequence) which can, under certain conditions, make a vast improvement over basic Monte Carlo approximation. I work in sampling, and so I applied and was accepted to give a talk about a [recent paper](https://arxiv.org/abs/2312.04898) from me and my supervisor [Dr Sam Livingstone](https://samueljlivingstone.wixsite.com/webpage).
+
+I arrived at Waterloo after a 21 hour journey, and so I was feeling fairly shaky, although luckily I had a couple of days before the conference started to compose myself and write my talk. The university grounds are intermingled with parklands and streams giving the whole place a `nature wonderland' feel. In my sojourn I saw rabbits, squirrels (black and brown), cardinal birds, stoats, groundhogs, beavers, and a few other creatures which I couldn't identify. The university is particular in that the undergraduates spend half the term time working in normal jobs (called co-ops) and half the time studying. It is renowned for the strength of its Maths and Computer Science departments.
+
+The MC/QMC community is seemingly very friendly, and so I felt welcome to give a talk which was not entirely about either Monte Carlo or Quasi Monte Carlo. Having said this, I did adjust the talk to be a more general overview of the subject the paper examines in a particular scenario. The paper looks at a common practice in sampling called `preconditioning' whereby we transform a problem we're trying to solve into an easier problem, solve the easier problem, and then transform the solution back. This is a very general practice and is undertaken in numerical linear algebra and convex optimisation, and so my general overview was aided with examples and intuition from these subjects. Preconditioning in sampling is comparatively understudied, which was one of the motivations for our paper, since despite the lack of theory it is still fairly widely practised. The slides can be found [here](https://maxhhird.github.io/MCQMC_presentation.pdf) and the paper [here](https://arxiv.org/abs/2312.04898).
+
+As well as giving a talk, I also attended a talk by one of my collaborators, Dr Florian Maire, who was presenting an algorithm we had devised over the past few months. Even though we have been working closely, Florian offered some new theoretical insights in the talk, which I hadn't thought of. The algorithm sits on top of a normal sampling algorithm, and works in parallel to replace the samples from the normal algorithm with ones of higher quality. We'll upload the paper to the arXiv soon, so keep your eyes peeled!
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
