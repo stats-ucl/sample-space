@@ -1,0 +1,28 @@
+---
+title: "R in Health Technology Assessment Hackathon in Belfast" 
+date: 2024-09-18
+categories:
+  - "Featured"
+  - "Conferences"
+description: "On the 5th and 6th of August 2024, we hosted the third R in HTA Hackathon, also known as #htahack, at Queen's University Belfast. Previous editions took place in 2019 and 2018 at Belfast and Imperial College London, respectively."
+
+image: "test.png" 
+info:
+  author: "Nathan Green"
+  pic: "nathan-green_0.png"
+  bio: "Nathan has a number of years experience working on a wide range of projects across government and academia in defence and health. Nathan studied mathematics and statistics at the University of Newcastle-Upon-Tyne and obtained a PhD in applied probability from the University of Liverpool. After working for the Ministry of Defence for several years, applying novel Bayesian Inference ideas, he moved back into academia and the field of public health in 2010."
+  website: "https://n8thangreen.github.io/"
+---
+
+This hands-on event brought together health economists, statisticians, and R users for small group projects aimed at developing innovative health economics tools, along with training in relevant data science skills. The hackathon was generously funded by the International Centre for Mathematical Sciences (ICMS) as part of their EPSRC Strategic Workshops initiative.
+A hackathon is an event where participants can learn, build, and share their code in a relaxed, collaborative environment. This particular event offered a unique opportunity to connect with like-minded individuals, listen to expert speakers, and explore creative solutions to challenges in health economics. Skill sessions covered unit testing, version control with Git and GitHub, and package creation in R.
+One standout output from the hackathon was the development of HERA (Health Economics R Packages for All), a website that serves as a repository of open-source health economics R packages available on GitHub, complete with reliability metrics.
+The event was both enjoyable and provided participants with valuable new skills and knowledge to apply in their own work and teams. Plans are already underway for #htahack2025!
+
+![](photo-final.jpg)
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
