@@ -1,0 +1,33 @@
+---
+title: "Visits to the EuroCIM Conference in Copenhagen, Denmark, and the UAI Conference in Barcelona, Spain." 
+date: 2024-09-18
+categories:
+  - "Conferences"
+description: "Over the past few months, I went to the EuroCIM (European Causal Inference Meeting) in April in Copenhagen and UAI (Uncertainty in Artificial Intelligence) conference in July in Barcelona."
+image: "uai.png" 
+info:
+  author: "Kai Teh"
+  pic: "unnamed.jpg"
+  bio: "Kai Teh is a statistician at the UCL Department of Statistical Science."
+  website:
+---
+
+The EuroCIM is a conference primarily for researchers in causal inference, covering both applications and development of new methods. The conference consists mainly of poster and oral presentations, preceded by tutorials (which are essentially longer, more comprehensive oral presentations). With an audience whose research interests overlap significantly with mine, I've received some deeply insightful questions and feedback regarding my poster presentation and by extension our upcoming journal paper based on the poster that was presented ([which systematically studies conditions for causal discovery algorithms to work](https://arxiv.org/abs/2408.07575)). During the tutorials, I even received research ideas on how to proceed with (salvage) an old abandoned research project!
+
+On the penultimate day of the conference, we went to a Michelin Star restaurant, and had a three course conference dinner (which we suspect is heavily subsidised since we only paid £50). The conference seating is allocated randomly, which I think is a nice touch allowing for researchers from PhD to distinguished professors to interact. I've even met my [supervisor's](https://www.homepages.ucl.ac.uk/~ucakksa/) supervisor (my academic grandpa, if you will) and sent him my supervisor's regards.
+
+Three months later, after braving the rebuttal process and getting our conference paper ([about a causal discovery algorithm relaxing the faithfulness condition](https://arxiv.org/abs/2402.14775)) accepted as a poster presentation, my supervisor and I attended the UAI conference. The conference covers mainly methods and theory in AI, with a substantial portion of the conference dedicated to causal inference this year. There were some familiar faces from previous conferences I've attended, and they provided some detailed feedback and enquiries about our poster presentation. With the conference venue right next to Barceloneta beach, and being in Barcelona during the summer, we just couldn't resist and went there a few times after a long day at the conference. My supervisor and I even went to have drinks with other conference participants.
+
+Beyond discussing research technicalities, I also obtained other 'soft' insights from conferences, like what is it like working in Academia, and how to keep motivated during research, how academia and industry interplay etc, which will definitely help me navigate my career post PhD. 
+
+::: {layout="[65,35]"}
+![](459425205_1076888587395144_7781050878042311601_n.jpg)
+
+![](458735588_3911484199081015_5561486920319041912_n.jpg)
+:::
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
