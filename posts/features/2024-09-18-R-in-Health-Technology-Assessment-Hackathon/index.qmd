@@ -6,7 +6,7 @@ categories:
   - "Conferences"
 description: "On the 5th and 6th of August 2024, we hosted the third R in HTA Hackathon, also known as #htahack, at Queen's University Belfast. Previous editions took place in 2019 and 2018 at Belfast and Imperial College London, respectively."
 
-image: "test.png" 
+image: "172138441.png" 
 info:
   author: "Nathan Green"
   pic: "nathan-green_0.png"
