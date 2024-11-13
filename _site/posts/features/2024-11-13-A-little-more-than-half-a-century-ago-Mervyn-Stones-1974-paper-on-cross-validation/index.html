@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-11-13">
+<meta name="description" content="Mervyn Stone (1932–2020) had a distinguished career as Professor of Probability and Statistics, and Head ofthe UCL Department of Statistical Science; he joined UCL in 1968. A list of his publications and an obituary by his friend and colleague at UCL Rex Galbraith can be seen here. After retirement, Stone was actively concerned about ‘the misuse of statistics in NHS funding formulae and the unwarranted claims made about them’ (Galbraith), and he talks about this in a 2010 interview with him published in Significance available here. Among his many contributions to UCL, Galbraith mentions that when the Department of Statistics, then Department of Statistics and Computer Science, was restructured in 1979 following a split resulting in the Department of Computing Science and the Department of Statistical Science, the latter name was chosen by Stone, then Head of Department.">
+
+<title>Sample Space - A little more than half a century ago: Mervyn Stone’s 1974 paper on cross validation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../media/images/UCL-sample-space.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html" rel="" target="">
+ <span class="menu-text">News, Views and Research<br>from the UCL Department of Statistical Science</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/stats_ucl" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats" rel="" target=""><i class="bi bi-instagram" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience" rel="" target=""><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/stats-ucl" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars" rel="" target=""><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space" rel="" target=""><i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A little more than half a century ago: Mervyn Stone’s 1974 paper on cross validation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Featured</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Mervyn Stone (1932–2020) had a distinguished career as Professor of Probability and Statistics, and Head ofthe UCL Department of Statistical Science; he joined UCL in 1968. A list of his publications and an obituary by his friend and colleague at UCL Rex Galbraith can be seen <a href="https://www.ucl.ac.uk/statistics/sites/statistics/files/meryvn-stone-obituary.pdf">here</a>. After retirement, Stone was actively concerned about ‘the misuse of statistics in NHS funding formulae and the unwarranted claims made about them’ (Galbraith), and he talks about this in a 2010 interview with him published in <em>Significance</em> available <a href="https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1740-9713.2010.00410.x">here</a>. Among his many contributions to UCL, Galbraith mentions that when the Department of Statistics, then Department of Statistics and Computer Science, was restructured in 1979 following a split resulting in the Department of Computing Science and the Department of Statistical Science, the latter name was chosen by Stone, then Head of Department.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 13, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Many of Stone’s publications are remarkable for their deep impact in theoretical and applied statistics, and more recently in science in general, and data science in particular. I would like to comment on his pioneer paper <a href="https://www.jstor.org/stable/pdf/2984809.pdf?refreqid=fastly-default%3A6cad62e94f9bf73bc0265d3649621bb1&amp;ab_segments=&amp;initiator=&amp;acceptTC=1">Stone M (1974) Cross–Validatory Choice and Assessment of Statistical Predictions. <em>JRSS-B</em>, <strong>36</strong>: 111-147</a> (referred hereafter as S74) which was a discussion paper read in the RSS on December 1973 and published a little more than half a century ago, in January 1974. There were 13 discussants and their questions and Stone’s replies are of very high quality.</p>
+<p>S74 formalises cross-validation (CV) methods; in particular, the leave-one-out cross validation procedure is firstly defined there. The paper also deals with generalising estimates of prediction errors. The paper starts with an erudite Introduction providing the historical context in which CV developed. Stone refers to his preference of the concept of <em>assessment</em> of statistical predictions as opposed to <em>validation</em>, which ‘has a ring of excessive confidence around it’, a semantic distinction which should be borne in mind but seldom is. Besides the originality of the ideas defined and developed the paper has a didactic style. In section 2 there are numerous theoretical examples further to general statements. This is followed by a section looking at well-known statistical problems, e.g.&nbsp;predicting the location of a single univariate sample, predictors for the the <em>k</em>-group problem, and the choice of variables for least-squares prediction in which a ‘cross-validatory assessment measure’ is defined. These examples are defined and analysed in detail through the lens of the methods outlined in the previous section and are then applied to real data. The last section discusses the relation of previous work on CV to the paper’s methods, presents a portrait of “a conventional paradigm for a large portion of statistical activity including a deviation to consider how the Bayesian paradigm might be accomodated in this scheme, and concudes with a series of quotations addressing philosophical and practical statistical issues.</p>
+<p>There is no substitute to reading the paper to realise its elegance and usefulness but a quick way to demonstrate its growing importance over 50+ years is to look at its number of citations and the journals in which papers citing S74 have been published. I looked at data on such papers obtained from Web of Science (WoS), which claims to be “the world’s most trusted publisher-independent global citation database”; citations figures were downloaded on 2nd November 2024 and are shown against year of publication in Figure 1. Note that the last point in the Figure does not refer to the definite number of citations for 2024. Table 1 shows the journals with the largest number of papers citing S74. There is a clear shift from S74 being cited in the statistical methods literature to specialised scientific publications, notably in chemometrics, and more recently to being referenced in general science journals. This process is similar to the three principles of translational medicine: benchside, bedside, and community. This arc from basic science to generalised scientific practice has been experienced by other important statistical papers, notably by David Cox’s 1972 paper on the <a href="https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1972.tb00899.x">proportional hazards model</a> whose remarkable trend in number of citations can be seen <a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01634">here</a>.</p>
+<div class="cell">
+<style type="text/css">
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+</style>
+</div>
+<div class="img-left">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="S74_Citations.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Figure 1</figcaption>
+</figure>
+</div>
+</div>
+<div class="img-left">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="S74_Table.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">Table 1</figcaption>
+</figure>
+</div>
+</div>
+<p>Mervyn Stone played an important role in UCL, and his contributions to the theory and application of statistical methods continue to be increasingly useful in many scientific areas. I hope this short paper draws attention to his life and work.</p>
+<p><br><br></p>
+<div class="author-block">
+<div style="float: left;margin-right: 20px;margin-top: -0px;margin-bottom:0px; object-fit:contain">
+<p><img src="MCB.jpeg" width="60" height="60"></p>
+</div>
+<section id="meta-info.author" class="level1">
+<h1><strong>Mario Cortina Borja</strong></h1>
+<section id="meta-info.bio" class="level2">
+<h2 class="anchored" data-anchor-id="meta-info.bio">Mario Cortina Borja has been at the UCL Great Ormond Street Institute of Child Health since October 2000; he was appointed Professor of Biostatistics in the Population, Policy and Practice Programme in 2015. Mario has a BSc in Actuarial Science and an MSc in Statistics from the Universidad Nacional Autónoma de México, and a PhD in Statistics from the School of Mathematical Sciences at the University of Bath for a thesis entitled Graph-theoretic nonparametric multivariate procedures. Before coming to UCL Mario was a statistician at the Instituto de Investigaciones Antropológicas at the Universidad Nacional Autónoma de México, a research officer in applied mathematics at the Schoolof Chemical Engineering in the University of Bath, a lecturer, then senior lecturer, in Statistics at the Instituto Tecnológico Autónomo de México, and, for five years, consulting and teaching officer in the Department of Statistics, University of Oxford.</h2>
+<p><a href="https://profiles.ucl.ac.uk/8365-mario-cortina-borja">https://profiles.ucl.ac.uk/8365-mario-cortina-borja</a></p>
+</section>
+</section>
+</div>
+<p><br></p>
+<!--
+This files first derives the relative path to the folder under which the page to share on selected social media is stored. 
+Then it creates a series of sharing buttons --- currently implemented:
+- Twitter
+- Email
+- LinkedIn
+- Whatsapp
+Others are fairly easy to create --- only need the fa icon of the relevant media + the combination of text that would be required
+to automatically share in on that platform
+-->
+<br>
+<center>
+<!-- This uses a trick and an external widget to share on any of the federated servers on Mastodon
+   see: https://shkspr.mobi/blog/2022/06/create-a-share-to-mastodon-button-for-wordpress/
+-->
+<a href="https://toot.kytta.dev/?text=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validation%20https://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400px,height=600px'); return false;"><i class="fa-brands fa-mastodon fa-lg" title="Share on Mastodon" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://twitter.com/intent/tweet?url=https://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation/&amp;text=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validation" target="_blank"><i class="fa-brands fa-twitter fa-lg" title="Share on Twitter" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="mailto:?subject=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validation&amp;body=https://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation" target="_blank"><i class="fa-solid fa-envelope fa-lg" title="Share by email" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://www.linkedin.com/shareArticle?url=https://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation/&amp;title=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validation" target="_blank"><i class="fa-brands fa-linkedin fa-lg" title="Share on LinkedIn" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://web.whatsapp.com/send?text=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validationhttps://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation/" target="_blank"><i class="fa-brands fa-whatsapp fa-lg" title="Share on Whatsapp" style="color:#383838" aria-hidden="true"></i></a> &nbsp; <a href="https://reddit.com/submit?url=https://sample-space.org/posts/features/2024-11-13-A-little-more-than-half-a-century-ago-Mervyn-Stones-1974-paper-on-cross-validation/&amp;title=A%20little%20more%20than%20half%20a%20century%20ago:%20Mervyn%20Stone's%201974%20paper%20on%20cross%20validation" target="_blank"><i class="fa-brands fa-reddit fa-lg" title="Share on Reddit" style="color:#383838" aria-hidden="true"></i></a>
+</center>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><a href="index.html">Sample Space</a>: News, Views and Research from the <a href="https://www.ucl.ac.uk/statistics/department-statistical-science">UCL Department of Statistical Science</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/stats_ucl">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/ucl.stats">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/statistical-science-ucl-906b9a201/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://facebook.com/StatisticalScience">
+      <i class="bi bi-facebook" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/stats-ucl">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/c/uclstatisticalscienceseminars">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://soundcloud.com/uclsound/sets/sample-space">
+      <i class="bi bi-headphones" role="img" aria-label="Soundcloud podcast">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
