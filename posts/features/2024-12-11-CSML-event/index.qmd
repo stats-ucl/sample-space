@@ -1,0 +1,44 @@
+---
+title: "Event on 'Computational Statistics and Machine Learning (CSML) in the Sciences'" 
+date: 2024-12-11
+categories:
+  - "Featured"
+description:  |
+   *On Tuesday 5th December, the department co-hosted an event on 'Computational Statistics and Machine Learning (CSML) in the Sciences' with around 80 attendees. This took place at the London Mathematical Society, and was co-organised by our departments' [CSML research theme](https://www.ucl.ac.uk/statistics/research/computational-statistics-and-machine-learning), the [UCL Centre for Data Science](https://www.ucl.ac.uk/data-science/), and the [UCL ELLIS unit](https://ellis.eu/units/london-ucl), with the organisation led by [Dr. François-Xavier Briol](https://fxbriol.github.io/) and [Dr. Kayvan Sadeghi](http://www.homepages.ucl.ac.uk/~ucakksa/).*
+image: "fxbriol_website_photo.jpg" 
+info:
+  author: "Francois-Xavier Briol"
+  pic: fxbriol_website_photo.jpg
+  bio: |
+     "Francois-Xavier Briol is a Lecturer in the Department of Statistical Science at University College London. He is also a Group Leader at The Alan Turing Institute, the UK’s national institute for Data Science and AI, where he is affiliated to the Data-Centric Engineering programme. There, he leads research on the Fundamentals of Statistical Machine Learning"
+  website: https://fxbriol.github.io
+---
+
+::: {layout="[50,50]"}
+![](135FCB75-0CDF-4829-9FAE-399F10170265_1_201_a.jpeg)
+
+![](352BC57A-E5DE-4740-AB0F-A7D7DECC7D86_1_201_a.jpeg)
+:::
+
+The aim of the event was to increase interactions between researchers working on CSML across all departments at UCL. It included a broad range of talks highlighting exciting methodological advances in MCMC, simulation-based inference and robust optimisation, but also applications of CSML methods in genetics, cosmology, and medical imaging. 
+
+::: {layout="[50,50]"}
+![](19C78EC9-A286-4A31-BE52-38CCB7F7328A_1_201_a.jpeg)
+
+![](1936C94A-91A5-44C4-9284-54F0401EDB76_1_201_a.jpeg)
+:::
+
+Speakers included [Harita Dellaporta](https://scholar.google.com/citations?user=avnp0ZsAAAAJ&hl=en) (soon-to-be UCL Statistical Science), [Jason McEwen](http://www.jasonmcewen.org/) (UCL Mullard Space Science Laboratory), [Ziheng Yang](http://abacus.gene.ucl.ac.uk/) (UCL Genetics, Evolution and Environment), [Niall Jeffrey](https://nialljeffrey.github.io/) (UCL Physics & Astronomy), [Marta Betcke](https://sites.google.com/site/mbetcke/) (UCL Computer Science), and [Sam Livingstone](https://samueljlivingstone.wixsite.com/webpage) (UCL Statistical Science).
+
+::: {layout="[50,50]"}
+![](A28ED258-871C-4815-9060-0799C8D5F089_1_201_a.jpeg)
+
+![](B6C252B9-8D55-4EFC-A5BD-5F7B1AEBA5DE_1_201_a.jpeg)
+:::
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
+
