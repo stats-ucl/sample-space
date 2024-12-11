@@ -5,12 +5,12 @@ categories:
   - "Featured"
 description:  |
    *On Tuesday 5th December, the department co-hosted an event on 'Computational Statistics and Machine Learning (CSML) in the Sciences' with around 80 attendees. This took place at the London Mathematical Society, and was co-organised by our departments' [CSML research theme](https://www.ucl.ac.uk/statistics/research/computational-statistics-and-machine-learning), the [UCL Centre for Data Science](https://www.ucl.ac.uk/data-science/), and the [UCL ELLIS unit](https://ellis.eu/units/london-ucl), with the organisation led by [Dr. François-Xavier Briol](https://fxbriol.github.io/) and [Dr. Kayvan Sadeghi](http://www.homepages.ucl.ac.uk/~ucakksa/).*
-image: "fxbriol_website_photo.jpg" 
+image: "352BC57A-E5DE-4740-AB0F-A7D7DECC7D86_1_201_a.jpeg" 
 info:
   author: "Francois-Xavier Briol"
   pic: fxbriol_website_photo.jpg
   bio: |
-     "Francois-Xavier Briol is a Lecturer in the Department of Statistical Science at University College London. He is also a Group Leader at The Alan Turing Institute, the UK’s national institute for Data Science and AI, where he is affiliated to the Data-Centric Engineering programme. There, he leads research on the Fundamentals of Statistical Machine Learning"
+     "François-Xavier Briol is an Associate Professor in the Department of Statistical Science at University College London, where he is theme lead for ‘Computational Statistics and Machine Learning’ and co-director of the UCL ELLIS Unit."
   website: https://fxbriol.github.io
 ---
 
