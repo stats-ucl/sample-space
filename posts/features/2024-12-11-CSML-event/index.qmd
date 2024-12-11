@@ -8,7 +8,7 @@ description:  |
 image: "A7AA7E1D-1201-417E-A018-7F7167C9112D_1_201_a.jpeg" 
 info:
   author: "Francois-Xavier Briol"
-  pic: fxbriol_website_photo.jpg
+  pic: fxbriol_website_photo2.jpg
   bio: |
      François-Xavier Briol is an Associate Professor in the Department of Statistical Science at University College London, where he is theme lead for ‘Computational Statistics and Machine Learning’ and co-director of the UCL ELLIS Unit.
   website: https://fxbriol.github.io
