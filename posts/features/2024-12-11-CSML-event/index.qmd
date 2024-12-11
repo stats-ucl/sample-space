@@ -4,7 +4,7 @@ date: 2024-12-11
 categories:
   - "Featured"
 description:  |
-   *On Tuesday 5th December, the department co-hosted an event on 'Computational Statistics and Machine Learning (CSML) in the Sciences' with around 80 attendees. This took place at the London Mathematical Society, and was co-organised by our departments' [CSML research theme](https://www.ucl.ac.uk/statistics/research/computational-statistics-and-machine-learning), the [UCL Centre for Data Science](https://www.ucl.ac.uk/data-science/), and the [UCL ELLIS unit](https://ellis.eu/units/london-ucl), with the organisation led by [Dr. François-Xavier Briol](https://fxbriol.github.io/) and [Dr. Kayvan Sadeghi](http://www.homepages.ucl.ac.uk/~ucakksa/).*
+   On Tuesday 5th December, the department co-hosted an event on 'Computational Statistics and Machine Learning (CSML) in the Sciences' with around 80 attendees. This took place at the London Mathematical Society, and was co-organised by our departments' [CSML research theme](https://www.ucl.ac.uk/statistics/research/computational-statistics-and-machine-learning), the [UCL Centre for Data Science](https://www.ucl.ac.uk/data-science/), and the [UCL ELLIS unit](https://ellis.eu/units/london-ucl), with the organisation led by [Dr. François-Xavier Briol](https://fxbriol.github.io/) and [Dr. Kayvan Sadeghi](http://www.homepages.ucl.ac.uk/~ucakksa/).
 image: "A7AA7E1D-1201-417E-A018-7F7167C9112D_1_201_a.jpeg" 
 info:
   author: "Francois-Xavier Briol"
