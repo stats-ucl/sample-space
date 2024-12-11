@@ -14,26 +14,12 @@ info:
   website: https://fxbriol.github.io
 ---
 
-::: {layout="[50,50]"}
-![](135FCB75-0CDF-4829-9FAE-399F10170265_1_201_a.jpeg)
-
-![](352BC57A-E5DE-4740-AB0F-A7D7DECC7D86_1_201_a.jpeg)
-:::
-
 The aim of the event was to increase interactions between researchers working on CSML across all departments at UCL. It included a broad range of talks highlighting exciting methodological advances in MCMC, simulation-based inference and robust optimisation, but also applications of CSML methods in genetics, cosmology, and medical imaging. 
-
-::: {layout="[50,50]"}
-![](19C78EC9-A286-4A31-BE52-38CCB7F7328A_1_201_a.jpeg)
-
-![](1936C94A-91A5-44C4-9284-54F0401EDB76_1_201_a.jpeg)
-:::
 
 Speakers included [Harita Dellaporta](https://scholar.google.com/citations?user=avnp0ZsAAAAJ&hl=en) (soon-to-be UCL Statistical Science), [Jason McEwen](http://www.jasonmcewen.org/) (UCL Mullard Space Science Laboratory), [Ziheng Yang](http://abacus.gene.ucl.ac.uk/) (UCL Genetics, Evolution and Environment), [Niall Jeffrey](https://nialljeffrey.github.io/) (UCL Physics & Astronomy), [Marta Betcke](https://sites.google.com/site/mbetcke/) (UCL Computer Science), and [Sam Livingstone](https://samueljlivingstone.wixsite.com/webpage) (UCL Statistical Science).
 
-::: {layout="[50,50]"}
-![](A28ED258-871C-4815-9060-0799C8D5F089_1_201_a.jpeg)
-
-![](B6C252B9-8D55-4EFC-A5BD-5F7B1AEBA5DE_1_201_a.jpeg)
+:::{.img-center}
+![](combinedPics.jpg){width="95%"}
 :::
 
 {{< include /posts/_info.qmd >}}
