@@ -10,7 +10,7 @@ info:
   author: "Francois-Xavier Briol"
   pic: fxbriol_website_photo.jpg
   bio: |
-     "François-Xavier Briol is an Associate Professor in the Department of Statistical Science at University College London, where he is theme lead for ‘Computational Statistics and Machine Learning’ and co-director of the UCL ELLIS Unit."
+     François-Xavier Briol is an Associate Professor in the Department of Statistical Science at University College London, where he is theme lead for ‘Computational Statistics and Machine Learning’ and co-director of the UCL ELLIS Unit.
   website: https://fxbriol.github.io
 ---
 
