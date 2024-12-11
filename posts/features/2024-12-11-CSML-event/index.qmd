@@ -1,5 +1,5 @@
 ---
-title: "Event on 'Computational Statistics and Machine Learning (CSML) in the Sciences'" 
+title: "Event on Computational Statistics and Machine Learning (CSML) in the Sciences" 
 date: 2024-12-11
 categories:
   - "Featured"
