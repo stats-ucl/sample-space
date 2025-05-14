@@ -1,0 +1,25 @@
+---
+title: "IMSS annual lecture and workshop" 
+date: 2025-05-09
+categories:
+  - "Featured"
+  - "IMSS"
+description:  |
+   *You are all cordially invited to the IMSS  annual symposium, which this year is being organised by our Environmental Stats research theme and will be held on the afternoon of Tuesday 10th June. Our keynote speaker is [Thordis Thorarinsdottir](https://www.mn.uio.no/math/english/people/aca/thordist/index.html) from the University of Oslo, and we have three other talks lined up from [Henry Moss](https://www.lancaster.ac.uk/maths/research/mars/people/henry-moss2) (Lancaster), [Laura Mansfield](https://www.physics.ox.ac.uk/our-people/mansfield) (Oxford) and [James Salter](https://experts.exeter.ac.uk/26439-james-salter/publications) (Exeter).*
+   
+image: "thordisthorarinsdottir.jpeg" 
+info:
+
+---
+
+:::{.img-right}
+![](thordisthorarinsdottir.jpeg){width="30%"}
+:::
+
+The theme of the symposium is "Some statistical contributions in climate research", and our keynote speaker Thordis (pictured) is going to talk about uncertainty quantification and model evaluation for climate research. It’s a really interesting topic which is full of fascinating statistical challenges, so promises to be a very stimulating event.
+
+Although Thordis’ keynote will focus on climate research, she’s also giving a training workshop on probabilistic forecast evaluation on Monday 9th June. Research students in particular are strongly encouraged to attend this (and, of course, the symposium on 10th!). It’s free for UCL delegates.
+
+Full details of these events, including registration links, can be found [here for the symposium](https://www.ucl.ac.uk/mathematical-statistical-sciences/events/2025/jun/some-statistical-contributions-climate-research-imss-annual-lecture) on 10th June and [here for the training workshop](https://www.ucl.ac.uk/mathematical-statistical-sciences/events/2025/jun/imss-annual-lecture-workshop-evaluating-forecasts-and-training-forecast-models) on 9th. I hope that as many of you as possible will be able to join us.
+
+{{< include /posts/_share.qmd >}}
