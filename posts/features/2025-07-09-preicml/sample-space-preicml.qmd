@@ -5,7 +5,7 @@ categories:
   - "Featured"
 description: "Last week (on 3rd July), we co-organised the pre-ICML 2025 event at UCL, bringing together around 100 Machine Leaning researchers (students and professionals alike) from the greater London area to share ideas and present their recent work ahead of the main ICML conference. The half day event featured **keynote talks, student spotlight presentations**, and a **poster session**."
 
-image: authors.jpg
+image: authors2.jpg
 info:
   author: "Qiyu Wang and Muneeb Aadil"
   pic: authors.jpg
