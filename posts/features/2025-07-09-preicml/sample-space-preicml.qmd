@@ -22,11 +22,15 @@ After a short break, we had the **second talk session**, in which [Jeremias Knob
 ![](pic2.jpg)
 
 Following a 30-minute break with coffee, light refreshments, and snacks, the event concluded with a two-hour **poster session** showcasing around 30 posters—many of which were accepted for presentation at the upcoming ICML conference. To close the event, we presented awards to standout posters, with separate categories for student and non-student contributions. Attendees voted to determine the winners, which were
+
 -	_“A Games-Based Approach to Scientific Hypothesis”_. Martin Balla, Aga Dobrowolska, Karl Gemayel, Rogier Hintzen, Sabine Reichert, Anna Gogleva  __(best poster award)__
 -	_“Alignment Under Pressure: The Case for Informed Adversaries When Evaluating LLM Defences.”_ Bozhidar Stevanoski, Matthieu Meeus, Yves-Alexandre de Montjoye. __(best student poster award)__
 - _“Efficiently Vectorised MCMC on Modern Accelerators.”_ Hugh Dance, Pierre Glaser, Peter Orbanz, Ryan Adams. __(best student poster award)__.
 
-![](pic3.jpg)
+<p align="center">
+  <img src="IMG_1157.jpeg" width="400"/>
+  <img src="IMG_1160.jpeg" width="400"/>
+</p>
 
 Overall, it was quite a rewarding experience to learn about the cutting-edge Machine Learning research coming out of the greater London area, across both theory and application. If you’d like to learn more about the event, including photos and recordings of some of the talks, please visit the website [here](https://sites.google.com/view/pre-icml-london-2025). Finally, we’d like to graciously thank our co-organisers—[Chloé Hashimoto Cullen](https://hashimotocullen.github.io) (UCL CS Dept.), [Angelina Magal](https://www.linkedin.com/in/angelina-magal-65096565/?originalSubdomain=uk) (soon to join UCL CS Dept.), and a chair [Sattar Vakili](https://sattar-vakili.github.io) (MediaTek Research)—with whom it was a real pleasure to collaborate. We also extend our sincere thanks to the other event chairs, including [François-Xavier Briol](https://fxbriol.github.io) (UCL Stats Dept.), [Carlo Ciliberto](https://cciliber.github.io) (UCL CS Dept.), [Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/) (UCL, Gatsby), [Benjamin Guedj](https://bguedj.github.io) (UCL CS Dept.), [Jamie McGowan](https://jamie-mcg.github.io) (MediaTek), and [Laura Toni](https://lasp-ucl.github.io/author/laura-toni/) (UCL EE Dept.), for their encouragement and support throughout the planning and organisation process.
 
