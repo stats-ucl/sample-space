@@ -1,0 +1,24 @@
+---
+title: sample-space-preicml
+
+---
+
+Last week (on 3rd July), we co-organised the pre-ICML 2025 event at UCL, bringing together around 100 Machine Leaning researchers (students and professionals alike) from the greater London area to share ideas and present their recent work ahead of the main ICML conference. The half day event featured **keynote talks, student spotlight presentations**, and a **poster session**.
+
+The event kicked off with the **first talk session** in which [Valentin De Bortoli](https://vdeborto.github.io) (Google DeepMind) gave the first keynote talk; he presented distributional diffusion models with scoring rules, in which he talked about learning the posterior distribution of clean data conditioned on noisy observations. Following this, [Leena Chennuru Vankadara](https://leenacvankadara.com) (Gatsby) gave another keynote talk, summarizing recent theoretical advances using scaling limits to derive principled scaling laws, while also addressing gaps between infinite width theory and practical training under standard parametrization. Afterwards, we had a couple of student spotlight talks. Firstly, [Aya Kayal](https://lasp-ucl.github.io/author/aya-kayal/) (UCL), demonstrated that comparable regret bounds to standard Bayesian optimization settings are achievable even in the preference-based feedback settings (as opposed to standard scalar-based feedback in the standard BO.) Secondly, for the final talk before a short break, we had [Hugh Dance](https://hwdance.github.io) (Gatsby) discussing his recent work on efficiently vectorized MCMC algorithms on modern accelerators.
+
+![Image from iOS](https://hackmd.io/_uploads/BkuzQlnBgx.jpg)
+
+After a short break, we had the **second talk session**, in which [Jeremias Knoblauch](https://jeremiasknoblauch.github.io) (UCL) gave the final keynote of the day on algorithms for posterior inference in the Reproducing Kernel Hibert Spaces (RKHS). Afterwards, we had a couple more student spotlight talks, the first of which was given by [Euodia Dodd](https://cpg.doc.ic.ac.uk/team/euodia/) (Imperial College London), where she presented her recent work on identifying training samples most vulnerable to Membership Inference Attacks (MIA) by analyzing artifacts naturally available during the training process. Finally, [Yassine Abbahadou](https://abbahaddou.github.io) (Ecole Polytechnique) gave a final talk of the day and presented his recent work on Graph Neural Network Generalization with Gaussian Mixture Model Based Augmentation.
+
+![20250703_151508](https://hackmd.io/_uploads/r1_7rl3Hgg.jpg)
+
+
+Following a 30-minute break with coffee, light refreshments, and snacks, the event concluded with a two-hour **poster session** showcasing around 30 posters—many of which were accepted for presentation at the upcoming ICML conference. To close the event, we presented awards to standout posters, with separate categories for student and non-student contributions. Attendees voted to determine the winners, which were
+-	_“A Games-Based Approach to Scientific Hypothesis”_. Martin Balla, Aga Dobrowolska, Karl Gemayel, Rogier Hintzen, Sabine Reichert, Anna Gogleva  __(best poster award)__
+-	_“Alignment Under Pressure: The Case for Informed Adversaries When Evaluating LLM Defences.”_ Bozhidar Stevanoski, Matthieu Meeus, Yves-Alexandre de Montjoye. __(best student poster award)__
+- _“Efficiently Vectorised MCMC on Modern Accelerators.”_ Hugh Dance, Pierre Glaser, Peter Orbanz, Ryan Adams. __(best student poster award)__.
+![talk](https://hackmd.io/_uploads/rJO1WUhHxl.jpg)
+
+
+Overall, it was quite a rewarding experience to learn about the cutting-edge Machine Learning research coming out of the greater London area, across both theory and application. If you’d like to learn more about the event, including photos and recordings of some of the talks, please visit the website [here](https://sites.google.com/view/pre-icml-london-2025). Finally, we’d like to graciously thank our co-organisers—[Chloé Hashimoto Cullen](https://hashimotocullen.github.io) (UCL CS Dept.), [Angelina Magal](https://www.linkedin.com/in/angelina-magal-65096565/?originalSubdomain=uk) (soon to join UCL CS Dept.), and a chair [Sattar Vakili](https://sattar-vakili.github.io) (MediaTek Research)—with whom it was a real pleasure to collaborate. We also extend our sincere thanks to the other event chairs, including [François-Xavier Briol](https://fxbriol.github.io) (UCL Stats Dept.), [Carlo Ciliberto](https://cciliber.github.io) (UCL CS Dept.), [Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/) (UCL, Gatsby), [Benjamin Guedj](https://bguedj.github.io) (UCL CS Dept.), [Jamie McGowan](https://jamie-mcg.github.io) (MediaTek), and [Laura Toni](https://lasp-ucl.github.io/author/laura-toni/) (UCL EE Dept.), for their encouragement and support throughout the planning and organisation process.
