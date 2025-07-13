@@ -27,10 +27,9 @@ Following a 30-minute break with coffee, light refreshments, and snacks, the eve
 -	_“Alignment Under Pressure: The Case for Informed Adversaries When Evaluating LLM Defences.”_ Bozhidar Stevanoski, Matthieu Meeus, Yves-Alexandre de Montjoye. __(best student poster award)__
 - _“Efficiently Vectorised MCMC on Modern Accelerators.”_ Hugh Dance, Pierre Glaser, Peter Orbanz, Ryan Adams. __(best student poster award)__.
 
-<p align="center">
-  <img src="IMG_1157.jpeg" width="400"/>
-  <img src="IMG_1160.jpeg" width="400"/>
-</p>
+:::{.img-center}
+![](combinedPics.jpg){width="100%"}
+:::
 
 Overall, it was quite a rewarding experience to learn about the cutting-edge Machine Learning research coming out of the greater London area, across both theory and application. If you’d like to learn more about the event, including photos and recordings of some of the talks, please visit the website [here](https://sites.google.com/view/pre-icml-london-2025). Finally, we’d like to graciously thank our co-organisers—[Chloé Hashimoto Cullen](https://hashimotocullen.github.io) (UCL CS Dept.), [Angelina Magal](https://www.linkedin.com/in/angelina-magal-65096565/?originalSubdomain=uk) (soon to join UCL CS Dept.), and a chair [Sattar Vakili](https://sattar-vakili.github.io) (MediaTek Research)—with whom it was a real pleasure to collaborate. We also extend our sincere thanks to the other event chairs, including [François-Xavier Briol](https://fxbriol.github.io) (UCL Stats Dept.), [Carlo Ciliberto](https://cciliber.github.io) (UCL CS Dept.), [Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/) (UCL, Gatsby), [Benjamin Guedj](https://bguedj.github.io) (UCL CS Dept.), [Jamie McGowan](https://jamie-mcg.github.io) (MediaTek), and [Laura Toni](https://lasp-ucl.github.io/author/laura-toni/) (UCL EE Dept.), for their encouragement and support throughout the planning and organisation process.
 
