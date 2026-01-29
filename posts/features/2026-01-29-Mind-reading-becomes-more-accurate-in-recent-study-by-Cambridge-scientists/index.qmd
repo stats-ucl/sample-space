@@ -1,0 +1,41 @@
+---
+title: "Mind reading becomes more accurate in recent study by Cambridge scientists" 
+date: 2026-01-29
+categories:
+  - "Featured"
+description:  |
+   *Lead scientist Weihao Xia worked with Cengiz Oztireli on the VINDEX (“VIsual experts for multimodal Neural DEcoding eXploration”) study to further understand our brains using scan data and AI.*
+
+image: "Stephanie.jpg" 
+info:
+  author: "Stephanie Dickinson"
+  pic: Stephanie.jpg
+  bio: Stephanie Dickinson is the current Sustainability/Green Champion for the UCL Department of Statistical Science.
+  website:
+    
+---
+
+Understanding preciseness in AI’s verbal interpretation of images could enable people with disabilities to use machines controlled by their thoughts. In a study titled “Exploring The Visual Feature Space for Multimodal Neural Decoding” into brain activity, images from fMRI (functional Magnetic Resonance Imaging) scans were interpreted by machines. Simply, this means the images were interpreted from within the human brain. 
+
+What is new about the VINDEX study? This type of research has been around for a couple of years but what has changed is the level of detail in descriptions that can now be written by AI when fed brain scan imagery. It “aligned different image encoders” [a type of AI tool] to do this. This type of detail might be “the colour or the style of the clothes” in an image of clothing. So, rather than just a basic description, “it will give the objects and its attributes, and also the relationships among the different objects.” 
+
+The VINDEX study joins a larger body of work by many people in the fusion of mind and machine, “in the future [...] we can think, or we can paint or we can manipulate some devices by just imagining” Weihao says. “Elon Musk, his company Neuralink, [are] actually trying to make the visually impaired person to see again.”
+
+ “There are some other guys trying to help people for example who cannot speak, and there are devices to decode their language and output in the screen.” Incredibly, it is even possible use thoughts to make a machine cook. 
+
+He explains why they used fMRI imagery: “it actually captured the brain oxygen level, so it is more like the whole brain.” This is different to EEG (Electroencephalography) which he describes as “on the surface” and “not very precise.” How Weihao’s study worked was by capturing images of the “very precise changes in the brain when the subject views these images.” 
+
+They had to train the AI to understand images, using image encoders. These had to learn strategically in different styles, one of which is called constructive learning. He describes some of the process: “we have an image for like this cat, and we also have some like textual descriptions [...] the algorithms will try to learn, “oh this! These things are similar.”” Weihao explains that the familiar AI tool called a Large Language Model will try to “force a response,” and will “produce counter-facts.” Avoiding this scenario and producing more accurate captions is an important focus of the study. 
+
+Mind reading by machine seems like science fiction, and Weihao has ideas about where this research might be headed: “Currently we use language to communicate with each other. I believe in the future probably we can just... we do not need to talk.” He philosophises further: “Everything that we describe in scientific fiction will definitely come true anyway, it’s just that it takes some time.” 
+
+Looking into people’s minds clearly has ethical implications, so what are the concerns? “The most basic one is we do not want to hurt people that get involved in this research.” He goes on to explain that preventing developments is important for “some area that will hurt some people or the whole human.” He asks, “if we can read some other guy’s brain at any time, what is the privacy?” 
+
+Interviewee: [Dr Weihao Xia](mailto:wx258@cam.ac.uk), University of Cambridge CORE Lab. Weihao Xia completed his PhD in the Department of Statistical Science, UCL.
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
+
