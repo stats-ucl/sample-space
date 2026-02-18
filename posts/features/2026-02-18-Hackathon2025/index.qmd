@@ -1,0 +1,121 @@
+---
+title: "UCL Data Science and AI Hackathon 2025" 
+date: 2026-02-11
+embed-resources: TRUE
+categories:
+  - "Featured"
+description:  |
+   *The department, led by Professor Codina Cotar in collaboration with Dr James Shepherd of PA Consulting, hosted the UCL Data Science and AI Hackathon 2025 on 5th November 2025. There were 6 teams who spent the day creating a website demonstrating the impact of climate change through meaningful statistics and visualisation using real data. There were 3 winning teams, and all winning participants received a fancy raspberry pie full kit for each member of each of the teams.*
+---
+
+:::{.img-right}
+![](PXL_4.jpg){width="50%"}
+:::
+
+```{r team_cropped, echo=FALSE, fig.cap="", out.width = '50%',eval=FALSE}
+knitr::include_graphics("PXL_4.jpg")
+```
+
+# The event
+The UCL Data Science and AI Hackathon 2025 was held on 5th November 2025 and was open to 
+final year undergraduates and MSc students from the UCL Department of Statistical Science. 
+There were 22 participants, divided into 6 teams in total. 
+
+
+# The challenge
+
+The brief for the challenge was the following: 
+
+  * A climate crisis campaigning organisation called Z Climate Change is revamping their website. 
+  * They need an impactful demonstration of climate change based on real data.
+  * They like the idea of using statistics and/or machine learning to show the impact. 
+  * Your company is bidding for the work to create this website. 
+  * Prepare your bid presentation and deliver it. 
+
+The Client (Z Climate Change) has already provided a proof of concept demo using AI, 
+which was provided to the Hackathon participants. This was created by asking ChatGPT to:
+
+<!-- shown in https://github.com/james-shepherd/UCL-hackathon-2025. -->
+
+* Use data from the [Open Meteo API](https://open-meteo.com/).
+* Use an ARIMA model.
+* Predict the next year's max temperature.
+* Show the data and prediction in a graph.
+* Do all of this in HTML and JavaScript.
+
+Your task is to create something better!
+
+<!-- https://open-meteo.com/en/docs/climate-api?end_date=2024-12-31-->
+
+
+# The winners
+The teams worked tirelessly throughout the day under the guidance of Prof Cotar and Dr Shepherd, combining their knowledge of data analysis, data visualiation, statistical modelling, machine learning and programming. They also learnt plenty of HTML and JavaScript along the way! 
+There were three winning teams, and all winning participants received a fancy raspberry pie full kit for each member of each of the teams:
+
+Winning team: Data4Earth 
+Second place: Shamrocks 
+Third Place: Climate Cleaners
+
+
+:::{.img}
+![](PXL_1.jpg){width="70%"}
+:::
+
+:::{.img}
+![](PXL_6.jpg){width="70%"}
+:::
+
+
+# About PA Consulting
+
+[PA Consulting](https://www.paconsulting.com/) include 4,000 experts working from
+offices across the UK, US, Netherlands and Nordics.
+They have 18 Offices across 17 cities and 3 regions.
+
+Their capabilities span a wide
+range of technical areas across seven sectors: 
+
+* Consumer and Manufacturing
+* Government and Public Services
+* Defence and Security
+* Health and Life Sciences
+* Energy and Utilities
+* Transport
+* Financial Services
+
+<!-- PA's diverse teams of experts – strategists, innovators,
+designers, consultants, digital experts, scientists, engineers,
+and technologists – accelerate new growth innovations from
+concept, through design, development and to commercial
+success. They revitalise organisations, building the
+leadership, systems, and processes to make transformation
+a reality. PA Consulting believe in the power of ingenuity to build a
+positive human future.--> 
+
+Their mission includes:
+
+* Building a positive human future means building a world that is safer,
+healthier, more equitable, prosperous, and sustainable.
+* Working across the world as a united team, they are the only company
+with the range of expertise to deliver end-to-end innovation.
+* They are different because they bring multi-disciplinary teams together to
+solve clients' problems, driving ingenuity.
+* They invest in graduates and early careers talent as potential
+leaders of the business. 
+
+
+
+
+# Organisers
+The Hackathon was organised by Prof. Codina Cotar and Dr James Shepherd. 
+
+Codina Cotar is a Professor of Probability in the Department of Statistical Science at University College London, where she leads the Probability Research theme. She is an internationally recognised expert in probability theory, with a particular focus on optimal transport and high-dimensional probability. She was one of the lead organisers of the [Isaac Newton Institute](https://www.newton.ac.uk/) programme on [Stochastic systems for anomalous diffusion](https://www.newton.ac.uk/event/ssd/) in 2025 as well as the [Bloomsbury Probability Seminars](https://sites.google.com/view/probability-at-ucl/seminar). Professor Cotar was also recently awarded the prestigious [Lise Meitner Professorship at the University of Lund](https://www.lth.se/english/working-at-lth/lise-meitner-professorship/current-lise-meitner-professors/), Sweden. 
+
+
+Dr James Shepherd is a Principal Consultant at PA Consulting, where he has worked for 
+the past 12 years. Dr Shepherd has an MSci and PhD in Mathematics from the University of 
+Bristol. His technical leadership includes Java, Python, .NET, JavaScript, and DevOps
+expertise in Infrastructure as Code, Cloud Solution Architecture and Continuous 
+Integration/Delivery. His clients include the UK Home Office, John Lewis, Sainsbury's,
+HSBC, NIHR and the UK Met Office. 
+
