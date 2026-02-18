@@ -1,6 +1,7 @@
 ---
 title: "UCL Data Science and AI Hackathon 2025" 
 date: 2026-02-11
+image: "PXL_2.jpg"
 embed-resources: TRUE
 categories:
   - "Featured"
