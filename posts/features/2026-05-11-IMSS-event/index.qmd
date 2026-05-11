@@ -32,6 +32,14 @@ Later in the week, we had the 'London Meeting on Computational Statistics', whic
 
 The event was a victim of its own success, with registrations having to close early due to capacity constraints and over 90% of submitted talks having to be rejected due to scheduling constraints. 
 
+:::{layout="[[1,1]]"}
+
+![](IMG_4350.jpeg)
+
+![](DSC01195.jpg)
+
+:::
+
 A huge thank you for the organisation should go to [Harita Dellaporta](https://haritadell.github.io/), [Zonghao Chen](https://hudsonchen.github.io/), [William Laplante](https://williamlaplante.github.io/), [Matias Altamirano](https://maltamiranomontero.github.io/) and the broader [Fundamentals of Statistical Machine Learning research group](https://fsml-ucl.github.io/). Thanks also to Stephanie Dickinson for some of the photos, and to Amanda Gallant for supporting with the IMSS lecture.
 
 :::{layout="[[1,1]]"}
