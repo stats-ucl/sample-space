@@ -1,0 +1,50 @@
+---
+title: "Computational Statistics events in April" 
+date: 2026-05-11
+categories:
+  - "Featured"
+description:  |
+   
+   The end of April was an exciting time for our department. We hosted two large events: the [annual lecture for the UCL Institute of Mathematical and Statistical Sciences](https://www.ucl.ac.uk/mathematical-physical-sciences/events/2026/apr/imss-annual-lecture-ucl200), and the [London Meeting on Computational Statistics](https://fsml-ucl.github.io/CSMLworkshop2026/).
+
+image: "IMG_6184.jpg" 
+info:
+  author: "Francois-Xavier Briol"
+  pic: fxbriol_website_photo2.jpg
+  bio: |
+     François-Xavier Briol is Professor of Statistics and Machine Learning in the Department of Statistical Science at University College London, where he is theme lead for ‘Computational Statistics and Machine Learning’ and co-director of the UCL ELLIS Unit.
+  website: https://fxbriol.github.io
+---
+
+The annual lecture was on the theme of 'Computational Statistics and Machine Learning' (CSML), and the keynote speaker was Dr Lester Mackey from Microsoft Research New England. Dr Mackey spoke about 'Stein's Method, Learning, and Inference', an emerging interface between probability theory with statistics and machine learning that he helped found over 10 years ago and which has led to significant advances in sampling methods, hypothesis testing, parameter estimation, generative modelling, and optimisation. 
+
+Dr Mackey's keynote was accompanied by several talks including by Prof. Po-Ling Loh (University of Cambridge), Paula Cordero Encinar (Imperial College London) and our very own Dr. Alessandro Barp. These talks spanned topics across the CSML spectrum from inference under privacy constraints to the role of geometry in statistics, and uncertainty quantification in large language models. This was a very popular event, with over 150 attendees from across UCL and beyond. 
+
+:::{layout="[[1,1]]"}
+
+![](DSC00754.jpg)
+
+![](DSC00759.jpg)
+
+:::
+
+Later in the week, we had the 'London Meeting on Computational Statistics', which was the second event of its kind organised by our department following an earlier edition held in 2024. Talks covered a broad range of topics including Monte Carlo methods, simulation-based inference, generative modelling, generalisations of Bayesian inference, sensitivity analysis, conformal prediction and much more. The meeting brought together academic researchers from across the UK and Europe, as well as industry speakers and attendees from Apple, DeepMind, Google and Microsoft.
+
+The event was a victim of its own success, with registrations having to close early due to capacity constraints and over 90% of submitted talks having to be rejected due to scheduling constraints. 
+
+A huge thank you for the organisation should go to [Harita Dellaporta](https://haritadell.github.io/), [Zonghao Chen](https://hudsonchen.github.io/), [William Laplante](https://williamlaplante.github.io/), [Matias Altamirano](https://maltamiranomontero.github.io/) and the broader [Fundamentals of Statistical Machine Learning research group](https://fsml-ucl.github.io/). Thanks also to Stephanie Dickinson for some of the photos, and to Amanda Gallant for supporting with the IMSS lecture.
+
+:::{layout="[[1,1]]"}
+
+![](IMG_4353.jpeg)
+
+![](DSC01298.jpg)
+
+:::
+
+{{< include /posts/_info.qmd >}}
+
+<br>
+
+{{< include /posts/_share.qmd >}}
+
