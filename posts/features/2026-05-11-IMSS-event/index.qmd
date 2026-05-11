@@ -1,5 +1,5 @@
 ---
-title: "Computational Statistics events in April" 
+title: "IMSS Annual Lecture and London Meeting on Computational Statistics" 
 date: 2026-05-11
 categories:
   - "Featured"
@@ -17,6 +17,12 @@ info:
 ---
 
 The annual lecture was on the theme of 'Computational Statistics and Machine Learning' (CSML), and the keynote speaker was Dr Lester Mackey from Microsoft Research New England. Dr Mackey spoke about 'Stein's Method, Learning, and Inference', an emerging interface between probability theory with statistics and machine learning that he helped found over 10 years ago and which has led to significant advances in sampling methods, hypothesis testing, parameter estimation, generative modelling, and optimisation. 
+
+:::{}
+
+![](IMG_6184.jpg)
+
+:::
 
 Dr Mackey's keynote was accompanied by several talks including by Prof. Po-Ling Loh (University of Cambridge), Paula Cordero Encinar (Imperial College London) and our very own Dr. Alessandro Barp. These talks spanned topics across the CSML spectrum from inference under privacy constraints to the role of geometry in statistics, and uncertainty quantification in large language models. This was a very popular event, with over 150 attendees from across UCL and beyond. 
 
