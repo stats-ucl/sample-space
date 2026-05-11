@@ -16,7 +16,7 @@ info:
   website: https://fxbriol.github.io
 ---
 
-The annual lecture was on the theme of 'Computational Statistics and Machine Learning' (CSML), and the keynote speaker was Dr Lester Mackey from Microsoft Research New England. Dr Mackey spoke about 'Stein's Method, Learning, and Inference', an emerging interface between probability theory with statistics and machine learning that he helped found over 10 years ago and which has led to significant advances in sampling methods, hypothesis testing, parameter estimation, generative modelling, and optimisation. 
+The annual lecture was on the theme of 'Computational Statistics and Machine Learning' (CSML), and the keynote speaker was [Dr Lester Mackey](https://lmackey.github.io/) from Microsoft Research New England. Dr Mackey spoke about 'Stein's Method, Learning, and Inference', an emerging interface between probability theory with statistics and machine learning that he helped found over 10 years ago and which has led to significant advances in sampling methods, hypothesis testing, parameter estimation, generative modelling, and optimisation. 
 
 :::{}
 
