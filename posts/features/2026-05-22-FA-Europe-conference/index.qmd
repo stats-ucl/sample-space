@@ -14,7 +14,7 @@ info:
   website: https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/people/academic-and-lecturing-staff/dr-thomas-bartlett
 ---
 
-The [FA Europe conference](https://faeurope.org/) brings together international experts on the rare disease Fanconi Anemia (FA), including researchers and clinicians, as well as patients and their families. This setting also provides a unique opportunity for those of us who usually work in the relative isolation of a [Statistical Science Department](https://www.ucl.ac.uk/mathematical-physical-sciences/statistics), to connect more directly with those who would make use of, and potentially benefit from, the computational-statistical technologies that we develop. I found the conference was very informative and rewarding; it has lead to new, and strengthened old collaborations and friendships. 
+The [FA Europe conference](https://faeurope.org/) brings together international experts on the rare disease Fanconi Anemia (FA), including researchers and clinicians, as well as patients and their families. This setting also provides a unique opportunity for those of us who usually work in the relative isolation of a [Statistical Science Department](https://www.ucl.ac.uk/mathematical-physical-sciences/statistics), to connect more directly with those who would make use of, and potentially benefit from, the computational-statistical technologies that we develop. This is very important, to ensure that our computational-statistical work is as relevant as possible. I found the conference was very informative and rewarding; it has lead to new, and strengthened old collaborations and friendships. 
 
 :::{}
 
