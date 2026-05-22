@@ -34,7 +34,7 @@ Our novel computational-statistical methodology for inferring cell-age biomarker
 
 The computational-statistical model that we used with this large training data-set serves as a proof-of-principle for our mathematical-biological modelling approach. However, the implementation of this computational-statistical model is a general supervised learning task that fits exactly within the scope of the skills that we teach students in the [Department of Statistical Science](https://www.ucl.ac.uk/mathematical-physical-sciences/statistics) at UCL. So, this supervised learning model development has already been spun out as a student project within the department. This project will give a talented student the opportunity to use and build on the skills that they have learnt during their degree at UCL, to improve this model implementation, and make a real contribution to the larger project. The aim is to continue to set up student projects like this, to give the next generation of researchers exposure to this important, but less visible, field of research.
 
-![Photo: Bob Dalgliesh](PXL_20260507_130044748.jpg){width=90% fig-align="center"}
+![Photo: Bob Dalgleish](PXL_20260507_130044748.jpg){width=90% fig-align="center"}
 
 Rare disease research is often limited by data-sets with very small sample-sizes, preventing important patterns from being identified in the data, or scientific hypotheses from being tested at an appropriate level of statistical significance. Increasing sample size by combining data-sets in a meta-study is often hindered by difficulties finding suitable data-sets, incompatibility of record keeping, and sometimes even data hoarding by individual researchers against the interests of the data donors. To overcome these and other challenges, the [Fanconi Cancer Foundation FRIENDS Data Project](https://fanconi.org/data-project/) (in collaboration with the [University of Chicago Data for the Common Good](https://commons.cri.uchicago.edu/)) is in the final stages of setting up their Data Commons repository, to gather together all relevant FA data-sets in one place. However, just as important as initiatives such as these, is the trust generated from meeting and discussing ideas with other researchers at conferences such as FA Europe. Following discussions at this conference, we have already started to plan a new study working with researchers in Mexico as well as Spain, Portugal, and the U.K.
 
@@ -48,7 +48,7 @@ The conference was held in the impressive, new, state-of-the-art lecture theatre
 
 :::{}
 
-![Photo: Samir ](image002.png)
+![](image002.png)
 
 :::
 
