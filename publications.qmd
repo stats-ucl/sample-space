@@ -1,0 +1,45 @@
+# Departmental publications
+
+```{r}
+#| echo: false
+
+library(tidyverse,quietly=TRUE)
+
+extract_stats_authors = function(x) {
+  x |>
+    str_split("(?<=\\));\\s*(?=(?:Prof|Dr|Mr|Mrs|Ms|Miss)\\s)") |>
+    map(str_trim) |>
+    map(\(authors) keep(authors, \(a) str_detect(a, "Statistical Science"))) |>
+    map(\(authors) str_extract(authors, "^[^(]+") |> str_trim()) |>
+    map_chr(\(a) paste(a, collapse = "; "))
+}
+
+data=readxl::read_xlsx(here::here("assets","Stats-publications.xlsx")) |>
+  select(
+    c(
+      `Publication Type`,`Online Publication Date`,`Title`,`Journal`,
+      `Article On Publisher's Website`,`All UCL Authors`
+    )
+  ) |> 
+  mutate(stats_authors = extract_stats_authors(`All UCL Authors`)) |> 
+  mutate(
+    Title=case_when(
+      !is.na(`Article On Publisher's Website`)~paste0(
+        "[",str_to_title(Title),"](",`Article On Publisher's Website`,")"
+      ),
+      TRUE~str_to_title(Title)
+    ),
+    `Online Publication Date`=paste0(
+      "Publication date: ",`Online Publication Date`
+    ),
+    Journal=case_when(
+      is.na(Journal)~"",
+      TRUE~Journal
+    )
+  ) |>
+  select(
+    c(
+      Title,Journal,`Online Publication Date`,stats_authors,`Publication Type`
+    )
+  )
+```
