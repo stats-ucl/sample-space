@@ -1,7 +1,13 @@
-# Departmental publications
+---
+title: Departmental publications
+pagetitle: "Publications"
+---
+
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 
 library(tidyverse,quietly=TRUE)
 
@@ -21,8 +27,9 @@ data=readxl::read_xlsx(here::here("assets","Stats-publications.xlsx")) |>
       `Article On Publisher's Website`,`All UCL Authors`
     )
   ) |> 
-  mutate(stats_authors = extract_stats_authors(`All UCL Authors`)) |> 
   mutate(
+    stats_authors = extract_stats_authors(`All UCL Authors`),
+    Year=lubridate::year(`Online Publication Date`),
     Title=case_when(
       !is.na(`Article On Publisher's Website`)~paste0(
         "[",str_to_title(Title),"](",`Article On Publisher's Website`,")"
@@ -39,7 +46,45 @@ data=readxl::read_xlsx(here::here("assets","Stats-publications.xlsx")) |>
   ) |>
   select(
     c(
-      Title,Journal,`Online Publication Date`,stats_authors,`Publication Type`
+      Title,Journal,`Online Publication Date`,stats_authors,
+      `Publication Type`,Year
     )
   )
+
+pubs=data |>
+  mutate(
+    Title = str_replace(Title, "\\[(.*?)\\]\\((.*?)\\)", '<a href="\\2" target="_blank">\\1</a>'),
+    `Online Publication Date` = as.character(`Online Publication Date`),
+    `Publication Type` = as.factor(`Publication Type`),
+    Year = as.factor(Year)
+  ) |>
+  select(Title, Journal, stats_authors, `Publication Type`, Year) |>
+  arrange(desc(Year)) |>
+  DT::datatable(
+    class = list(stripe = FALSE),
+    escape = FALSE, rownames = FALSE,
+    extensions = c("RowGroup", "Select", "SearchPanes"),
+    selection = "none",
+    colnames = rep("", 5),
+    options = list(
+      info = FALSE,
+      paging = FALSE,
+      dom = "Pfrtip",
+      search = list(regex = TRUE, caseInsensitive = TRUE),
+      searchPanes = list(initCollapsed = TRUE),
+      language = list(lengthMenu = "_MENU_"),
+      rowGroup = list(dataSrc = 4),     # group by Year
+      pageLength = 200,
+      columnDefs = list(
+        list(visible = FALSE, targets = c(3, 4)),               # hide Publication Type and Year
+        list(searchPanes = list(show = FALSE), targets = 0),    # no pane for Title
+        list(searchPanes = list(show = FALSE), targets = c(1,2)), # no pane for date/authors
+        list(searchPanes = list(show = TRUE, header = "Select Year"), targets = 4),
+        list(searchPanes = list(show = TRUE, header = "Select type"), targets = 3)
+      ),
+      order = list(list(3, "desc"))    # sort by Year so grouping displays cleanly
+    )
+  )
+pubs
 ```
+
