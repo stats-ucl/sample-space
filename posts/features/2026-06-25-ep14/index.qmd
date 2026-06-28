@@ -1,0 +1,65 @@
+---
+title: "Episode 14: Anqi Sui & Leandra Brauninger"
+subtitle: "Equality, Diversity and Inclusion: Perspectives from current PhD students"
+date: 2026-06-24
+image: "profiles.png"
+title-block-banner: true
+categories:
+  - Podcast
+  - EDI
+  - PhD Life
+  - Accessibility
+
+info:
+  author: "Sample Space Team"
+  pic: "UCL-sample-space.png"
+  bio: "Sample Space: Random Talks is the official podcast of the UCL Department of Statistical Science, exploring the human side of statistical research and academic life."
+  website: "https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/department-information/sample-space"
+---
+
+::: {.column-page}
+
+## Episode Overview
+
+In this episode of *Sample Space: Random Talks*, we feature a candid conversation with Anqi Sui and Leandra Brauninger, two PhD students from the Department of Statistical Science at UCL. The discussion centers on the lived experiences of managing physical and dynamic disabilities within an academic setting.
+
+::: {.callout-note icon="false"}
+## <i class="fa-solid fa-headphones"></i> Listen & Resources
+You can listen to the full episode and access the complete transcript on our official department page: 
+[**UCL Statistics: Sample Space Podcast**](https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/department-information/sample-space)
+:::
+
+---
+
+## Discussion Highlights
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="fa-solid fa-wheelchair"></i> Physical Accessibility
+The interview highlights the tangible barriers faced during daily commutes and navigating the physical campus environment at UCL.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="fa-solid fa-brain"></i> The Mental Load
+Anqi and Leandra discuss the compounded administrative burden of managing health requirements alongside intensive PhD research.
+:::
+
+:::
+
+> "Community support networks are not just a nice-to-have—they are a critical component of academic infrastructure for disabled students."
+
+---
+
+## About the Guests
+*This episode is part of our ongoing commitment to fostering an inclusive environment within the Department of Statistical Science.*
+
+::: {.column-page-inset}
+{{< include /posts/_info.qmd >}}
+:::
+
+<br>
+
+{{< include /posts/_share.qmd >}}
+
+:::
