@@ -1,6 +1,6 @@
 ---
-title: "eCOTs Statistics Education Workshop" 
-date: 2026-06-18
+title: "eCOTs Statistics Education Workshop 18th June 2026" 
+date: 2026-07-22
 categories:
   - "Featured"
 description: |
