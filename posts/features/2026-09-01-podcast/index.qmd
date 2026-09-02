@@ -2,7 +2,7 @@
 title: "Removing and Reducing Barriers to Education and Engagement"
 subtitle: "Sample Space: Random Talks Podcast"
 date: 2026-09-02
-image: "episode-image.png"
+image: "episode-thumbnail.png"
 title-block-banner: true
 categories:
   - Podcast
