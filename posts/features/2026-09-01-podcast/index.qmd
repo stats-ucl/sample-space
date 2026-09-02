@@ -1,0 +1,63 @@
+---
+title: "Removing and Reducing Barriers to Education and Engagement"
+subtitle: "Sample Space: Random Talks Podcast"
+date: 2026-09-02
+image: "episode-image.png"
+title-block-banner: true
+categories:
+  - Podcast
+  - EDI
+  - Accessibility
+  - Academic Life
+
+info:
+  author: "Sample Space Team"
+  pic: "media/images/UCL-sample-space.png"
+  bio: "Sample Space: Random Talks is the official podcast of the UCL Department of Statistical Science, exploring the human side of statistical research and academic life."
+  website: "https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/department-information/sample-space"
+---
+
+::: {.column-page}
+
+## Episode Overview
+
+This episode from the Sample Space: Random Talks podcast welcomes guests Danielle McDonagh (Student Welfare Advisor for second and third-year SEFS students, postgraduate taught students, and PhD students) and Eileen Laffan (Student Welfare Advisor for undergraduate students across all other statistical science degree programs). We hear their thought on removing and reducing barriers to education and engagement.
+
+::: {.callout-note icon="false"}
+## <i class="fa-solid fa-headphones"></i> Listen & Engage
+You can listen to the full episode directly via our Soundcloud archive:
+[**Listen on Soundcloud**](https://soundcloud.com/uclsound/removing-and-reducing-barriers?in=uclsound/sets/sample-space)
+:::
+
+---
+
+## Key Discussion Points
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="fa-solid fa-door-open"></i> Identifying Barriers
+Examining the everyday obstacles—both visible and invisible—that impact researchers, students, and staff in academic spaces.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="fa-solid fa-hands-holding-child"></i> Actionable Solutions
+Discussing concrete strategies, departmental initiatives, and community support systems that foster true inclusivity.
+:::
+
+:::
+
+---
+
+## About the Series
+*Sample Space* provides a platform for candid discussions on the human side of statistical research, education, and departmental life at UCL.
+
+::: {.column-page-inset}
+{{< include /posts/_info.qmd >}}
+:::
+
+<br>
+
+{{< include /posts/_share.qmd >}}
+
+:::
