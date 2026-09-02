@@ -12,7 +12,7 @@ categories:
 
 info:
   author: "Sample Space Team"
-  pic: "media/images/UCL-sample-space.png"
+  pic: "UCL-sample-space.png"
   bio: "Sample Space: Random Talks is the official podcast of the UCL Department of Statistical Science, exploring the human side of statistical research and academic life."
   website: "https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/department-information/sample-space"
 ---
